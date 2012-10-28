@@ -1,0 +1,9 @@
+html, body {
+	margin:0; padding:0;
+	height:100%;
+}
+ 
+body {
+	background:url('page_bg.jpg') 50% 50% no-repeat #FC3;
+	font-family:Georgia, Times, serifs;
+}

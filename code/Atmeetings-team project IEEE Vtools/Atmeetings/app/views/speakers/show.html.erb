@@ -1,0 +1,66 @@
+
+<div id="speaker_header">
+  <h1>Speaker Details</h1>
+</div>
+
+<div id="speaker_name">
+  <%= @speakers.display_name %>
+  <div id="speaker_org" >
+    <li>Organization: <%= @speakers.organization.presence || 'Not available' %> </li>
+  </div>
+</div>
+
+<div id="speaker_pic">
+  <% if @speakers.photograph %>
+    <img class= "speaker_photograph" alt="" src="/speakers/photograph/<%= @speakers.id.to_s %>" />
+  <% end %>
+</div>
+
+<div id="speaker_contact">
+  <div id="url_title">Speaker URL:</div>
+  <li><%= @speakers.speaker_url.presence || 'Not available' %></li>
+
+  <div id= "email_title">Email:</div>
+  <li><%= @speakers.email.presence || 'Not available' %></li>
+
+  <div id= "address_title">Contact Address:</div>
+  <li><%= @speakers.address1.presence || 'Not available' %></li>
+  <li><%= @speakers.address2 %></li>
+  <li><%= @speakers.city %>, <%= @speakers.state_id %> <%= @speakers.postal_code %></li>
+</div>
+
+<div id="speaker_biography">
+  <div id="speaker_bio_title">Biography:</div>
+  <div id="speaker_bio">
+    <p><%= @speakers.biography.presence || 'Not available' %></p>
+  </div>
+</div>
+
+<div id="topic_header">
+  <h1>Topic Details</h1>
+</div>
+
+<div id="topic_name">
+  <%= @speakers.topic.presence || 'Not available' %>
+</div>
+
+<div id="topic_pic">
+  <% if @speakers.topic_picture %>
+    <img class= "topic_picture" alt="" src="/speakers/topic_picture/<%= @speakers.id.to_s %>" />
+  <% end %>
+</div>
+
+<div id="topic_description">
+   Topic Description:
+  <div id="topic_desc">
+    <%= @speakers.topic_description.presence || 'Not available' %>
+  </div>
+</div>
+
+<div id="links">
+  <ul>
+    <li><%= link_to 'Show', @speakers %></li>
+    <li><%= link_to 'Edit', edit_speaker_path(@speakers) %></li>
+    <li><%= link_to 'Back', speakers_path %></li>
+  </ul>
+</div>

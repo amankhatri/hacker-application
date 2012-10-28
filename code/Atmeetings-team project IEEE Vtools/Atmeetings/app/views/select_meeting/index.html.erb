@@ -1,0 +1,11 @@
+<% if notice %>
+    <p id="notice"><%= notice %></p>
+<% end %>
+<h1>Select A Meeting</h1>
+
+<%= form_tag do %>
+  <%= select_tag :value, options_for_select(@descriptive_meetings),size: 6 %>
+  <br />
+  <%= submit_tag "Select"%>
+<% end %>
+

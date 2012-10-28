@@ -1,0 +1,1741 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+    <!-- RD version: 0.9.4  -->
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <title>Class: CGI (Ruby 1.9.3) </title>
+  <!-- raw_prefix  = '.'   -->
+  <link rel="stylesheet" href="CGI_files/obf.css">
+
+  <script src="CGI_files/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="CGI_files/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
+  <script src="CGI_files/quicksearch.js" type="text/javascript" charset="utf-8"></script>
+  <script src="CGI_files/rubydoc.js" type="text/javascript" charset="utf-8"></script> 
+
+ 
+<script src="CGI_files/highlight.js"></script>
+<script> 
+  hljs.tabReplace = '  ';
+  hljs.initHighlightingOnLoad();
+  </script> 
+<script src="CGI_files/embed.js" async="" type="text/javascript"></script><script charset="UTF-8" async="" src="CGI_files/thread.js"></script><link href="CGI_files/defaults.css" type="text/css" rel="stylesheet"><script charset="UTF-8" async="" src="CGI_files/disqus.js"></script><link href="CGI_files/theme.css" type="text/css" rel="stylesheet"><script charset="UTF-8" async="" src="CGI_files/theme.js"></script></head>
+
+<body id="top" class="class">
+<div id="actionbar">
+<div class="wrapper">
+<ul class="grids g0">
+  <li class="grid-2"><a href="http://www.ruby-doc.org/" target="_top">Home</a></li>
+  <li class="grid-2"><a href="http://www.ruby-doc.org/core" target="_top">Core</a></li>
+  <li class="grid-2"><a href="http://www.ruby-doc.org/stdlib" target="_top">Std-lib</a></li>
+  <li class="grid-2"><a href="http://www.ruby-doc.org/downloads" target="_top">Downloads</a></li>
+  <li class="grid-7 right" id="rd-action-search"><form id="searchbox_011815814100681837392:wnccv6st5qk" action="/search.html"><input name="cx" value="011815814100681837392:wnccv6st5qk" type="hidden"><input name="q" size="20" type="text">&nbsp;&nbsp;<input name="sa" value="Search" type="submit"><input name="cof" value="FORID:9" type="hidden"></form>
+</li>
+</ul>
+</div>
+</div> <!-- end action bar -->
+          <div class="wrapper">
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/index.html">Home</a>
+          <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/index.html#classes">Classes</a>
+          <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/index.html#methods">Methods</a>
+        </h3>
+      </div>
+    </div>
+
+    <div id="file-metadata">
+      <div id="file-list-section" class="section">
+        <h3 class="section-header">In Files</h3>
+        <div class="section-body">
+          <ul>
+          
+            <li><a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/cgi_rb.html?TB_iframe=true&amp;height=550&amp;width=785" class="thickbox" title="cgi.rb">cgi.rb</a></li>
+          
+            <li><a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/cgi/cookie_rb.html?TB_iframe=true&amp;height=550&amp;width=785" class="thickbox" title="cgi/cookie.rb">cgi/cookie.rb</a></li>
+          
+            <li><a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/cgi/core_rb.html?TB_iframe=true&amp;height=550&amp;width=785" class="thickbox" title="cgi/core.rb">cgi/core.rb</a></li>
+          
+            <li><a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/cgi/html_rb.html?TB_iframe=true&amp;height=550&amp;width=785" class="thickbox" title="cgi/html.rb">cgi/html.rb</a></li>
+          
+            <li><a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/cgi/session/pstore_rb.html?TB_iframe=true&amp;height=550&amp;width=785" class="thickbox" title="cgi/session/pstore.rb">cgi/session/pstore.rb</a></li>
+          
+            <li><a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/cgi/session_rb.html?TB_iframe=true&amp;height=550&amp;width=785" class="thickbox" title="cgi/session.rb">cgi/session.rb</a></li>
+          
+            <li><a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/cgi/util_rb.html?TB_iframe=true&amp;height=550&amp;width=785" class="thickbox" title="cgi/util.rb">cgi/util.rb</a></li>
+          
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div id="class-metadata">
+      
+      <!-- Parent Class -->
+      <div id="parent-class-section" class="section">
+        <h3 class="section-header">Parent</h3>
+        
+        <p class="link">Object</p>
+        
+      </div>
+      
+
+      
+
+      
+      <!-- Namespace Contents -->
+      <div id="namespace-list-section" class="section">
+        <h3 class="section-header">Namespace</h3>
+        <ul class="link-list">
+          
+          <li><span class="type">MODULE</span> <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/HtmlExtension.html">CGI::HtmlExtension</a></li>
+          
+          <li><span class="type">MODULE</span> <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/QueryExtension.html">CGI::QueryExtension</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/Cookie.html">CGI::Cookie</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/InvalidEncoding.html">CGI::InvalidEncoding</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/Session.html">CGI::Session</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <!-- Method Quickref -->
+      <div id="method-list-section" class="section">
+        <h3 class="section-header">Methods</h3>
+        <ul class="link-list">
+          
+          <li><a href="#method-c-accept_charset">::accept_charset</a></li>
+          
+          <li><a href="#method-c-accept_charset-3D">::accept_charset=</a></li>
+          
+          <li><a href="#method-c-escape">::escape</a></li>
+          
+          <li><a href="#method-c-escapeElement">::escapeElement</a></li>
+          
+          <li><a href="#method-c-escapeHTML">::escapeHTML</a></li>
+          
+          <li><a href="#method-c-escape_element">::escape_element</a></li>
+          
+          <li><a href="#method-c-escape_html">::escape_html</a></li>
+          
+          <li><a href="#method-c-new">::new</a></li>
+          
+          <li><a href="#method-c-parse">::parse</a></li>
+          
+          <li><a href="#method-c-pretty">::pretty</a></li>
+          
+          <li><a href="#method-c-rfc1123_date">::rfc1123_date</a></li>
+          
+          <li><a href="#method-c-unescape">::unescape</a></li>
+          
+          <li><a href="#method-c-unescapeElement">::unescapeElement</a></li>
+          
+          <li><a href="#method-c-unescapeHTML">::unescapeHTML</a></li>
+          
+          <li><a href="#method-c-unescape_element">::unescape_element</a></li>
+          
+          <li><a href="#method-c-unescape_html">::unescape_html</a></li>
+          
+          <li><a href="#method-i-header">#header</a></li>
+          
+          <li><a href="#method-i-out">#out</a></li>
+          
+          <li><a href="#method-i-print">#print</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+    </div>
+
+    <div id="project-metadata">
+      
+      
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class/Module Index
+          <span class="search-toggle"><img src="CGI_files/find.png" alt="[+]" title="show/hide quicksearch" height="16" width="16"></span></h3>
+        <form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input name="quicksearch" class="quicksearch-field" type="text">
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+        
+          <li><a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html">CGI</a></li>
+        
+          <li><a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/Cookie.html">CGI::Cookie</a></li>
+        
+          <li><a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/HtmlExtension.html">CGI::HtmlExtension</a></li>
+        
+          <li><a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/InvalidEncoding.html">CGI::InvalidEncoding</a></li>
+        
+          <li><a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/QueryExtension.html">CGI::QueryExtension</a></li>
+        
+          <li><a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/Session.html">CGI::Session</a></li>
+        
+          <li><a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/Session/FileStore.html">CGI::Session::FileStore</a></li>
+        
+          <li><a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/Session/MemoryStore.html">CGI::Session::MemoryStore</a></li>
+        
+          <li><a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/Session/NullStore.html">CGI::Session::NullStore</a></li>
+        
+          <li><a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/Session/PStore.html">CGI::Session::PStore</a></li>
+        
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div id="documentation">
+    <h1 class="class">CGI</h1>
+
+    <div id="description" class="description">
+      
+<h2>Overview</h2>
+
+<p>The Common Gateway Interface (<a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html">CGI</a>) is a simple
+protocol for passing an HTTP request from a web server to a standalone
+program, and returning the output to the web browser.  Basically, a <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html">CGI</a> program is called with the parameters of the
+request passed in either in the environment (GET) or via $stdin (POST), and
+everything it prints to $stdout is returned to the client.</p>
+
+<p>This file holds the <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html">CGI</a> class.  This class provides
+functionality for retrieving HTTP request parameters, managing cookies, and
+generating HTML output.</p>
+
+<p>The file <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/Session.html">CGI::Session</a> provides session
+management functionality; see that class for more details.</p>
+
+<p>See <a href="http://www.w3.org/CGI/">www.w3.org/CGI/</a> for more
+information on the <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html">CGI</a> protocol.</p>
+
+<h2>Introduction</h2>
+
+<p><a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html">CGI</a> is a large class, providing several categories
+of methods, many of which are mixed in from other modules.  Some of the
+documentation is in this class, some in the modules <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/QueryExtension.html">CGI::QueryExtension</a> and <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/HtmlExtension.html">CGI::HtmlExtension</a>.  See <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/Cookie.html">CGI::Cookie</a> for specific information on handling
+cookies, and <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/cgi/session_rb.html">cgi/session.rb</a> (<a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/Session.html">CGI::Session</a>) for information on sessions.</p>
+
+<p>For queries, <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html">CGI</a> provides methods to get at
+environmental variables, parameters, cookies, and multipart request data. 
+For responses, <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html">CGI</a> provides methods for writing
+output and generating HTML.</p>
+
+<p>Read on for more details.  Examples are provided at the bottom.</p>
+
+<h2>Queries</h2>
+
+<p>The <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html">CGI</a> class dynamically mixes in parameter and
+cookie-parsing functionality,  environmental variable access, and support
+for parsing multipart requests (including uploaded files) from the <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/QueryExtension.html">CGI::QueryExtension</a> module.</p>
+
+<h3>Environmental Variables</h3>
+
+<p>The standard <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html">CGI</a> environmental variables are
+available as read-only attributes of a <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html">CGI</a> object. 
+The following is a list of these variables:</p>
+
+<pre>AUTH_TYPE               HTTP_HOST          REMOTE_IDENT
+CONTENT_LENGTH          HTTP_NEGOTIATE     REMOTE_USER
+CONTENT_TYPE            HTTP_PRAGMA        REQUEST_METHOD
+GATEWAY_INTERFACE       HTTP_REFERER       SCRIPT_NAME
+HTTP_ACCEPT             HTTP_USER_AGENT    SERVER_NAME
+HTTP_ACCEPT_CHARSET     PATH_INFO          SERVER_PORT
+HTTP_ACCEPT_ENCODING    PATH_TRANSLATED    SERVER_PROTOCOL
+HTTP_ACCEPT_LANGUAGE    QUERY_STRING       SERVER_SOFTWARE
+HTTP_CACHE_CONTROL      REMOTE_ADDR
+HTTP_FROM               REMOTE_HOST</pre>
+
+<p>For each of these variables, there is a corresponding attribute with the
+same name, except all lower case and without a preceding HTTP_.
+<tt>content_length</tt> and <tt>server_port</tt> are integers; the rest are
+strings.</p>
+
+<h3>Parameters</h3>
+
+<p>The method params() returns a hash of all parameters in the request as
+name/value-list pairs, where the value-list is an Array of one or more
+values.  The <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html">CGI</a> object itself also behaves as a
+hash of parameter names to values, but only returns a single value (as a
+String) for each parameter name.</p>
+
+<p>For instance, suppose the request contains the parameter
+“favourite_colours” with the multiple values “blue” and “green”.  The
+following behaviour would occur:</p>
+
+<pre>cgi.params["favourite_colours"]  # =&gt; ["blue", "green"]
+cgi["favourite_colours"]         # =&gt; "blue"</pre>
+
+<p>If a parameter does not exist, the former method will return an empty
+array, the latter an empty string.  The simplest way to test for existence
+of a parameter is by the has_key? method.</p>
+
+<h3>Cookies</h3>
+
+<p>HTTP Cookies are automatically parsed from the request.  They are available
+from the cookies() accessor, which returns a hash from cookie name to <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/Cookie.html">CGI::Cookie</a> object.</p>
+
+<h3>Multipart requests</h3>
+
+<p>If a request’s method is POST and its content type is multipart/form-data,
+then it may contain uploaded files.  These are stored by the <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/QueryExtension.html">QueryExtension</a> module in the parameters
+of the request.  The parameter name is the name attribute of the file input
+field, as usual.  However, the value is not a string, but an IO object,
+either an IOString for small files, or a Tempfile for larger ones.  This
+object also has the additional singleton methods:</p>
+<table class="rdoc-list"><tbody><tr><td class="rdoc-term"><p>local_path()</p></td>
+<td>
+<p>the path of the uploaded file on the local filesystem</p>
+</td></tr><tr><td class="rdoc-term"><p>original_filename()</p></td>
+<td>
+<p>the name of the file on the client computer</p>
+</td></tr><tr><td class="rdoc-term"><p>content_type()</p></td>
+<td>
+<p>the content type of the file</p>
+</td></tr></tbody></table>
+
+<h2>Responses</h2>
+
+<p>The <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html">CGI</a> class provides methods for sending header
+and content output to the HTTP client, and mixes in methods for
+programmatic HTML generation from <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/HtmlExtension.html">CGI::HtmlExtension</a> and CGI::TagMaker
+modules.  The precise version of HTML to use for HTML generation is
+specified at object creation time.</p>
+
+<h3>Writing output</h3>
+
+<p>The simplest way to send output to the HTTP client is using the <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html#method-i-out">out()</a> method. This takes the HTTP headers
+as a hash parameter, and the body content via a block.  The headers can be
+generated as a string using the <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html#method-i-header">header()</a> method.  The output stream can
+be written directly to using the <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html#method-i-print">print()</a> method.</p>
+
+<h3>Generating HTML</h3>
+
+<p>Each HTML element has a corresponding method for generating that element as
+a String.  The name of this method is the same as that of the element, all
+lowercase.  The attributes of the element are passed in as a hash, and the
+body as a no-argument block that evaluates to a String.  The HTML
+generation module knows which elements are always empty, and silently drops
+any passed-in body.  It also knows which elements require matching closing
+tags and which don’t.  However, it does not know what attributes are legal
+for which elements.</p>
+
+<p>There are also some additional HTML generation methods mixed in from the <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/HtmlExtension.html">CGI::HtmlExtension</a> module.  These include
+individual methods for the different types of form inputs, and methods for
+elements that commonly take particular attributes where the attributes can
+be directly specified as arguments, rather than via a hash.</p>
+
+<h2>Examples of use</h2>
+
+<h3>Get form values</h3>
+
+<pre>require "cgi"
+cgi = CGI.new
+value = cgi['field_name']   # &lt;== value string for 'field_name'
+  # if not 'field_name' included, then return "".
+fields = cgi.keys            # &lt;== array of field names
+
+# returns true if form has 'field_name'
+cgi.has_key?('field_name')
+cgi.has_key?('field_name')
+cgi.include?('field_name')</pre>
+
+<p>CAUTION! <a href="http://%27field_name%27/">cgi</a> returned an Array with the
+old <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/cgi_rb.html">cgi.rb</a>(included in ruby 1.6)</p>
+
+<h3>Get form values as hash</h3>
+
+<pre>require "cgi"
+cgi = CGI.new
+params = cgi.params</pre>
+
+<p>cgi.params is a hash.</p>
+
+<pre>cgi.params['new_field_name'] = ["value"]  # add new param
+cgi.params['field_name'] = ["new_value"]  # change value
+cgi.params.delete('field_name')           # delete param
+cgi.params.clear                          # delete all params</pre>
+
+<h3>Save form values to file</h3>
+
+<pre>require "pstore"
+db = PStore.new("query.db")
+db.transaction do
+  db["params"] = cgi.params
+end</pre>
+
+<h3>Restore form values from file</h3>
+
+<pre>require "pstore"
+db = PStore.new("query.db")
+db.transaction do
+  cgi.params = db["params"]
+end</pre>
+
+<h3>Get multipart form values</h3>
+
+<pre>require "cgi"
+cgi = CGI.new
+value = cgi['field_name']   # &lt;== value string for 'field_name'
+value.read                  # &lt;== body of value
+value.local_path            # &lt;== path to local file of value
+value.original_filename     # &lt;== original filename of value
+value.content_type          # &lt;== content_type of value</pre>
+
+<p>and value has StringIO or Tempfile class methods.</p>
+
+<h3>Get cookie values</h3>
+
+<pre>require "cgi"
+cgi = CGI.new
+values = cgi.cookies['name']  # &lt;== array of 'name'
+  # if not 'name' included, then return [].
+names = cgi.cookies.keys      # &lt;== array of cookie names</pre>
+
+<p>and cgi.cookies is a hash.</p>
+
+<h3>Get cookie objects</h3>
+
+<pre>require "cgi"
+cgi = CGI.new
+for name, cookie in cgi.cookies
+  cookie.expires = Time.now + 30
+end
+cgi.out("cookie" =&gt; cgi.cookies) {"string"}
+
+cgi.cookies # { "name1" =&gt; cookie1, "name2" =&gt; cookie2, ... }
+
+require "cgi"
+cgi = CGI.new
+cgi.cookies['name'].expires = Time.now + 30
+cgi.out("cookie" =&gt; cgi.cookies['name']) {"string"}</pre>
+
+<h3>Print http header and html string to $DEFAULT_OUTPUT ($&gt;)</h3>
+
+<pre>require "cgi"
+cgi = CGI.new("html3")  # add HTML generation methods
+cgi.out() do
+  cgi.html() do
+    cgi.head{ cgi.title{"TITLE"} } +
+    cgi.body() do
+      cgi.form() do
+        cgi.textarea("get_text") +
+        cgi.br +
+        cgi.submit
+      end +
+      cgi.pre() do
+        CGI::escapeHTML(
+          "params: " + cgi.params.inspect + "\n" +
+          "cookies: " + cgi.cookies.inspect + "\n" +
+          ENV.collect() do |key, value|
+            key + " --&gt; " + value + "\n"
+          end.join("")
+        )
+      end
+    end
+  end
+end
+
+# add HTML generation methods
+CGI.new("html3")    # html3.2
+CGI.new("html4")    # html4.01 (Strict)
+CGI.new("html4Tr")  # html4.01 Transitional
+CGI.new("html4Fr")  # html4.01 Frameset</pre>
+
+    </div><!-- description -->
+
+    
+    
+    
+    <div id="5Buntitled-5D" class="documentation-section">
+      
+
+      
+
+      
+      <!-- Constants -->
+      <div id="constants-list" class="section">
+        <h3 class="section-header">Constants</h3>
+        <dl>
+        
+          <dt><a name="CR">CR</a></dt>
+          
+          <dd class="description"><p>String for carriage return</p></dd>
+          
+        
+          <dt><a name="EOL">EOL</a></dt>
+          
+          <dd class="description"><p>Standard internet newline sequence</p></dd>
+          
+        
+          <dt><a name="HTTP_STATUS">HTTP_STATUS</a></dt>
+          
+          <dd class="description"><p>HTTP status codes.</p></dd>
+          
+        
+          <dt><a name="LF">LF</a></dt>
+          
+          <dd class="description"><p>String for linefeed</p></dd>
+          
+        
+          <dt><a name="MAX_MULTIPART_COUNT">MAX_MULTIPART_COUNT</a></dt>
+          
+          <dd class="description"><p>Maximum number of request parameters when multipart</p></dd>
+          
+        
+          <dt><a name="MAX_MULTIPART_LENGTH">MAX_MULTIPART_LENGTH</a></dt>
+          
+          <dd class="description"><p>Maximum content length of multipart data</p></dd>
+          
+        
+          <dt><a name="NEEDS_BINMODE">NEEDS_BINMODE</a></dt>
+          
+          <dd class="description"><p>Whether processing will be required in binary vs text</p></dd>
+          
+        
+          <dt><a name="PATH_SEPARATOR">PATH_SEPARATOR</a></dt>
+          
+          <dd class="description"><p>Path separators in different environments.</p></dd>
+          
+        
+          <dt><a name="RFC822_DAYS">RFC822_DAYS</a></dt>
+          
+          <dd class="description"><p>Abbreviated day-of-week names specified by RFC 822</p></dd>
+          
+        
+          <dt><a name="RFC822_MONTHS">RFC822_MONTHS</a></dt>
+          
+          <dd class="description"><p>Abbreviated month names specified by RFC 822</p></dd>
+          
+        
+          <dt><a name="TABLE_FOR_ESCAPE_HTML__">TABLE_FOR_ESCAPE_HTML__</a></dt>
+          
+          <dd class="description"><p>The set of special characters and their escaped values</p></dd>
+          
+        
+        </dl>
+      </div>
+      
+
+      
+      <!-- Attributes -->
+      <div id="attribute-method-details" class="method-section section">
+        <h3 class="section-header">Attributes</h3>
+
+        
+        <div id="accept_charset-attribute-method" class="method-detail">
+          <a name="accept_charset"></a>
+          
+          <div class="method-heading attribute-method-heading">
+            <span class="method-name">accept_charset</span><span class="attribute-access-type">[R]</span>
+          </div>
+
+          <div class="method-description">
+          
+          <p>Return the accept character set for this <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html">CGI</a>
+instance.</p>
+          
+          </div>
+        </div>
+        
+      </div><!-- attribute-method-details -->
+      
+
+      <!-- Methods -->
+      
+      <div id="public-class-method-details" class="method-section section">
+        <h3 class="section-header">Public Class Methods</h3>
+
+      
+        <div id="accept_charset-method" class="method-detail ">
+          <a name="method-c-accept_charset"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">accept_charset</span><span class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Return the accept character set for all new <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html">CGI</a>
+instances.</p>
+            
+
+            
+            <div class="method-source-code" id="accept_charset-source">
+              <pre>              <code class="cpp"> <!-- How can we tell the language? Can we grab the file extension of the parsed source file? --> 
+<span class="ruby-comment"># File cgi/core.rb, line 721</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">accept_charset</span>
+  <span class="ruby-identifier">@@accept_charset</span>
+<span class="ruby-keyword">end</span></code>
+</pre> 
+            </div><!-- accept_charset-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- accept_charset-method -->
+
+      
+        <div id="accept_charset-3D-method" class="method-detail ">
+          <a name="method-c-accept_charset-3D"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">accept_charset=</span><span class="method-args">(accept_charset)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Set the accept character set for all new <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html">CGI</a>
+instances.</p>
+            
+
+            
+            <div class="method-source-code" id="accept_charset-3D-source">
+              <pre>              <code class="cpp"> <!-- How can we tell the language? Can we grab the file extension of the parsed source file? --> 
+<span class="ruby-comment"># File cgi/core.rb, line 726</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">accept_charset=</span>(<span class="ruby-identifier">accept_charset</span>)
+  <span class="ruby-identifier">@@accept_charset</span>=<span class="ruby-identifier">accept_charset</span>
+<span class="ruby-keyword">end</span></code>
+</pre> 
+            </div><!-- accept_charset-3D-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- accept_charset-3D-method -->
+
+      
+        <div id="escape-method" class="method-detail ">
+          <a name="method-c-escape"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">escape</span><span class="method-args">(string)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>URL-encode a string.</p>
+
+<pre>url_encoded_string = CGI::escape("'Stop!' said Fred")
+   # =&gt; "%27Stop%21%27+said+Fred"</pre>
+            
+
+            
+            <div class="method-source-code" id="escape-source">
+              <pre>              <code class="cpp"> <!-- How can we tell the language? Can we grab the file extension of the parsed source file? --> 
+<span class="ruby-comment"># File cgi/util.rb, line 6</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">CGI</span><span class="ruby-operator">::</span><span class="ruby-identifier">escape</span>(<span class="ruby-identifier">string</span>)
+  <span class="ruby-identifier">string</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-regexp">/([^ a-zA-Z0-9_.-]+)/</span>) <span class="ruby-keyword">do</span>
+    <span class="ruby-string">'%'</span> <span class="ruby-operator">+</span> <span class="ruby-node">$1</span>.<span class="ruby-identifier">unpack</span>(<span class="ruby-string">'H2'</span> * <span class="ruby-node">$1</span>.<span class="ruby-identifier">bytesize</span>).<span class="ruby-identifier">join</span>(<span class="ruby-string">'%'</span>).<span class="ruby-identifier">upcase</span>
+  <span class="ruby-keyword">end</span>.<span class="ruby-identifier">tr</span>(<span class="ruby-string">' '</span>, <span class="ruby-string">'+'</span>)
+<span class="ruby-keyword">end</span></code>
+</pre> 
+            </div><!-- escape-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- escape-method -->
+
+      
+        <div id="escapeElement-method" class="method-detail ">
+          <a name="method-c-escapeElement"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">escapeElement</span><span class="method-args">(string, *elements)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Escape only the tags of certain HTML elements in <tt>string</tt>.</p>
+
+<p>Takes an element or elements or array of elements.  Each element is
+specified by the name of the element, without angle brackets. This matches
+both the start and the end tag of that element. The attribute list of the
+open tag will also be escaped (for instance, the double-quotes surrounding
+attribute values).</p>
+
+<pre>print CGI::escapeElement('&lt;BR&gt;&lt;A HREF="url"&gt;&lt;/A&gt;', "A", "IMG")
+  # "&lt;BR&gt;&amp;lt;A HREF=&amp;quot;url&amp;quot;&amp;gt;&amp;lt;/A&amp;gt"
+
+print CGI::escapeElement('&lt;BR&gt;&lt;A HREF="url"&gt;&lt;/A&gt;', ["A", "IMG"])
+  # "&lt;BR&gt;&amp;lt;A HREF=&amp;quot;url&amp;quot;&amp;gt;&amp;lt;/A&amp;gt"</pre>
+            
+
+            
+            <div class="method-source-code" id="escapeElement-source">
+              <pre>              <code class="cpp"> <!-- How can we tell the language? Can we grab the file extension of the parsed source file? --> 
+<span class="ruby-comment"># File cgi/util.rb, line 109</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">CGI</span><span class="ruby-operator">::</span><span class="ruby-identifier">escapeElement</span>(<span class="ruby-identifier">string</span>, *<span class="ruby-identifier">elements</span>)
+  <span class="ruby-identifier">elements</span> = <span class="ruby-identifier">elements</span>[<span class="ruby-value">0</span>] <span class="ruby-keyword">if</span> <span class="ruby-identifier">elements</span>[<span class="ruby-value">0</span>].<span class="ruby-identifier">kind_of?</span>(<span class="ruby-constant">Array</span>)
+  <span class="ruby-keyword">unless</span> <span class="ruby-identifier">elements</span>.<span class="ruby-identifier">empty?</span>
+    <span class="ruby-identifier">string</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-node">/&lt;\/?(?:#{elements.join("|")})(?!\w)(?:.|\n)*?&gt;/</span>) <span class="ruby-keyword">do</span>
+      <span class="ruby-constant">CGI</span><span class="ruby-operator">::</span><span class="ruby-identifier">escapeHTML</span>(<span class="ruby-node">$&amp;</span>)
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">string</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></code>
+</pre> 
+            </div><!-- escapeElement-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- escapeElement-method -->
+
+      
+        <div id="escapeHTML-method" class="method-detail ">
+          <a name="method-c-escapeHTML"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">escapeHTML</span><span class="method-args">(string)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Escape special characters in HTML, namely &amp;"&lt;&gt;</p>
+
+<pre>CGI::escapeHTML('Usage: foo "bar" &lt;baz&gt;')
+   # =&gt; "Usage: foo &amp;quot;bar&amp;quot; &amp;lt;baz&amp;gt;"</pre>
+            
+
+            
+            <div class="method-source-code" id="escapeHTML-source">
+              <pre>              <code class="cpp"> <!-- How can we tell the language? Can we grab the file extension of the parsed source file? --> 
+<span class="ruby-comment"># File cgi/util.rb, line 33</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">CGI</span><span class="ruby-operator">::</span><span class="ruby-identifier">escapeHTML</span>(<span class="ruby-identifier">string</span>)
+  <span class="ruby-identifier">string</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-regexp">/[&amp;\"&lt;&gt;]/</span>, <span class="ruby-constant">TABLE_FOR_ESCAPE_HTML__</span>)
+<span class="ruby-keyword">end</span></code>
+</pre> 
+            </div><!-- escapeHTML-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- escapeHTML-method -->
+
+      
+        <div id="escape_element-method" class="method-detail ">
+          <a name="method-c-escape_element"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">escape_element</span><span class="method-args">(str)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Synonym for <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html#method-c-escapeElement">CGI::escapeElement(str)</a></p>
+            
+
+            
+            <div class="method-source-code" id="escape_element-source">
+              <pre>              <code class="cpp"> <!-- How can we tell the language? Can we grab the file extension of the parsed source file? --> 
+<span class="ruby-comment"># File cgi/util.rb, line 141</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">CGI</span><span class="ruby-operator">::</span><span class="ruby-identifier">escape_element</span>(<span class="ruby-identifier">str</span>)
+  <span class="ruby-identifier">escapeElement</span>(<span class="ruby-identifier">str</span>)
+<span class="ruby-keyword">end</span></code>
+</pre> 
+            </div><!-- escape_element-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- escape_element-method -->
+
+      
+        <div id="escape_html-method" class="method-detail ">
+          <a name="method-c-escape_html"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">escape_html</span><span class="method-args">(str)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Synonym for <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html#method-c-escapeHTML">CGI::escapeHTML(str)</a></p>
+            
+
+            
+            <div class="method-source-code" id="escape_html-source">
+              <pre>              <code class="cpp"> <!-- How can we tell the language? Can we grab the file extension of the parsed source file? --> 
+<span class="ruby-comment"># File cgi/util.rb, line 87</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">CGI</span><span class="ruby-operator">::</span><span class="ruby-identifier">escape_html</span>(<span class="ruby-identifier">str</span>)
+  <span class="ruby-identifier">escapeHTML</span>(<span class="ruby-identifier">str</span>)
+<span class="ruby-keyword">end</span></code>
+</pre> 
+            </div><!-- escape_html-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- escape_html-method -->
+
+      
+        <div id="new-method" class="method-detail ">
+          <a name="method-c-new"></a>
+
+          
+          
+          <div class="method-heading">
+            <span class="method-callseq">new(tag_maker) { block }</span>
+            
+            <span class="method-click-advice">click to toggle source</span>
+            
+          </div>
+          
+          <div class="method-heading">
+            <span class="method-callseq">new(options_hash = {}) { block }</span>
+            
+          </div>
+          
+          
+
+          <div class="method-description">
+            
+            <p>Create a new <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html">CGI</a> instance.</p>
+<table class="rdoc-list"><tbody><tr><td class="rdoc-term"><p><tt>tag_maker</tt></p></td>
+<td>
+<p>This is the same as using the <tt>options_hash</tt> form with the value
+<tt>{ :tag_maker =&gt; tag_maker }</tt> Note that it is recommended to use
+the <tt>options_hash</tt> form, since it also allows you specify the
+charset you will accept.</p>
+</td></tr><tr><td class="rdoc-term"><p><tt>options_hash</tt></p></td>
+<td>
+<p>A Hash that recognizes two options:</p>
+<table class="rdoc-list"><tbody><tr><td class="rdoc-term"><p><tt>:<a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html#method-c-accept_charset">accept_charset</a></tt></p></td>
+<td>
+<p>specifies encoding of received query string.  If omitted, <tt>@@<a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html#method-c-accept_charset">accept_charset</a></tt> is used. 
+If the encoding is not valid, a <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/InvalidEncoding.html">CGI::InvalidEncoding</a> will be raised.</p>
+
+<p>Example. Suppose <tt>@@<a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html#method-c-accept_charset">accept_charset</a></tt> is “UTF-8”</p>
+
+<p>when not specified:</p>
+
+<pre>cgi=CGI.new      # @accept_charset # =&gt; "UTF-8"</pre>
+
+<p>when specified as “EUC-JP”:</p>
+
+<pre>cgi=CGI.new(:accept_charset =&gt; "EUC-JP") # =&gt; "EUC-JP"</pre>
+</td></tr><tr><td class="rdoc-term"><p><tt>:tag_maker</tt></p></td>
+<td>
+<p>String that specifies which version of the HTML generation methods to use. 
+If not specified, no HTML generation methods will be loaded.</p>
+
+<p>The following values are supported:</p>
+<table class="rdoc-list"><tbody><tr><td class="rdoc-term"><p>"html3"</p></td>
+<td>
+<p>HTML 3.x</p>
+</td></tr><tr><td class="rdoc-term"><p>"html4"</p></td>
+<td>
+<p>HTML 4.0</p>
+</td></tr><tr><td class="rdoc-term"><p>"html4Tr"</p></td>
+<td>
+<p>HTML 4.0 Transitional</p>
+</td></tr><tr><td class="rdoc-term"><p>"html4Fr"</p></td>
+<td>
+<p>HTML 4.0 with Framesets</p>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr><tr><td class="rdoc-term"><p><tt>block</tt></p></td>
+<td>
+<p>If provided, the block is called when an invalid encoding is encountered.
+For example:</p>
+
+<pre>encoding_errors={}
+cgi=CGI.new(:accept_charset=&gt;"EUC-JP") do |name,value|
+  encoding_errors[name] = value
+end</pre>
+</td></tr></tbody></table>
+
+<p>Finally, if the <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html">CGI</a> object is not created in a
+standard <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html">CGI</a> call environment (that is, it can’t
+locate REQUEST_METHOD in its environment), then it will run in “offline”
+mode.  In this mode, it reads its parameters from the command line or
+(failing that) from standard input.  Otherwise, cookies and other
+parameters are parsed automatically from the standard <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html">CGI</a> locations, which varies according to the
+REQUEST_METHOD.</p>
+            
+
+            
+            <div class="method-source-code" id="new-source">
+              <pre>              <code class="cpp"> <!-- How can we tell the language? Can we grab the file extension of the parsed source file? --> 
+<span class="ruby-comment"># File cgi/core.rb, line 789</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">options</span> = {}, &amp;<span class="ruby-identifier">block</span>) <span class="ruby-comment"># :yields: name, value</span>
+  <span class="ruby-ivar">@accept_charset_error_block</span>=<span class="ruby-identifier">block</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">block_given?</span>
+  <span class="ruby-ivar">@options</span>={<span class="ruby-value">:accept_charset=</span><span class="ruby-operator">&gt;</span><span class="ruby-identifier">@@accept_charset</span>}
+  <span class="ruby-keyword">case</span> <span class="ruby-identifier">options</span>
+  <span class="ruby-keyword">when</span> <span class="ruby-constant">Hash</span>
+    <span class="ruby-ivar">@options</span>.<span class="ruby-identifier">merge!</span>(<span class="ruby-identifier">options</span>)
+  <span class="ruby-keyword">when</span> <span class="ruby-constant">String</span>
+    <span class="ruby-ivar">@options</span>[<span class="ruby-value">:tag_maker</span>]=<span class="ruby-identifier">options</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-ivar">@accept_charset</span>=<span class="ruby-ivar">@options</span>[<span class="ruby-value">:accept_charset</span>]
+  <span class="ruby-keyword">if</span> <span class="ruby-keyword">defined?</span>(<span class="ruby-constant">MOD_RUBY</span>) <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-operator">!</span><span class="ruby-constant">ENV</span>.<span class="ruby-identifier">key?</span>(<span class="ruby-string">"GATEWAY_INTERFACE"</span>)
+    <span class="ruby-constant">Apache</span>.<span class="ruby-identifier">request</span>.<span class="ruby-identifier">setup_cgi_env</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">extend</span> <span class="ruby-constant">QueryExtension</span>
+  <span class="ruby-ivar">@multipart</span> = <span class="ruby-keyword">false</span>
+
+  <span class="ruby-identifier">initialize_query</span>()  <span class="ruby-comment"># set @params, @cookies</span>
+  <span class="ruby-ivar">@output_cookies</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-ivar">@output_hidden</span> = <span class="ruby-keyword">nil</span>
+
+  <span class="ruby-keyword">case</span> <span class="ruby-ivar">@options</span>[<span class="ruby-value">:tag_maker</span>]
+  <span class="ruby-keyword">when</span> <span class="ruby-string">"html3"</span>
+    <span class="ruby-identifier">require</span> <span class="ruby-string">'cgi/html'</span>
+    <span class="ruby-identifier">extend</span> <span class="ruby-constant">Html3</span>
+    <span class="ruby-identifier">element_init</span>()
+    <span class="ruby-identifier">extend</span> <span class="ruby-constant">HtmlExtension</span>
+  <span class="ruby-keyword">when</span> <span class="ruby-string">"html4"</span>
+    <span class="ruby-identifier">require</span> <span class="ruby-string">'cgi/html'</span>
+    <span class="ruby-identifier">extend</span> <span class="ruby-constant">Html4</span>
+    <span class="ruby-identifier">element_init</span>()
+    <span class="ruby-identifier">extend</span> <span class="ruby-constant">HtmlExtension</span>
+  <span class="ruby-keyword">when</span> <span class="ruby-string">"html4Tr"</span>
+    <span class="ruby-identifier">require</span> <span class="ruby-string">'cgi/html'</span>
+    <span class="ruby-identifier">extend</span> <span class="ruby-constant">Html4Tr</span>
+    <span class="ruby-identifier">element_init</span>()
+    <span class="ruby-identifier">extend</span> <span class="ruby-constant">HtmlExtension</span>
+  <span class="ruby-keyword">when</span> <span class="ruby-string">"html4Fr"</span>
+    <span class="ruby-identifier">require</span> <span class="ruby-string">'cgi/html'</span>
+    <span class="ruby-identifier">extend</span> <span class="ruby-constant">Html4Tr</span>
+    <span class="ruby-identifier">element_init</span>()
+    <span class="ruby-identifier">extend</span> <span class="ruby-constant">Html4Fr</span>
+    <span class="ruby-identifier">element_init</span>()
+    <span class="ruby-identifier">extend</span> <span class="ruby-constant">HtmlExtension</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></code>
+</pre> 
+            </div><!-- new-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- new-method -->
+
+      
+        <div id="parse-method" class="method-detail ">
+          <a name="method-c-parse"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">parse</span><span class="method-args">(query)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Parse an HTTP query string into a hash of key=&gt;value pairs.</p>
+
+<pre>params = CGI::parse("query_string")
+  # {"name1" =&gt; ["value1", "value2", ...],
+  #  "name2" =&gt; ["value1", "value2", ...], ... }</pre>
+            
+
+            
+            <div class="method-source-code" id="parse-source">
+              <pre>              <code class="cpp"> <!-- How can we tell the language? Can we grab the file extension of the parsed source file? --> 
+<span class="ruby-comment"># File cgi/core.rb, line 366</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">CGI</span><span class="ruby-operator">::</span><span class="ruby-identifier">parse</span>(<span class="ruby-identifier">query</span>)
+  <span class="ruby-identifier">params</span> = {}
+  <span class="ruby-identifier">query</span>.<span class="ruby-identifier">split</span>(<span class="ruby-regexp">/[&amp;;]/</span>).<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">pairs</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">key</span>, <span class="ruby-identifier">value</span> = <span class="ruby-identifier">pairs</span>.<span class="ruby-identifier">split</span>(<span class="ruby-string">'='</span>,<span class="ruby-value">2</span>).<span class="ruby-identifier">collect</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">v</span><span class="ruby-operator">|</span> <span class="ruby-constant">CGI</span><span class="ruby-operator">::</span><span class="ruby-identifier">unescape</span>(<span class="ruby-identifier">v</span>) }
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">key</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">value</span>
+      <span class="ruby-identifier">params</span>.<span class="ruby-identifier">has_key?</span>(<span class="ruby-identifier">key</span>) <span class="ruby-operator">?</span> <span class="ruby-identifier">params</span>[<span class="ruby-identifier">key</span>].<span class="ruby-identifier">push</span>(<span class="ruby-identifier">value</span>) <span class="ruby-operator">:</span> <span class="ruby-identifier">params</span>[<span class="ruby-identifier">key</span>] = [<span class="ruby-identifier">value</span>]
+    <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">key</span>
+      <span class="ruby-identifier">params</span>[<span class="ruby-identifier">key</span>]=[]
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">params</span>.<span class="ruby-identifier">default</span>=[].<span class="ruby-identifier">freeze</span>
+  <span class="ruby-identifier">params</span>
+<span class="ruby-keyword">end</span></code>
+</pre> 
+            </div><!-- parse-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- parse-method -->
+
+      
+        <div id="pretty-method" class="method-detail ">
+          <a name="method-c-pretty"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">pretty</span><span class="method-args">(string, shift = " ")</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Prettify (indent) an HTML string.</p>
+
+<p><tt>string</tt> is the HTML string to indent.  <tt>shift</tt> is the
+indentation unit to use; it defaults to two spaces.</p>
+
+<pre>print CGI::pretty("&lt;HTML&gt;&lt;BODY&gt;&lt;/BODY&gt;&lt;/HTML&gt;")
+  # &lt;HTML&gt;
+  #   &lt;BODY&gt;
+  #   &lt;/BODY&gt;
+  # &lt;/HTML&gt;
+
+print CGI::pretty("&lt;HTML&gt;&lt;BODY&gt;&lt;/BODY&gt;&lt;/HTML&gt;", "\t")
+  # &lt;HTML&gt;
+  #         &lt;BODY&gt;
+  #         &lt;/BODY&gt;
+  # &lt;/HTML&gt;</pre>
+            
+
+            
+            <div class="method-source-code" id="pretty-source">
+              <pre>              <code class="cpp"> <!-- How can we tell the language? Can we grab the file extension of the parsed source file? --> 
+<span class="ruby-comment"># File cgi/util.rb, line 184</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">CGI</span><span class="ruby-operator">::</span><span class="ruby-identifier">pretty</span>(<span class="ruby-identifier">string</span>, <span class="ruby-identifier">shift</span> = <span class="ruby-string">"  "</span>)
+  <span class="ruby-identifier">lines</span> = <span class="ruby-identifier">string</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-regexp">/(?!\A)&lt;.*?&gt;/</span>, <span class="ruby-string">"\n\\0"</span>).<span class="ruby-identifier">gsub</span>(<span class="ruby-regexp">/&lt;.*?&gt;(?!\n)/</span>, <span class="ruby-string">"\\0\n"</span>)
+  <span class="ruby-identifier">end_pos</span> = <span class="ruby-value">0</span>
+  <span class="ruby-keyword">while</span> <span class="ruby-identifier">end_pos</span> = <span class="ruby-identifier">lines</span>.<span class="ruby-identifier">index</span>(<span class="ruby-regexp">/^&lt;\/(\w+)/</span>, <span class="ruby-identifier">end_pos</span>)
+    <span class="ruby-identifier">element</span> = <span class="ruby-node">$1</span>.<span class="ruby-identifier">dup</span>
+    <span class="ruby-identifier">start_pos</span> = <span class="ruby-identifier">lines</span>.<span class="ruby-identifier">rindex</span>(<span class="ruby-node">/^\s*&lt;#{element}/</span>, <span class="ruby-identifier">end_pos</span>)
+    <span class="ruby-identifier">lines</span>[<span class="ruby-identifier">start_pos</span> <span class="ruby-operator">...</span> <span class="ruby-identifier">end_pos</span>] = <span class="ruby-string">"__"</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">lines</span>[<span class="ruby-identifier">start_pos</span> <span class="ruby-operator">...</span> <span class="ruby-identifier">end_pos</span>].<span class="ruby-identifier">gsub</span>(<span class="ruby-regexp">/\n(?!\z)/</span>, <span class="ruby-string">"\n"</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">shift</span>) <span class="ruby-operator">+</span> <span class="ruby-string">"__"</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">lines</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-node">/^((?:#{Regexp::quote(shift)})*)__(?=&lt;\/?\w)/</span>, <span class="ruby-string">'\1'</span>)
+<span class="ruby-keyword">end</span></code>
+</pre> 
+            </div><!-- pretty-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- pretty-method -->
+
+      
+        <div id="rfc1123_date-method" class="method-detail ">
+          <a name="method-c-rfc1123_date"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">rfc1123_date</span><span class="method-args">(time)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Format a <tt>Time</tt> object as a String using the format specified by RFC
+1123.</p>
+
+<pre>CGI::rfc1123_date(Time.now)
+  # Sat, 01 Jan 2000 00:00:00 GMT</pre>
+            
+
+            
+            <div class="method-source-code" id="rfc1123_date-source">
+              <pre>              <code class="cpp"> <!-- How can we tell the language? Can we grab the file extension of the parsed source file? --> 
+<span class="ruby-comment"># File cgi/util.rb, line 160</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">CGI</span><span class="ruby-operator">::</span><span class="ruby-identifier">rfc1123_date</span>(<span class="ruby-identifier">time</span>)
+  <span class="ruby-identifier">t</span> = <span class="ruby-identifier">time</span>.<span class="ruby-identifier">clone</span>.<span class="ruby-identifier">gmtime</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">format</span>(<span class="ruby-string">"%s, %.2d %s %.4d %.2d:%.2d:%.2d GMT"</span>,
+              <span class="ruby-constant">RFC822_DAYS</span>[<span class="ruby-identifier">t</span>.<span class="ruby-identifier">wday</span>], <span class="ruby-identifier">t</span>.<span class="ruby-identifier">day</span>, <span class="ruby-constant">RFC822_MONTHS</span>[<span class="ruby-identifier">t</span>.<span class="ruby-identifier">month</span><span class="ruby-operator">-</span><span class="ruby-value">1</span>], <span class="ruby-identifier">t</span>.<span class="ruby-identifier">year</span>,
+              <span class="ruby-identifier">t</span>.<span class="ruby-identifier">hour</span>, <span class="ruby-identifier">t</span>.<span class="ruby-identifier">min</span>, <span class="ruby-identifier">t</span>.<span class="ruby-identifier">sec</span>)
+<span class="ruby-keyword">end</span></code>
+</pre> 
+            </div><!-- rfc1123_date-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- rfc1123_date-method -->
+
+      
+        <div id="unescape-method" class="method-detail ">
+          <a name="method-c-unescape"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">unescape</span><span class="method-args">(string,encoding=@@accept_charset)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>URL-decode a string with encoding(optional).</p>
+
+<pre>string = CGI::unescape("%27Stop%21%27+said+Fred")
+   # =&gt; "'Stop!' said Fred"</pre>
+            
+
+            
+            <div class="method-source-code" id="unescape-source">
+              <pre>              <code class="cpp"> <!-- How can we tell the language? Can we grab the file extension of the parsed source file? --> 
+<span class="ruby-comment"># File cgi/util.rb, line 15</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">CGI</span><span class="ruby-operator">::</span><span class="ruby-identifier">unescape</span>(<span class="ruby-identifier">string</span>,<span class="ruby-identifier">encoding</span>=<span class="ruby-identifier">@@accept_charset</span>)
+  <span class="ruby-identifier">str</span>=<span class="ruby-identifier">string</span>.<span class="ruby-identifier">tr</span>(<span class="ruby-string">'+'</span>, <span class="ruby-string">' '</span>).<span class="ruby-identifier">force_encoding</span>(<span class="ruby-constant">Encoding</span><span class="ruby-operator">::</span><span class="ruby-constant">ASCII_8BIT</span>).<span class="ruby-identifier">gsub</span>(<span class="ruby-regexp">/((?:%[0-9a-fA-F]{2})+)/</span>) <span class="ruby-keyword">do</span>
+    [<span class="ruby-node">$1</span>.<span class="ruby-identifier">delete</span>(<span class="ruby-string">'%'</span>)].<span class="ruby-identifier">pack</span>(<span class="ruby-string">'H*'</span>)
+  <span class="ruby-keyword">end</span>.<span class="ruby-identifier">force_encoding</span>(<span class="ruby-identifier">encoding</span>)
+  <span class="ruby-identifier">str</span>.<span class="ruby-identifier">valid_encoding?</span> <span class="ruby-operator">?</span> <span class="ruby-identifier">str</span> <span class="ruby-operator">:</span> <span class="ruby-identifier">str</span>.<span class="ruby-identifier">force_encoding</span>(<span class="ruby-identifier">string</span>.<span class="ruby-identifier">encoding</span>)
+<span class="ruby-keyword">end</span></code>
+</pre> 
+            </div><!-- unescape-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- unescape-method -->
+
+      
+        <div id="unescapeElement-method" class="method-detail ">
+          <a name="method-c-unescapeElement"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">unescapeElement</span><span class="method-args">(string, *elements)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Undo escaping such as that done by <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html#method-c-escapeElement">CGI::escapeElement()</a></p>
+
+<pre>print CGI::unescapeElement(
+        CGI::escapeHTML('&lt;BR&gt;&lt;A HREF="url"&gt;&lt;/A&gt;'), "A", "IMG")
+  # "&amp;lt;BR&amp;gt;&lt;A HREF="url"&gt;&lt;/A&gt;"
+
+print CGI::unescapeElement(
+        CGI::escapeHTML('&lt;BR&gt;&lt;A HREF="url"&gt;&lt;/A&gt;'), ["A", "IMG"])
+  # "&amp;lt;BR&amp;gt;&lt;A HREF="url"&gt;&lt;/A&gt;"</pre>
+            
+
+            
+            <div class="method-source-code" id="unescapeElement-source">
+              <pre>              <code class="cpp"> <!-- How can we tell the language? Can we grab the file extension of the parsed source file? --> 
+<span class="ruby-comment"># File cgi/util.rb, line 129</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">CGI</span><span class="ruby-operator">::</span><span class="ruby-identifier">unescapeElement</span>(<span class="ruby-identifier">string</span>, *<span class="ruby-identifier">elements</span>)
+  <span class="ruby-identifier">elements</span> = <span class="ruby-identifier">elements</span>[<span class="ruby-value">0</span>] <span class="ruby-keyword">if</span> <span class="ruby-identifier">elements</span>[<span class="ruby-value">0</span>].<span class="ruby-identifier">kind_of?</span>(<span class="ruby-constant">Array</span>)
+  <span class="ruby-keyword">unless</span> <span class="ruby-identifier">elements</span>.<span class="ruby-identifier">empty?</span>
+    <span class="ruby-identifier">string</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-node">/&amp;lt;\/?(?:#{elements.join("|")})(?!\w)(?:.|\n)*?&amp;gt;/</span>) <span class="ruby-keyword">do</span>
+      <span class="ruby-constant">CGI</span><span class="ruby-operator">::</span><span class="ruby-identifier">unescapeHTML</span>(<span class="ruby-node">$&amp;</span>)
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">string</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></code>
+</pre> 
+            </div><!-- unescapeElement-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- unescapeElement-method -->
+
+      
+        <div id="unescapeHTML-method" class="method-detail ">
+          <a name="method-c-unescapeHTML"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">unescapeHTML</span><span class="method-args">(string)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Unescape a string that has been HTML-escaped</p>
+
+<pre>CGI::unescapeHTML("Usage: foo &amp;quot;bar&amp;quot; &amp;lt;baz&amp;gt;")
+   # =&gt; "Usage: foo \"bar\" &lt;baz&gt;"</pre>
+            
+
+            
+            <div class="method-source-code" id="unescapeHTML-source">
+              <pre>              <code class="cpp"> <!-- How can we tell the language? Can we grab the file extension of the parsed source file? --> 
+<span class="ruby-comment"># File cgi/util.rb, line 40</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">CGI</span><span class="ruby-operator">::</span><span class="ruby-identifier">unescapeHTML</span>(<span class="ruby-identifier">string</span>)
+  <span class="ruby-identifier">enc</span> = <span class="ruby-identifier">string</span>.<span class="ruby-identifier">encoding</span>
+  <span class="ruby-keyword">if</span> [<span class="ruby-constant">Encoding</span><span class="ruby-operator">::</span><span class="ruby-constant">UTF_16BE</span>, <span class="ruby-constant">Encoding</span><span class="ruby-operator">::</span><span class="ruby-constant">UTF_16LE</span>, <span class="ruby-constant">Encoding</span><span class="ruby-operator">::</span><span class="ruby-constant">UTF_32BE</span>, <span class="ruby-constant">Encoding</span><span class="ruby-operator">::</span><span class="ruby-constant">UTF_32LE</span>].<span class="ruby-identifier">include?</span>(<span class="ruby-identifier">enc</span>)
+    <span class="ruby-keyword">return</span> <span class="ruby-identifier">string</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-constant">Regexp</span>.<span class="ruby-identifier">new</span>(<span class="ruby-string">'&amp;(amp|quot|gt|lt|#[0-9]+|#x[0-9A-Fa-f]+);'</span>.<span class="ruby-identifier">encode</span>(<span class="ruby-identifier">enc</span>))) <span class="ruby-keyword">do</span>
+      <span class="ruby-keyword">case</span> <span class="ruby-node">$1</span>.<span class="ruby-identifier">encode</span>(<span class="ruby-string">"US-ASCII"</span>)
+      <span class="ruby-keyword">when</span> <span class="ruby-string">'amp'</span>                 <span class="ruby-keyword">then</span> <span class="ruby-string">'&amp;'</span>.<span class="ruby-identifier">encode</span>(<span class="ruby-identifier">enc</span>)
+      <span class="ruby-keyword">when</span> <span class="ruby-string">'quot'</span>                <span class="ruby-keyword">then</span> <span class="ruby-string">'"'</span>.<span class="ruby-identifier">encode</span>(<span class="ruby-identifier">enc</span>)
+      <span class="ruby-keyword">when</span> <span class="ruby-string">'gt'</span>                  <span class="ruby-keyword">then</span> <span class="ruby-string">'&gt;'</span>.<span class="ruby-identifier">encode</span>(<span class="ruby-identifier">enc</span>)
+      <span class="ruby-keyword">when</span> <span class="ruby-string">'lt'</span>                  <span class="ruby-keyword">then</span> <span class="ruby-string">'&lt;'</span>.<span class="ruby-identifier">encode</span>(<span class="ruby-identifier">enc</span>)
+      <span class="ruby-keyword">when</span> <span class="ruby-node">/\A#0*(\d+)\z/</span>        <span class="ruby-keyword">then</span> <span class="ruby-node">$1</span>.<span class="ruby-identifier">to_i</span>.<span class="ruby-identifier">chr</span>(<span class="ruby-identifier">enc</span>)
+      <span class="ruby-keyword">when</span> <span class="ruby-node">/\A#x([0-9a-f]+)\z/</span>  <span class="ruby-keyword">then</span> <span class="ruby-node">$1</span>.<span class="ruby-identifier">hex</span>.<span class="ruby-identifier">chr</span>(<span class="ruby-identifier">enc</span>)
+      <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">asciicompat</span> = <span class="ruby-constant">Encoding</span>.<span class="ruby-identifier">compatible?</span>(<span class="ruby-identifier">string</span>, <span class="ruby-string">"a"</span>)
+  <span class="ruby-identifier">string</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-regexp">/&amp;(amp|quot|gt|lt|\#[0-9]+|\#x[0-9A-Fa-f]+);/</span>) <span class="ruby-keyword">do</span>
+    <span class="ruby-identifier">match</span> = <span class="ruby-node">$1</span>.<span class="ruby-identifier">dup</span>
+    <span class="ruby-keyword">case</span> <span class="ruby-identifier">match</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-string">'amp'</span>                 <span class="ruby-keyword">then</span> <span class="ruby-string">'&amp;'</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-string">'quot'</span>                <span class="ruby-keyword">then</span> <span class="ruby-string">'"'</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-string">'gt'</span>                  <span class="ruby-keyword">then</span> <span class="ruby-string">'&gt;'</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-string">'lt'</span>                  <span class="ruby-keyword">then</span> <span class="ruby-string">'&lt;'</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-node">/\A#0*(\d+)\z/</span>
+      <span class="ruby-identifier">n</span> = <span class="ruby-node">$1</span>.<span class="ruby-identifier">to_i</span>
+      <span class="ruby-keyword">if</span> <span class="ruby-identifier">enc</span> <span class="ruby-operator">==</span> <span class="ruby-constant">Encoding</span><span class="ruby-operator">::</span><span class="ruby-constant">UTF_8</span> <span class="ruby-keyword">or</span>
+        <span class="ruby-identifier">enc</span> <span class="ruby-operator">==</span> <span class="ruby-constant">Encoding</span><span class="ruby-operator">::</span><span class="ruby-constant">ISO_8859_1</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">n</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">256</span> <span class="ruby-keyword">or</span>
+        <span class="ruby-identifier">asciicompat</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">n</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">128</span>
+        <span class="ruby-identifier">n</span>.<span class="ruby-identifier">chr</span>(<span class="ruby-identifier">enc</span>)
+      <span class="ruby-keyword">else</span>
+        <span class="ruby-node">"&amp;##{$1};"</span>
+      <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-node">/\A#x([0-9a-f]+)\z/</span>
+      <span class="ruby-identifier">n</span> = <span class="ruby-node">$1</span>.<span class="ruby-identifier">hex</span>
+      <span class="ruby-keyword">if</span> <span class="ruby-identifier">enc</span> <span class="ruby-operator">==</span> <span class="ruby-constant">Encoding</span><span class="ruby-operator">::</span><span class="ruby-constant">UTF_8</span> <span class="ruby-keyword">or</span>
+        <span class="ruby-identifier">enc</span> <span class="ruby-operator">==</span> <span class="ruby-constant">Encoding</span><span class="ruby-operator">::</span><span class="ruby-constant">ISO_8859_1</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">n</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">256</span> <span class="ruby-keyword">or</span>
+        <span class="ruby-identifier">asciicompat</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">n</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">128</span>
+        <span class="ruby-identifier">n</span>.<span class="ruby-identifier">chr</span>(<span class="ruby-identifier">enc</span>)
+      <span class="ruby-keyword">else</span>
+        <span class="ruby-node">"&amp;#x#{$1};"</span>
+      <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-node">"&amp;#{match};"</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></code>
+</pre> 
+            </div><!-- unescapeHTML-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- unescapeHTML-method -->
+
+      
+        <div id="unescape_element-method" class="method-detail ">
+          <a name="method-c-unescape_element"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">unescape_element</span><span class="method-args">(str)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Synonym for <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html#method-c-unescapeElement">CGI::unescapeElement(str)</a></p>
+            
+
+            
+            <div class="method-source-code" id="unescape_element-source">
+              <pre>              <code class="cpp"> <!-- How can we tell the language? Can we grab the file extension of the parsed source file? --> 
+<span class="ruby-comment"># File cgi/util.rb, line 146</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">CGI</span><span class="ruby-operator">::</span><span class="ruby-identifier">unescape_element</span>(<span class="ruby-identifier">str</span>)
+  <span class="ruby-identifier">unescapeElement</span>(<span class="ruby-identifier">str</span>)
+<span class="ruby-keyword">end</span></code>
+</pre> 
+            </div><!-- unescape_element-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- unescape_element-method -->
+
+      
+        <div id="unescape_html-method" class="method-detail ">
+          <a name="method-c-unescape_html"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">unescape_html</span><span class="method-args">(str)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Synonym for <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html#method-c-unescapeHTML">CGI::unescapeHTML(str)</a></p>
+            
+
+            
+            <div class="method-source-code" id="unescape_html-source">
+              <pre>              <code class="cpp"> <!-- How can we tell the language? Can we grab the file extension of the parsed source file? --> 
+<span class="ruby-comment"># File cgi/util.rb, line 92</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">CGI</span><span class="ruby-operator">::</span><span class="ruby-identifier">unescape_html</span>(<span class="ruby-identifier">str</span>)
+  <span class="ruby-identifier">unescapeHTML</span>(<span class="ruby-identifier">str</span>)
+<span class="ruby-keyword">end</span></code>
+</pre> 
+            </div><!-- unescape_html-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- unescape_html-method -->
+
+      
+      </div><!-- public-class-method-details -->
+    
+      <div id="public-instance-method-details" class="method-section section">
+        <h3 class="section-header">Public Instance Methods</h3>
+
+      
+        <div id="header-method" class="method-detail ">
+          <a name="method-i-header"></a>
+
+          
+          
+          <div class="method-heading">
+            <span class="method-callseq">headers(content_type_string="text/html")</span>
+            
+            <span class="method-click-advice">click to toggle source</span>
+            
+          </div>
+          
+          <div class="method-heading">
+            <span class="method-callseq">headers(headers_hash)</span>
+            
+          </div>
+          
+          
+
+          <div class="method-description">
+            
+            <p>Create an HTTP header block as a string.</p>
+
+<p>Includes the empty line that ends the header block.</p>
+<table class="rdoc-list"><tbody><tr><td class="rdoc-term"><p><tt>content_type_string</tt></p></td>
+<td>
+<p>If this form is used, this string is the <tt>Content-Type</tt></p>
+</td></tr><tr><td class="rdoc-term"><p><tt>headers_hash</tt></p></td>
+<td>
+<p>A Hash of header values. The following header keys are recognized:</p>
+<table class="rdoc-list"><tbody><tr><td class="rdoc-term"><p>type</p></td>
+<td>
+<p>The Content-Type header.  Defaults to “text/html”</p>
+</td></tr><tr><td class="rdoc-term"><p>charset</p></td>
+<td>
+<p>The charset of the body, appended to the Content-Type header.</p>
+</td></tr><tr><td class="rdoc-term"><p>nph</p></td>
+<td>
+<p>A boolean value.  If true, prepend protocol string and status code, and
+date; and sets default values for “server” and “connection” if not
+explicitly set.</p>
+</td></tr><tr><td class="rdoc-term"><p>status</p></td>
+<td>
+<p>The HTTP status code as a String, returned as the Status header.  The
+values are:</p>
+<table class="rdoc-list"><tbody><tr><td class="rdoc-term"><p>OK</p></td>
+<td>
+<p>200 OK</p>
+</td></tr><tr><td class="rdoc-term"><p>PARTIAL_CONTENT</p></td>
+<td>
+<p>206 Partial Content</p>
+</td></tr><tr><td class="rdoc-term"><p>MULTIPLE_CHOICES</p></td>
+<td>
+<p>300 Multiple Choices</p>
+</td></tr><tr><td class="rdoc-term"><p>MOVED</p></td>
+<td>
+<p>301 Moved Permanently</p>
+</td></tr><tr><td class="rdoc-term"><p>REDIRECT</p></td>
+<td>
+<p>302 Found</p>
+</td></tr><tr><td class="rdoc-term"><p>NOT_MODIFIED</p></td>
+<td>
+<p>304 Not Modified</p>
+</td></tr><tr><td class="rdoc-term"><p>BAD_REQUEST</p></td>
+<td>
+<p>400 Bad Request</p>
+</td></tr><tr><td class="rdoc-term"><p>AUTH_REQUIRED</p></td>
+<td>
+<p>401 Authorization Required</p>
+</td></tr><tr><td class="rdoc-term"><p>FORBIDDEN</p></td>
+<td>
+<p>403 Forbidden</p>
+</td></tr><tr><td class="rdoc-term"><p>NOT_FOUND</p></td>
+<td>
+<p>404 Not Found</p>
+</td></tr><tr><td class="rdoc-term"><p>METHOD_NOT_ALLOWED</p></td>
+<td>
+<p>405 Method Not Allowed</p>
+</td></tr><tr><td class="rdoc-term"><p>NOT_ACCEPTABLE</p></td>
+<td>
+<p>406 Not Acceptable</p>
+</td></tr><tr><td class="rdoc-term"><p>LENGTH_REQUIRED</p></td>
+<td>
+<p>411 Length Required</p>
+</td></tr><tr><td class="rdoc-term"><p>PRECONDITION_FAILED</p></td>
+<td>
+<p>412 Precondition Failed</p>
+</td></tr><tr><td class="rdoc-term"><p>SERVER_ERROR</p></td>
+<td>
+<p>500 Internal Server Error</p>
+</td></tr><tr><td class="rdoc-term"><p>NOT_IMPLEMENTED</p></td>
+<td>
+<p>501 Method Not Implemented</p>
+</td></tr><tr><td class="rdoc-term"><p>BAD_GATEWAY</p></td>
+<td>
+<p>502 Bad Gateway</p>
+</td></tr><tr><td class="rdoc-term"><p>VARIANT_ALSO_VARIES</p></td>
+<td>
+<p>506 Variant Also Negotiates</p>
+</td></tr></tbody></table>
+</td></tr><tr><td class="rdoc-term"><p>server</p></td>
+<td>
+<p>The server software, returned as the Server header.</p>
+</td></tr><tr><td class="rdoc-term"><p>connection</p></td>
+<td>
+<p>The connection type, returned as the Connection header (for instance,
+“close”.</p>
+</td></tr><tr><td class="rdoc-term"><p>length</p></td>
+<td>
+<p>The length of the content that will be sent, returned as the Content-Length
+header.</p>
+</td></tr><tr><td class="rdoc-term"><p>language</p></td>
+<td>
+<p>The language of the content, returned as the Content-Language header.</p>
+</td></tr><tr><td class="rdoc-term"><p>expires</p></td>
+<td>
+<p>The time on which the current content expires, as a <tt>Time</tt> object,
+returned as the Expires header.</p>
+</td></tr><tr><td class="rdoc-term"><p>cookie</p></td>
+<td>
+<p>A cookie or cookies, returned as one or more Set-<a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/Cookie.html">Cookie</a> headers.  The value can be the literal
+string of the cookie; a <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/Cookie.html">CGI::Cookie</a> object;
+an Array of literal cookie strings or <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/Cookie.html">Cookie</a>
+objects; or a hash all of whose values are literal cookie strings or <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI/Cookie.html">Cookie</a> objects.</p>
+
+<p>These cookies are in addition to the cookies held in the @output_cookies
+field.</p>
+</td></tr></tbody></table>
+
+<p>Other headers can also be set; they are appended as key: value.</p>
+</td></tr></tbody></table>
+
+<p>Examples:</p>
+
+<pre>header
+  # Content-Type: text/html
+
+header("text/plain")
+  # Content-Type: text/plain
+
+header("nph"        =&gt; true,
+       "status"     =&gt; "OK",  # == "200 OK"
+         # "status"     =&gt; "200 GOOD",
+       "server"     =&gt; ENV['SERVER_SOFTWARE'],
+       "connection" =&gt; "close",
+       "type"       =&gt; "text/html",
+       "charset"    =&gt; "iso-2022-jp",
+         # Content-Type: text/html; charset=iso-2022-jp
+       "length"     =&gt; 103,
+       "language"   =&gt; "ja",
+       "expires"    =&gt; Time.now + 30,
+       "cookie"     =&gt; [cookie1, cookie2],
+       "my_header1" =&gt; "my_value"
+       "my_header2" =&gt; "my_value")</pre>
+
+<p>This method does not perform charset conversion.</p>
+            
+
+            
+            <div class="method-source-code" id="header-source">
+              <pre>              <code class="cpp"> <!-- How can we tell the language? Can we grab the file extension of the parsed source file? --> 
+<span class="ruby-comment"># File cgi/core.rb, line 152</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">header</span>(<span class="ruby-identifier">options</span>=<span class="ruby-string">'text/html'</span>)
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">options</span>.<span class="ruby-identifier">is_a?</span>(<span class="ruby-constant">String</span>)
+    <span class="ruby-identifier">content_type</span> = <span class="ruby-identifier">options</span>
+    <span class="ruby-identifier">buf</span> = <span class="ruby-identifier">_header_for_string</span>(<span class="ruby-identifier">content_type</span>)
+  <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">options</span>.<span class="ruby-identifier">is_a?</span>(<span class="ruby-constant">Hash</span>)
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">options</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">==</span> <span class="ruby-value">1</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">options</span>.<span class="ruby-identifier">has_key?</span>(<span class="ruby-string">'type'</span>)
+      <span class="ruby-identifier">content_type</span> = <span class="ruby-identifier">options</span>[<span class="ruby-string">'type'</span>]
+      <span class="ruby-identifier">buf</span> = <span class="ruby-identifier">_header_for_string</span>(<span class="ruby-identifier">content_type</span>)
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-identifier">buf</span> = <span class="ruby-identifier">_header_for_hash</span>(<span class="ruby-identifier">options</span>.<span class="ruby-identifier">dup</span>)
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">raise</span> <span class="ruby-constant">ArgumentError</span>.<span class="ruby-identifier">new</span>(<span class="ruby-node">"expected String or Hash but got #{options.class}"</span>)
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-keyword">defined?</span>(<span class="ruby-constant">MOD_RUBY</span>)
+    <span class="ruby-identifier">_header_for_modruby</span>(<span class="ruby-identifier">buf</span>)
+    <span class="ruby-keyword">return</span> <span class="ruby-string">''</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">buf</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">EOL</span>    <span class="ruby-comment"># empty line of separator</span>
+    <span class="ruby-keyword">return</span> <span class="ruby-identifier">buf</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></code>
+</pre> 
+            </div><!-- header-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- header-method -->
+
+      
+        <div id="out-method" class="method-detail ">
+          <a name="method-i-out"></a>
+
+          
+          
+          <div class="method-heading">
+            <span class="method-callseq">out(content_type_string='text/html')</span>
+            
+            <span class="method-click-advice">click to toggle source</span>
+            
+          </div>
+          
+          <div class="method-heading">
+            <span class="method-callseq">out(headers_hash)</span>
+            
+          </div>
+          
+          
+
+          <div class="method-description">
+            
+            <p>Print an HTTP header and body to $DEFAULT_OUTPUT ($&gt;)</p>
+<table class="rdoc-list"><tbody><tr><td class="rdoc-term"><p><tt>content_type_string</tt></p></td>
+<td>
+<p>If a string is passed, it is assumed to be the content type.</p>
+</td></tr><tr><td class="rdoc-term"><p><tt>headers_hash</tt></p></td>
+<td>
+<p>This is a Hash of headers, similar to that used by <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/cgi/rdoc/CGI.html#method-i-header">header</a>.</p>
+</td></tr><tr><td class="rdoc-term"><p><tt>block</tt></p></td>
+<td>
+<p>A block is required and should evaluate to the body of the response.</p>
+</td></tr></tbody></table>
+
+<p><tt>Content-Length</tt> is automatically calculated from the size of the
+String returned by the content block.</p>
+
+<p>If <tt><a href="http://%27request_method%27/">ENV</a> == "HEAD"</tt>,
+then only the header is output (the content block is still required, but it
+is ignored).</p>
+
+<p>If the charset is “iso-2022-jp” or “euc-jp” or “shift_jis” then the content
+is converted to this charset, and the language is set to “ja”.</p>
+
+<p>Example:</p>
+
+<pre>cgi = CGI.new
+cgi.out{ "string" }
+  # Content-Type: text/html
+  # Content-Length: 6
+  #
+  # string
+
+cgi.out("text/plain") { "string" }
+  # Content-Type: text/plain
+  # Content-Length: 6
+  #
+  # string
+
+cgi.out("nph"        =&gt; true,
+        "status"     =&gt; "OK",  # == "200 OK"
+        "server"     =&gt; ENV['SERVER_SOFTWARE'],
+        "connection" =&gt; "close",
+        "type"       =&gt; "text/html",
+        "charset"    =&gt; "iso-2022-jp",
+          # Content-Type: text/html; charset=iso-2022-jp
+        "language"   =&gt; "ja",
+        "expires"    =&gt; Time.now + (3600 * 24 * 30),
+        "cookie"     =&gt; [cookie1, cookie2],
+        "my_header1" =&gt; "my_value",
+        "my_header2" =&gt; "my_value") { "string" }
+   # HTTP/1.1 200 OK
+   # Date: Sun, 15 May 2011 17:35:54 GMT
+   # Server: Apache 2.2.0
+   # Connection: close
+   # Content-Type: text/html; charset=iso-2022-jp
+   # Content-Length: 6
+   # Content-Language: ja
+   # Expires: Tue, 14 Jun 2011 17:35:54 GMT
+   # Set-Cookie: foo
+   # Set-Cookie: bar
+   # my_header1: my_value
+   # my_header2: my_value
+   #
+   # string</pre>
+            
+
+            
+            <div class="method-source-code" id="out-source">
+              <pre>              <code class="cpp"> <!-- How can we tell the language? Can we grab the file extension of the parsed source file? --> 
+<span class="ruby-comment"># File cgi/core.rb, line 340</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">out</span>(<span class="ruby-identifier">options</span> = <span class="ruby-string">"text/html"</span>) <span class="ruby-comment"># :yield:</span>
+
+  <span class="ruby-identifier">options</span> = { <span class="ruby-string">"type"</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">options</span> } <span class="ruby-keyword">if</span> <span class="ruby-identifier">options</span>.<span class="ruby-identifier">kind_of?</span>(<span class="ruby-constant">String</span>)
+  <span class="ruby-identifier">content</span> = <span class="ruby-keyword">yield</span>
+  <span class="ruby-identifier">options</span>[<span class="ruby-string">"length"</span>] = <span class="ruby-identifier">content</span>.<span class="ruby-identifier">bytesize</span>.<span class="ruby-identifier">to_s</span>
+  <span class="ruby-identifier">output</span> = <span class="ruby-identifier">stdoutput</span>
+  <span class="ruby-identifier">output</span>.<span class="ruby-identifier">binmode</span> <span class="ruby-keyword">if</span> <span class="ruby-keyword">defined?</span> <span class="ruby-identifier">output</span>.<span class="ruby-identifier">binmode</span>
+  <span class="ruby-identifier">output</span>.<span class="ruby-identifier">print</span> <span class="ruby-identifier">header</span>(<span class="ruby-identifier">options</span>)
+  <span class="ruby-identifier">output</span>.<span class="ruby-identifier">print</span> <span class="ruby-identifier">content</span> <span class="ruby-keyword">unless</span> <span class="ruby-string">"HEAD"</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">env_table</span>[<span class="ruby-string">'REQUEST_METHOD'</span>]
+<span class="ruby-keyword">end</span></code>
+</pre> 
+            </div><!-- out-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- out-method -->
+
+      
+        <div id="print-method" class="method-detail ">
+          <a name="method-i-print"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">print</span><span class="method-args">(*options)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Print an argument or list of arguments to the default output stream</p>
+
+<pre>cgi = CGI.new
+cgi.print    # default:  cgi.print == $DEFAULT_OUTPUT.print</pre>
+            
+
+            
+            <div class="method-source-code" id="print-source">
+              <pre>              <code class="cpp"> <!-- How can we tell the language? Can we grab the file extension of the parsed source file? --> 
+<span class="ruby-comment"># File cgi/core.rb, line 356</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">print</span>(*<span class="ruby-identifier">options</span>)
+  <span class="ruby-identifier">stdoutput</span>.<span class="ruby-identifier">print</span>(*<span class="ruby-identifier">options</span>)
+<span class="ruby-keyword">end</span></code>
+</pre> 
+            </div><!-- print-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- print-method -->
+
+      
+      </div><!-- public-instance-method-details -->
+    
+    </div><!-- 5Buntitled-5D -->
+  
+
+  </div><!-- documentation -->
+<div id="disqus_thread"><div style="display: none;" id="dsq-content-stub"><img alt="DISQUS" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAARCAYAAAH4YIFjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABwdJREFUeNpi/P//PwMhwAIiGBkZGeK6V8JVh9rqdfrc0ixnEDb+wPD2rAAjMSYBBBBRisDWwKxCthIE/q8Q+A8yhCiTAAIIrCi+ZxVMZSAQr19UGs4IMxWd/X8Rw3/GOKDhW43fgzwF1hX7n5EJ2dSp2QFNUKcZwJ31/78CkvPBGkGGMXidSUTWCxBAxAUAEQAcJzCvIXsDBPwsNBU2nbj+AMpdsFA8PAHsLZj3QC5D9hrIAEtN+RMwAzRkxcB0iK3eQ6iQIRAnoMTE//8CyHwmWHQdv/7QAiZ44/ErMP383acsqNB5iMnPlsFdsUZ6IU3CCCCA4AYBw8kBJgj06gGkmHJAFgPyQV4ExeQEoNgHJHUBQMoAWRzoerBeYHgeQOJ/APIvQPkNUP4EuIdADBAGBRMQOABxQcakdSipHZldNGvL2zWHL8kD1d0HieVN33QYqnc/EAfULNwJVw8KTniQwvjAdPz/SEwKmL1KfC5QjwEQr4e5AyVdA3P4ASCe8O3nb1whmtib6r3IXlfpATBEFbpWH9ygJSdmBtXrOHPbyZWPXn1AqOZRwDSBS+YHo82SOQwiZnYMoS+EGC42nGdYzBiAnKpgGAbeA3ECkjwYQNnzH758///6o5cgofVIagy+/vgFF//y/ecHJLn1/18AA+/teZBcPZL4eSTxBJg7AAKIaomRmpkeV2IG5UcDpMSsAM2zF4BiG9DUFaCLQxPwBWCC/QBkg/QqoCVuEN4ASuDIaWc/DIMSItBxH0GCrkaqCVBxWO4BJWBQcK/PmrL+I1S8H0i9h4mjFfX7GTRyIdEuHzIfZtb/Zdw3oGyQnvP/d9pNgRc+MLCwJMxxWk7AI6Ar+YCWVSLLyYkJzIYlZqC6RGBhbg/lFwDlQHoDgfgALLfhjY8/X9XhpWPs/wWM7odyMBwDylU8nOzyILYIH3cZslxBgM0cKHM+MOTAGCZnri7XCdS7ASgGLsc/fPlug9cxlrO/wUvYxYwJwCgLwHAMcrVlqCJ9BVlchJ+7EhRyQPwAyGaAFnhgsOPMzUhQroLVAU76yp/gGp/vtQbTr45pwMWOp1oDQ6QQiGEi6+EJGLmah0YJQ6CVtu3ivecKYHIpE9b8BPqcDSnawHSSu8m3eTvPyAHlzsPkDl25/wXMYAOq+XgtBFwIfn/GwCAOSq8HYCGCsNh8+hvksgYZIJchDkjljAKoHAKVJ6ByBbnmA5XESOL1oFIZSc9/cJkC1IukPuH/z/cw8fswdwyqcgYgwAaVYwYbQEnDSI1LbGABEDcCC1lYS4yhfO42n+fvPm9GKsAZkfJDA7RcwwYmQM1CbpUUADU3AB3AjxJ7wFwAFGsAqp2A0mBDahww8Gv4Mvrf2AKXWyMzgeHbk3wwh5X/DGPkR1OoHlCmn49cGCABkL8SgZn8ANbAQQaV4ZBK6yGwgbDr3G2GNx+/gkqShMTe1V///vsnA/KYjoKECjBwMPQCW0EngOrNQWxbHQWGFA8zBlAj5eztpwwbjl9lyPG1DFOUEAIFDqxJB6ksoC1ZN2NVsDm7zt4GNUhBgdUPrXwckWtQOJB0VQE2XRF8UQt9hodrIGw+FaDcWVjAwAshhsD7kAbPO2Dr78ZEBoZfHxQYHNYbwEogvIGjKSfOiNysBpaEL/acv8MODBhuUX7u00BhVVx6DZWlxHcDAxQEDl95AMZQAGqHLlSSFIanAnZWll0/f/8Bs2OcDB+5GavJVyGZtevsrYdL9p2XQ6rZGcnKI54nZRj2uoMCAVr4K8JkQAKgJsdEYN12AbmYYSGqYGJk/NC8bO91WHKUFRXgwace6ElDIF4PjHWHc3eeMZy98xSU8mB1mwE0FSQCU8ECZiZGVpi+yw9eLIfVlUyMjIf+/f/Pu/bIlTtIdSX5hauo+RagxxMZfr2fwHB3IT/Dy4MMDI/BzTABaP2aAGzmgPpN4gQDB1pmgIA+EAfcfvoGXl/mB1hXFuBxCLDs6oc26kBJZiIoxShLCqs9e/tp+vdfv8ENB08Tdf9FwHKsMtxxTfvK/SGgbHfx3vNyoL2g7DjR30r74vqjV2yA6lXgbnI2WtoH4yhEfGF4sAISSTcm9wOzDcidoE6lPTBLwRuyDMoJ5+DZagnLJIb/f3mh5edGcKoRs+5neHUUUgZxiIrhrK2wFchc7KwMmsByANjiAZUfoGzhCEpJIDlQowOYffqRC2RQS+f1x68HNx6/ygcqY9A7RMZAc5LcTS/zcLLZwcwB1evAzs/8pfsvwDu9yOplgRECzF4M8a7Gryw05NRB+sDtiC/3HjKcKeaDpgAEADVmNIDlsX4DqFPmCOvvMNxdkAAuX95dQFUPKnv06kEBmQgNOLpV5QbQpAsrcz4QUC+AVJsgqxcgoNcBqQy5QIIdONUDALcn6c0dtMJ9AAAAAElFTkSuQmCC" height="17" width="71"><img alt="..." src="data:image/gif;base64,R0lGODlhEAALAPQAAP///z2LqeLt8dvp7u7090GNqz2LqV+fuJ/F1IW2ycrf51aatHWswaXJ14i4ys3h6FmctUCMqniuw+vz9eHs8fb5+meku+Tu8vT4+cfd5bbT3tbm7PH2+AAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCwAAACwAAAAAEAALAAAFLSAgjmRpnqSgCuLKAq5AEIM4zDVw03ve27ifDgfkEYe04kDIDC5zrtYKRa2WQgAh+QQJCwAAACwAAAAAEAALAAAFJGBhGAVgnqhpHIeRvsDawqns0qeN5+y967tYLyicBYE7EYkYAgAh+QQJCwAAACwAAAAAEAALAAAFNiAgjothLOOIJAkiGgxjpGKiKMkbz7SN6zIawJcDwIK9W/HISxGBzdHTuBNOmcJVCyoUlk7CEAAh+QQJCwAAACwAAAAAEAALAAAFNSAgjqQIRRFUAo3jNGIkSdHqPI8Tz3V55zuaDacDyIQ+YrBH+hWPzJFzOQQaeavWi7oqnVIhACH5BAkLAAAALAAAAAAQAAsAAAUyICCOZGme1rJY5kRRk7hI0mJSVUXJtF3iOl7tltsBZsNfUegjAY3I5sgFY55KqdX1GgIAIfkECQsAAAAsAAAAABAACwAABTcgII5kaZ4kcV2EqLJipmnZhWGXaOOitm2aXQ4g7P2Ct2ER4AMul00kj5g0Al8tADY2y6C+4FIIACH5BAkLAAAALAAAAAAQAAsAAAUvICCOZGme5ERRk6iy7qpyHCVStA3gNa/7txxwlwv2isSacYUc+l4tADQGQ1mvpBAAIfkECQsAAAAsAAAAABAACwAABS8gII5kaZ7kRFGTqLLuqnIcJVK0DeA1r/u3HHCXC/aKxJpxhRz6Xi0ANAZDWa+kEAA7AAAAAAAAAAAA" style="margin: 0pt 0pt 3px 5px;" height="11" width="16"></div><div class="clearfix" style="display: block;" id="dsq-content">      <div id="dsq-global-toolbar" class="dsq-clearfix">        <ul class="dsq-global-toolbar-right dsq-clearfix">                            <li class="dsq-community-box">                <a href="#" class="dsq-toolbar-item dsq-tt" onclick="DISQUS.dtpl.actions.fire('community.show'); return false" title="Expand Community Box"><span class="dsq-toolbar-icon"></span></a>            </li>                            <li class="dsq-global-toolbar-dropdown-container">                    <div id="dsq-toolbar-dropdown">    <a href="#" class="dsq-toolbar-logo dsq-toolbar-item dsq-clearfix"><span class="dsq-toolbar-icon">Disqus</span></a>    <div id="dsq-toolbar-dropdown-wrap" style="display: none">      <ul class="dsq-clearfix">                    <li class="dsq-login-link"><a href="#" onclick="DISQUS.dtpl.actions.fire('auth.login'); return false"><span class="dsq-toolbar-icon"></span><span class="dsq-toolbar-label">Login</span></a></li>                    <li class="dsq-about-link"><a href="http://disqus.com/" target="_blank"><span class="dsq-toolbar-icon"></span><span class="dsq-toolbar-label">About Disqus</span></a></li>      </ul>    </div>  </div>            </li>        </ul>                <ul class="dsq-global-toolbar-left dsq-clearfix">            <li class="dsq-like-thread">                <a href="#" id="dsq-like-thread-button" class="dsq-toolbar-item dsq-clearfix  dsq-tt" onclick="DISQUS.dtpl.actions.fire('thread.vote', 1); return false;" title="I like this page">                    <span class="dsq-toolbar-icon"></span>                    <span class="dsq-toolbar-label">Like</span>                </a>            </li>            <li class="dsq-dislike-thread">                <a href="#" id="dsq-dislike-thread-button" class="dsq-toolbar-item dsq-clearfix  dsq-tt" onclick="DISQUS.dtpl.actions.fire('thread.vote', -1); return false" title="I don't like this page">                    <span class="dsq-toolbar-icon">Dislike</span>                </a>            </li>            <li class="dsq-like-panel">                <ul class="dsq-like-faces dsq-clearfix">                        <li class="dsq-like-activity">    </li>                </ul>            </li>        </ul>            </div>    <div id="dsq-like-tooltip">      <div id="dsq-share-step-1" class="dsq-share-step">        <h3>Glad you liked it. Would you like to share?</h3>        <p class="dsq-tooltip-checkbox"><input id="dsq-share-thread-facebook" value="Facebook" type="checkbox"><label for="dsq-share-thread-facebook"><span class="dsq-facebook">Facebook</span></label></p>        <p class="dsq-tooltip-checkbox"><input id="dsq-share-thread-twitter" value="Twitter" type="checkbox"><label for="dsq-share-thread-twitter"><span class="dsq-twitter">Twitter</span></label></p>        <ul id="dsq-tooltip-actions">                        <li><a href="#" onclick="DISQUS.dtpl.actions.fire('thread.share.send'); return false" class="dsq-primary-action">Share</a></li>                    <li><a href="#" onclick="DISQUS.dtpl.actions.fire('thread.share.cancel'); return false" class="dsq-secondary-action">No thanks</a></li>        </ul>      </div>      <div id="dsq-share-step-2" class="dsq-share-step" style="display:none !important">        <p>Sharing this page …</p>      </div>      <div id="dsq-share-step-3" class="dsq-share-step" style="display:none !important">        <p>Thanks! <a href="#" class="dsq-tooltip-decline" onclick="DISQUS.dtpl.actions.fire('thread.share.cancel'); return false">Close</a></p>      </div>    </div>                                <div class="dsq-reply " id="dsq-reply">          <div id="dsq-account-dropdown">                  <a href="#" onclick="DISQUS.dtpl.actions.fire('auth.login'); return false;">Login</a>              </div>      <h3>Add New Comment</h3>        <div class="dsq-avatar">              <img src="CGI_files/noavatar32.png">          </div>    <div class="dsq-textarea dsq-textarea-reply">      <div class="dsq-textarea-background">        <div style="height: auto;" class="dsq-textarea-wrapper">          <!-- filled dynamically -->        <iframe style="height: 58px;" src="CGI_files/reply.htm" id="easyXDM_DISQUS_net_default3492_provider" name="easyXDM_DISQUS_net_default3492_provider" frameborder="0" scrolling="no"></iframe></div>                <div class="dsq-post-tools">          <ul>            <li class="dsq-post-as">                                <button type="button" class="dsq-button" onclick="DISQUS.dtpl.actions.fire('comments.validate', null, this);">                    Post as …                  </button>                          </li>                        <li class="dsq-share-on dsq-clearfix">                            </li>          </ul>        </div>      </div>    </div>  </div>                              <div id="dsq-sort-by">    <select id="dsq-sort-select" onchange="DISQUS.dtpl.actions.fire('thread.sort', this.value);">              <option value="hot" selected="selected">          Sort by popular now        </option>              <option value="best">          Sort by best rating        </option>              <option value="newest">          Sort by newest first        </option>              <option value="oldest">          Sort by oldest first        </option>          </select>  </div>      <h3>            Showing <span id="dsq-num-posts">0</span> comments        </h3>        <ul id="dsq-comments">      </ul>        <div id="dsq-pagination">      <ul id="dsq-footer" class="dsq-clearfix">        <div id="dsq-subscribe">            <li>      <a href="#" class="dsq-subscribe-email" onclick="return DISQUS.dtpl.actions.fire('thread.subscribe');">        <span class="dsq-font">M</span> <em>Subscribe by email</em>      </a>    </li>    <li>    <a href="http://ruby-doc.disqus.com/httpwwwruby_docorgstdlib_193libdoccgirdoccgihtml/latest.rss" class="dsq-subscribe-rss">      <span class="dsq-font">S</span> <em>RSS</em>    </a>  </li>    </div>  </ul>    </div>                  <div class="dsq-trackback-url">      Trackback URL      <input onclick="this.select()" readonly="true" value="http://disqus.com/forums/ruby-doc/httpwwwruby_docorgstdlib_193libdoccgirdoccgihtml/trackback/">    </div>      </div><div>  </div></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    // var disqus_shortname = 'rubydocbeta'; // required 
+    var disqus_shortname = 'ruby-doc'; // required 
+    
+    var disqus_developer = true; // DEBUGGERY
+    
+
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<div class="grids wrapper" id="footer">
+  <p><small>This page was generated for Ruby 1.9.3</small></p> 
+  
+   <p> <a href="http://www.ruby-doc.org/">Ruby-doc.org</a> is provided by <a href="http://www.jamesbritt.com/">James Britt</a> and <a href="http://www.neurogami.com/">Neurogami</a>. <a href="http://www.neurogami.com/">Maximum R+D</a>.  </p>
+ 
+    <p><small>Generated with the <a href="http://neurogami.com/code/">Rubydoc Rdoc Generator</a> 0.9.4</small>.</p>
+  </div>
+
+</div>
+
+<script type="text/javascript">
+var _uacct = "UA-335317-2";
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="CGI_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+try{ 
+var pageTracker = _gat._getTracker(_uacct);
+pageTracker._trackPageview();
+} catch(err) {} 
+</script>
+
+
+
+<iframe src="CGI_files/def.htm" style="position: absolute; top: -2000px; left: 0px;" id="easyXDM_DISQUS_net_default3491_provider" name="easyXDM_DISQUS_net_default3491_provider" frameborder="0"></iframe></body></html>

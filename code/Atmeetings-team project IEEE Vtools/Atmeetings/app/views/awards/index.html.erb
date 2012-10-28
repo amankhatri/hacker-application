@@ -1,0 +1,31 @@
+<h1>Listing Awards</h1>
+
+<table>
+  <tr>
+    <th>Award winners</th>
+    <th>Award name</th>
+    <th>Description</th>
+    <th>Recieved on</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @awards.each do |award| %>
+  <tr>
+    <td><%= award.award_winners %></td>
+    <td><%= award.award_name %></td>
+    <td><%= award.description %></td>
+    <td><%= award.recieved_on %></td>
+    <td><%= link_to 'Show', award %></td>
+    <td><%= link_to 'Edit', edit_award_path(award) %></td>
+    <td><%= link_to 'Destroy', award, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Award', new_award_path %>
+<a class = "main_button" href="./home_page">Home</a>
+<a class = "main_button" href="./current_meetings">Current Meeting</a>

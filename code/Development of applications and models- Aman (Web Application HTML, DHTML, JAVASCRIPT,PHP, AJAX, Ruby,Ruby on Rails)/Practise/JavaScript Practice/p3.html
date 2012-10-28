@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<META CHARSET= "iso-8859-1">
+<META NAME="author"   CONTENT="Aman Khatri">
+ <link rel="stylesheet" type="text/css" href="style_01.css">
+<title>Homework 3</title>
+<script type = "text/javascript">
+function read()
+{
+var x = document.getElementByName("frstNum");
+var y = document.getElementByName("secNum");
+Var opCode = document.getElementbyName('Operation').name;
+function operation();
+}
+function operation()
+{
+if(opCode ="Add")
+document.write(x+y);
+elseif(opCode ="Substract")
+document.write(x-y);
+elseif(opCode = "Multiply")
+document.write(x*y);
+elseif(opCode = "Modulus")
+document.write(x-y);
+elseif(opCode = "And")
+document.write(x&&y);
+elseif(opCode = "Or")
+document.write(x||y);
+end
+}
+</script>
+</head>
+<body id ="p3" onload ="">
+<h3> Binary Operations </h3>
+<b>First Number:<br/> X= </b>
+<input type = "text" name ="frstNum" value="" id="frstNum"  /> <br/>
+<br/>
+<b>Second Number:<br/> Y= </b>
+<input type = "text" name = "secNum" value="" id="secNum" />
+ <br/>
+<br/>
+Please selected the operation you are intrested in: 
+<br/>
+<select name = "Operation">
+
+<option name ="Add" value = "Add"> Add </option>
+<option name ="Substract" value = "Substract"> Substract </option>
+<option name ="Multiply" value = "Multiply"> Multiply </option>
+<option name ="Modulus" value = "Modulus"> Modulus  </option>
+<option name ="And" value = "And"> And </option>
+<option name ="Or" value = "Or"> Or </option>
+</select>
+<br/>
+<input value="Calculate" type="submit" onclick =">
+<br/>
+<br/>
+<a href="http://eceserv4.eng.uab.edu/~kaman/kaman-p3.html"><b><u> Script Source Code</u></b></a>
+<br/>
+<a href="http://validator.w3.org/check?uri=referer"><b><u>Index.html Validator</u></b></a>
+<br/>
+</form>
+</body>
+</html>

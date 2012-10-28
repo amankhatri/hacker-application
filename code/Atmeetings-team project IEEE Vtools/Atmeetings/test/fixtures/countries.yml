@@ -1,0 +1,14 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+first:
+  id: 1
+  name: Neverland
+  abbreviation: NLD
+another:
+  id: 2
+  name: China
+  abbreviation: China
+us:
+  id: 3
+  name: United States
+  abbreviation: US
+

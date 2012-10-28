@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  id: 1
+  address: 72.86.2.133
+
+two:
+  id: 2
+  address: 192.168.1.1

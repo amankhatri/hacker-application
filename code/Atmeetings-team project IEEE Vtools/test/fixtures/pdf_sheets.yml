@@ -1,0 +1,32 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+# one:
+#   column: value
+
+pdf_sheet_1:
+      title: PDF template 1
+      description: This is the discription of fixture 1
+      page_width: 5
+      page_length: 5
+      top_margin: 2
+      left_margin: 2
+      column_gutter: 1
+      row_gutter: 1
+      columns: 2
+      badge_width: 3
+      badge_height: 3
+      rows_per_page: 4
+
+pdf_sheet_2:
+      title: PDF template 2
+      description: This is the discription of fixture 2
+      page_width: 4
+      page_length: 4
+      top_margin: 2
+      left_margin: 2
+      column_gutter: 1
+      row_gutter: 1
+      columns: 2
+      badge_width: 3
+      badge_height: 3
+      rows_per_page: 4

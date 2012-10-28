@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+first:
+  id: 1
+  meeting_report_id: 9
+  country_id: 1
+second:
+  id: 2
+  meeting_report_id: 9
+  country_id: 1
+third:
+  id: 3
+  meeting_report_id: 11
+  country_id: 1
+fourth:
+  id: 4
+  meeting_report_id: 11
+  country_id: 1

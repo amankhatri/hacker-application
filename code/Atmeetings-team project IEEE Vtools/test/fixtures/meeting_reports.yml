@@ -1,0 +1,182 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+first:
+  id: 1
+  title: Test Meeting 1
+  description: Desc of Test Meeting 1
+  keywords: testing
+  category_id: 1
+  city: Birmingham
+  start_time: 2006-07-31 22:00:30
+  end_time: 2006-08-01 00:00:00
+  specific_organization_id: 1595
+  tm_zone_info: CST6CDT
+  ieee_attending: 3
+  guests_attending: 2
+  submitter: tester
+  country_id: 1
+  state_id: 1
+second:
+  id: 2
+  title: Test Meeting 2
+  description: Desc of Test Meeting 2
+  keywords: testing
+  category_id: 2
+  city: Mobile
+  start_time: 2006-08-01 00:00:00
+  end_time: 2006-08-01 04:00:00
+  specific_organization_id: 1595
+  tm_zone_info: CST6CDT
+  ieee_attending: 3
+  guests_attending: 2
+  submitter: tester
+  country_id: 1
+  state_id: 1
+third:
+  id: 3
+  title: Test Meeting 2008
+  description: Desc of Test Meeting 3
+  keywords: testing
+  category_id: 2
+  city: Mobile
+  start_time: 2008-08-01 00:00:00
+  end_time: 2008-08-01 04:00:00
+  specific_organization_id: 1595
+  tm_zone_info: CST6CDT
+  ieee_attending: 3
+  guests_attending: 2
+  submitter: tester
+  country_id: 1
+  state_id: 1
+fourth:
+  id: 4
+  title: Test Meeting 2009
+  description: Desc of Test Meeting 4
+  keywords: testing
+  category_id: 2
+  city: Mobile
+  start_time: <%= (Time.now - 2.hour).strftime("%Y-%m-%d %H:%M:%S") %>
+  end_time: <%= (Time.now - 1.hour).strftime("%Y-%m-%d %H:%M:%S") %>
+  specific_organization_id: 1595
+  tm_zone_info: CST6CDT
+  ieee_attending: 3
+  guests_attending: 2
+  submitter: tester
+  country_id: 1
+  state_id: 1
+fifth:
+  id: 5
+  title: Test Meeting No. 5
+  description: Desc of Test Meeting 5
+  keywords: keyword1,attend_equals_id
+  category_id: 3
+  city: Mobile
+  start_time: <%= (Time.now - 2.year).strftime("%Y-%m-%d %H:%M:%S") %>
+  end_time: <%= (Time.now - 2.year + 1.hour).strftime("%Y-%m-%d %H:%M:%S") %>
+  specific_organization_id: 1327
+  tm_zone_info: CST6CDT
+  ieee_attending: 3
+  guests_attending: 2
+  submitter: tester
+  country_id: 1
+  state_id: 1
+sixth:
+  id: 6
+  title: Another Test
+  description: Desc of Test Meeting 6 with special description
+  keywords: keyword1,attend_equals_id
+  category_id: 3
+  city: Mobile
+  start_time: <%= (Time.now - 1.year).strftime("%Y-%m-%d %H:%M:%S") %>
+  end_time: <%= (Time.now - 1.year + 1.hour).strftime("%Y-%m-%d %H:%M:%S") %>
+  specific_organization_id: 1327
+  tm_zone_info: CST6CDT
+  ieee_attending: 3
+  guests_attending: 3
+  submitter: tester
+  country_id: 1
+  state_id: 1
+seventh:
+  id: 7
+  title: B Test Meeting No. 7
+  description: Desc of Test Meeting 7
+  keywords: keyword1,attend_equals_id
+  category_id: 3
+  city: Mobile
+  start_time: <%= (Time.now - 1.year).strftime("%Y-%m-%d %H:%M:%S") %>
+  end_time: <%= (Time.now - 1.year + 1.hour).strftime("%Y-%m-%d %H:%M:%S") %>
+  specific_organization_id: 1327
+  tm_zone_info: CST6CDT
+  ieee_attending: 3
+  guests_attending: 4
+  submitter: tester
+  country_id: 1
+  state_id: 1
+eigth:
+  id: 8
+  title: Test Meeting the Eigth
+  description: Desc of Test Meeting 8
+  keywords: testing,attend_equals_id
+  category_id: 3
+  city: Mobile
+  start_time: <%= (Time.now - 2.year).strftime("%Y-%m-%d %H:%M:%S") %>
+  end_time: <%= (Time.now - 2.year + 1.hour).strftime("%Y-%m-%d %H:%M:%S") %>
+  specific_organization_id: 1327
+  tm_zone_info: CST6CDT
+  ieee_attending: 4
+  guests_attending: 4
+  submitter: tester
+  country_id: 1
+  state_id: 1
+ninth:
+  id: 9
+  title: Test Meeting 9
+  description: Test Meeting
+  keywords: testing,attend_equals_id
+  category_id: 3
+  city: Mobile
+  start_time: <%= (Time.now - 2.month).strftime("%Y-%m-%d %H:%M:%S") %>
+  end_time: <%= (Time.now - 2.month + 1.hour).strftime("%Y-%m-%d %H:%M:%S") %>
+  specific_organization_id: 1327
+  tm_zone_info: CST6CDT
+  ieee_attending: 7
+  guests_attending: 2
+  submitter: tester
+  country_id: 1
+  state_id: 1
+tenth:
+  id: 10
+  title: A Test Meeting X
+  description: Test Meeting
+  keywords: testing,attend_equals_id
+  category_id: 3
+  city: Mobile
+  country_id: 1
+  start_time: <%= (Time.now - 6.month).strftime("%Y-%m-%d %H:%M:%S") %>
+  end_time: <%= (Time.now - 6.month + 1.hour).strftime("%Y-%m-%d %H:%M:%S") %>
+  specific_organization_id: 1327
+  tm_zone_info: CST6CDT
+  ieee_attending: 3
+  guests_attending: 7
+  submitter: tester
+  country_id: 1
+  state_id: 1
+eleventh:
+  id: 11
+  title: NOTBased on Test Meeting 1
+  description: Test for getting existing report for meeting, making info here DIFFERENT from the report it refers to
+  keywords: NOTtesting
+  category_id: 3
+  city: NOTBirmingham
+  country_id: 1
+  start_time: <%= (Time.now - 6.month).strftime("%Y-%m-%d %H:%M:%S") %>
+  end_time: <%= (Time.now - 6.month + 1.hour).strftime("%Y-%m-%d %H:%M:%S") %>
+  specific_organization_id: 1327
+  tm_zone_info: CST6CDT
+  ieee_attending: 3
+  guests_attending: 7
+  submitter: tester
+  meeting_id: 10
+  country_id: 1
+  state_id: 1
+
+

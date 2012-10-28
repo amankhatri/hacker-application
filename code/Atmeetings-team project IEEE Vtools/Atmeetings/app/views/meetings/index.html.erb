@@ -1,0 +1,31 @@
+
+<h1>Future Meetings</h1>
+
+<table>
+
+  <% @meetings.each do |meeting| %>
+    <tr class="<%= cycle('line_odd', 'line_even') %>">
+      <td class="meetings_list">
+        <dl>
+          <div id="meeting_title">
+            <dt><%= meeting.title.presence || 'Not available' %></dt>
+          </div>
+          <dd>Description: <%= truncate(strip_tags(meeting.description.presence), length: 60) || 'Not available' %></dd>
+          <dd>Address: <%= meeting.address1.presence || 'Not available'%></dd>
+          <dd>City: <%= meeting.city.presence || 'Not available' %></dd>
+          <dd>Date: <%= meeting.start_time %></dd>
+        </dl>
+      </td>
+      <td class id="meeting_actions">
+        <td><%= link_to 'Show', meeting %></td>
+        <td><%= link_to 'Edit', edit_meeting_path(meeting) %></td>
+        <td><%= link_to 'Destroy', meeting, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </td>
+    </tr>
+  <% end %>
+</table>
+<a class = "main_button" href="./home_page">Home</a>
+<a class = "main_button" href="./current_meetings">Current Meeting</a>
+<a class = "main_button" href="./awards">Awards</a>
+
+

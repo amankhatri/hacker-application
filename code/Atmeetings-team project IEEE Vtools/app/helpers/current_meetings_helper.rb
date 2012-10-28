@@ -1,0 +1,2 @@
+module CurrentMeetingsHelper
+end

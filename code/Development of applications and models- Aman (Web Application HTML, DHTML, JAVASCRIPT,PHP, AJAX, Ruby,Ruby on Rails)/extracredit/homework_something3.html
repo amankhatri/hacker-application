@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>OVI MAPS AMAN KHATRI HOMEWORK</title>
+    <script src="http://api.maps.ovi.com/jsl.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="map" style="width:600px; height:400px;"></div>
+    <script type="text/javascript">
+        var map = new ovi.mapsapi.map.Display(
+            document.getElementById("map"), {
+            components: [
+                new ovi.mapsapi.map.component.zoom.DoubleClick(),
+                //needed for marker drag
+                new ovi.mapsapi.map.component.objects.DragMarker()],
+                zoomLevel: 17,
+                center: [33.496484, -86.80906]
+            });
+        
+        //create a marker and add it to the map
+        var marker = new ovi.mapsapi.map.StandardMarker([33.496484, -86.80906], {
+            text: "Hi!", //small label
+			
+            draggable: true  //the marker is marked to be draggable
+        });
+		map.set("baseMapType", map.SATELLITE);
+        map.objects.add(marker);
+    </script>
+  </body>
+</html>

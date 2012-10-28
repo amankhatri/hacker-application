@@ -1,0 +1,862 @@
+--- 
+organizations_268: 
+  name: SSC37 (SCOTLAND)
+  id: "268"
+organizations_187: 
+  name: MAG33
+  id: "187"
+organizations_269: 
+  name: SSC37 (WEST)
+  id: "269"
+organizations_188: 
+  name: MAG33 (JT. TAIPEI/TAINAN)
+  id: "188"
+organizations_189: 
+  name: MAG33 JT. SCV/SF
+  id: "189"
+organizations_001: 
+  name: AES10
+  id: "1"
+organizations_002: 
+  name: AES10 JT. WA/NO.VA
+  id: "2"
+organizations_003: 
+  name: AES10/C16
+  id: "3"
+organizations_110: 
+  name: ED15 JT. SCV/SF
+  id: "110"
+organizations_004: 
+  name: AES10/COM19
+  id: "4"
+organizations_030: 
+  name: AP03/ED15/MTT17/UFFC20/EMC27/LEO36
+  id: "30"
+organizations_111: 
+  name: ED15 JT. WA/NO.VA
+  id: "111"
+organizations_005: 
+  name: AES10/COM19/LEO36
+  id: "5"
+organizations_031: 
+  name: AP03/IM09/ED15/MTT17
+  id: "31"
+organizations_112: 
+  name: ED15/C16
+  id: "112"
+organizations_006: 
+  name: AES10/CS23
+  id: "6"
+organizations_032: 
+  name: AP03/MTT17
+  id: "32"
+organizations_113: 
+  name: ED15/CPMT21
+  id: "113"
+organizations_220: 
+  name: PE31/PEL35 (JT NEW ZEALAND NORTH/SOUTH)
+  id: "220"
+organizations_007: 
+  name: AES10/EM14
+  id: "7"
+organizations_033: 
+  name: AP03/MTT17 (C&S)
+  id: "33"
+organizations_114: 
+  name: ED15/LEO36
+  id: "114"
+organizations_140: 
+  name: EMC27 JT. DALLAS/FT.WORTH
+  id: "140"
+organizations_221: 
+  name: PEL35
+  id: "221"
+organizations_008: 
+  name: AES10/GRS29
+  id: "8"
+organizations_034: 
+  name: AP03/MTT17/COM19
+  id: "34"
+organizations_060: 
+  name: CAS04 (C&S)
+  id: "60"
+organizations_115: 
+  name: ED15/MTT17
+  id: "115"
+organizations_141: 
+  name: EMC27 JT. LI/NY
+  id: "141"
+organizations_222: 
+  name: PEL35 SCV/OEB/SF JT CHAPTER
+  id: "222"
+organizations_223: 
+  name: PSE43
+  id: "223"
+organizations_009: 
+  name: AES10/OE22/GRS29
+  id: "9"
+organizations_035: 
+  name: AP03/MTT17/COM19/EMC27
+  id: "35"
+organizations_061: 
+  name: CAS04 (JT. VANCOUVER/VICTORIA)
+  id: "61"
+organizations_116: 
+  name: ED15/MTT17 (MOSCOW)
+  id: "116"
+organizations_142: 
+  name: EMC27 JT. WA/NO.VA
+  id: "142"
+organizations_250: 
+  name: SP01/CAS04
+  id: "250"
+organizations_224: 
+  name: R07
+  id: "224"
+organizations_036: 
+  name: AP03/MTT17/ED15
+  id: "36"
+organizations_062: 
+  name: CAS04 (NO)
+  id: "62"
+organizations_117: 
+  name: ED15/MTT17/COM19/CPMT21/SSC37 (KIEV)
+  id: "117"
+organizations_143: 
+  name: EMC27/PSE43
+  id: "143"
+organizations_251: 
+  name: SP01/CAS04/COM19
+  id: "251"
+organizations_225: 
+  name: R07 JT. DENVER/PIKES PEAK
+  id: "225"
+organizations_037: 
+  name: AP03/MTT17/ED15/EMC27
+  id: "37"
+organizations_063: 
+  name: CAS04 (SHANGHI)
+  id: "63"
+organizations_118: 
+  name: ED15/MTT17/COM19/CPMT21/SSC37 (NOVOSIBIRSK)
+  id: "118"
+organizations_144: 
+  name: GRS29
+  id: "144"
+organizations_170: 
+  name: IM09/CIS11
+  id: "170"
+organizations_252: 
+  name: SP01/CAS04/IT12
+  id: "252"
+organizations_226: 
+  name: R07 JT. WA/NO.VA
+  id: "226"
+organizations_038: 
+  name: AP03/MTT17/ED15/GRS29/LEO36
+  id: "38"
+organizations_064: 
+  name: CAS04 JT. DALLAS/FT.WORTH
+  id: "64"
+organizations_090: 
+  name: CPMT21 (JT. HUNGARY/ROMANIA)
+  id: "90"
+organizations_119: 
+  name: ED15/MTT17/LEO36
+  id: "119"
+organizations_145: 
+  name: GRS29 (CENTRAL)
+  id: "145"
+organizations_171: 
+  name: IM09/CS23
+  id: "171"
+organizations_253: 
+  name: SP01/CAS04/SSC37 (ESTONIA)
+  id: "253"
+organizations_227: 
+  name: R07/AES10/EM14/PE31
+  id: "227"
+organizations_039: 
+  name: AP03/MTT17/EMC27
+  id: "39"
+organizations_065: 
+  name: CAS04/C16
+  id: "65"
+organizations_091: 
+  name: CPMT21 JT. SCV/OAK.E.BAY/SF
+  id: "91"
+organizations_146: 
+  name: GRS29 (SOUTH)
+  id: "146"
+organizations_172: 
+  name: IM09/CS23/SMC28
+  id: "172"
+organizations_280: 
+  name: (section)
+  id: "280"
+organizations_254: 
+  name: SP01/CIS11
+  id: "254"
+organizations_228: 
+  name: R07/CPMT21
+  id: "228"
+organizations_066: 
+  name: CAS04/COM19
+  id: "66"
+organizations_092: 
+  name: CPMT21/EMC27
+  id: "92"
+organizations_147: 
+  name: GRS29 JT. WA/NO.VA
+  id: "147"
+organizations_173: 
+  name: IM09/EMB18
+  id: "173"
+organizations_281: 
+  name: GOLD
+  id: "281"
+organizations_255: 
+  name: SP01/CIS11/COM19
+  id: "255"
+organizations_229: 
+  name: R07/CPMT21/ED15
+  id: "229"
+organizations_067: 
+  name: CAS04/COM19/SP01
+  id: "67"
+organizations_093: 
+  name: CS23
+  id: "93"
+organizations_148: 
+  name: IA34
+  id: "148"
+organizations_174: 
+  name: IM09/EMC27
+  id: "174"
+organizations_282: 
+  name: WOMEN IN ENGINEERING
+  id: "282"
+organizations_256: 
+  name: SP01/COM19
+  id: "256"
+organizations_068: 
+  name: CAS04/CPMT21
+  id: "68"
+organizations_094: 
+  name: CS23/COM19
+  id: "94"
+organizations_149: 
+  name: IA34 (TRINIDAD & TOBAGO)
+  id: "149"
+organizations_175: 
+  name: IM09/IE13
+  id: "175"
+organizations_283: 
+  name: CONSULTANTS NETWORK
+  id: "283"
+organizations_257: 
+  name: SP01/COM19 JT. QNSLND/N QNSLND
+  id: "257"
+organizations_069: 
+  name: CAS04/CS23
+  id: "69"
+organizations_095: 
+  name: CS23/RA24
+  id: "95"
+organizations_176: 
+  name: IM09/PE31
+  id: "176"
+organizations_284: 
+  name: LIFE MEMBER
+  id: "284"
+organizations_258: 
+  name: SP01/CS23
+  id: "258"
+organizations_096: 
+  name: CS23/RA24/SMC28
+  id: "96"
+organizations_177: 
+  name: IT12
+  id: "177"
+organizations_285: 
+  name: LIFE MEMBER JT. NO.VA/WA
+  id: "285"
+organizations_259: 
+  name: SP01/EMB18
+  id: "259"
+organizations_097: 
+  name: CS23/SMC28
+  id: "97"
+organizations_178: 
+  name: IT12 (JT SO AUSTRALIA/ACT/VICTORIAN/NSW)
+  id: "178"
+organizations_286: 
+  name: WOMEN IN ENGINEERING-WA/NOVA
+  id: "286"
+organizations_098: 
+  name: CS23/SMC28 JT.SCV/SF
+  id: "98"
+organizations_179: 
+  name: IT12/C16
+  id: "179"
+organizations_099: 
+  name: DEI32
+  id: "99"
+organizations_100: 
+  name: DEI32 JT TOR/KING/KW/HAM/LOND
+  id: "100"
+organizations_020: 
+  name: AP03/ED15/MTT17/COM19
+  id: "20"
+organizations_101: 
+  name: DEI32 JT. MONTREAL/OTTAWA
+  id: "101"
+organizations_021: 
+  name: AP03/ED15/MTT17/COM19/EMC27 (TOMSK)
+  id: "21"
+organizations_102: 
+  name: E25
+  id: "102"
+organizations_103: 
+  name: E25 (JT. NORWAY/DENMARK/FINLAND/SWEDEN)
+  id: "103"
+organizations_210: 
+  name: "PE31 #2"
+  id: "210"
+organizations_022: 
+  name: AP03/ED15/MTT17/CPMT21
+  id: "22"
+organizations_104: 
+  name: E25/PE31/MAG33/IA34/PEL35
+  id: "104"
+organizations_130: 
+  name: EM14/IA34
+  id: "130"
+organizations_211: 
+  name: PE31 (IRKUTSK)
+  id: "211"
+organizations_023: 
+  name: AP03/ED15/MTT17/CPMT21 (SARATOV-PENZA)
+  id: "23"
+organizations_105: 
+  name: ED/MTT[REP OF GEORG]
+  id: "105"
+organizations_131: 
+  name: EM14/PC26
+  id: "131"
+organizations_212: 
+  name: PE31 (TRINIDAD & TOBAGO)
+  id: "212"
+organizations_024: 
+  name: AP03/ED15/MTT17/CPMT21/SSC37
+  id: "24"
+organizations_050: 
+  name: BT02/CE08/COM19
+  id: "50"
+organizations_106: 
+  name: ED15
+  id: "106"
+organizations_132: 
+  name: EM14/SIT30
+  id: "132"
+organizations_213: 
+  name: PE31 JT. MILW/MADISON/NE WISC
+  id: "213"
+organizations_025: 
+  name: AP03/ED15/MTT17/CPMT21/SSC37 (NIZHNY NOVGOROD)
+  id: "25"
+organizations_051: 
+  name: C16
+  id: "51"
+organizations_240: 
+  name: SMC28 (SHENZHEN)
+  id: "240"
+organizations_107: 
+  name: ED15 (SHANGHI)
+  id: "107"
+organizations_133: 
+  name: EMB18
+  id: "133"
+organizations_214: 
+  name: PE31 JT. NO.VA/WASH
+  id: "214"
+organizations_026: 
+  name: AP03/ED15/MTT17/LEO36
+  id: "26"
+organizations_052: 
+  name: C16 (DOMINICAN REPUBLIC)
+  id: "52"
+organizations_241: 
+  name: SP01
+  id: "241"
+organizations_134: 
+  name: EMB18 (JT GER/SWITZERLAND/AUSTRIA)
+  id: "134"
+organizations_160: 
+  name: IE13/EMC27/PE31
+  id: "160"
+organizations_215: 
+  name: PE31/DEI32
+  id: "215"
+organizations_027: 
+  name: AP03/ED15/MTT17/MAG33
+  id: "27"
+organizations_053: 
+  name: C16 (GDANSK)
+  id: "53"
+organizations_108: 
+  name: ED15 (XIAN)
+  id: "108"
+organizations_242: 
+  name: SP01/AES10
+  id: "242"
+organizations_135: 
+  name: EMB18 JT. NY/LI/NO.JERSEY
+  id: "135"
+organizations_161: 
+  name: IE13/IA34
+  id: "161"
+organizations_216: 
+  name: PE31/IA34
+  id: "216"
+organizations_028: 
+  name: AP03/ED15/MTT17/MAG33/LEO36
+  id: "28"
+organizations_054: 
+  name: C16/COM19
+  id: "54"
+organizations_080: 
+  name: CIS11 (JT SEOUL/DAEJEON/TAEGU)
+  id: "80"
+organizations_109: 
+  name: ED15 JT. NO.VA/WASH
+  id: "109"
+organizations_243: 
+  name: SP01/AES10/UFFC20
+  id: "243"
+organizations_162: 
+  name: IE13/IA34/PEL35
+  id: "162"
+organizations_217: 
+  name: PE31/IA34 JT. NY/LI
+  id: "217"
+organizations_029: 
+  name: AP03/ED15/MTT17/SSC37
+  id: "29"
+organizations_055: 
+  name: C16/COM19/EM14
+  id: "55"
+organizations_081: 
+  name: CIS11/C16
+  id: "81"
+organizations_136: 
+  name: EMB18 JT. WA/NO.VA
+  id: "136"
+organizations_270: 
+  name: UFFC20
+  id: "270"
+organizations_244: 
+  name: SP01/AP03/C16/EMC27
+  id: "244"
+organizations_163: 
+  name: IE13/IA34/PEL35 (NO)
+  id: "163"
+organizations_218: 
+  name: PE31/IA34/PEL35
+  id: "218"
+organizations_056: 
+  name: C16/COM19/EMC27
+  id: "56"
+organizations_082: 
+  name: CIS11/CS23/RA24
+  id: "82"
+organizations_137: 
+  name: EMB18/CS23
+  id: "137"
+organizations_271: 
+  name: VT06
+  id: "271"
+organizations_245: 
+  name: SP01/AP03/CAS04/ED15
+  id: "245"
+organizations_190: 
+  name: MAG33 JT. WA/NO.VA
+  id: "190"
+organizations_219: 
+  name: PE31/PEL35
+  id: "219"
+organizations_057: 
+  name: C16/CS23
+  id: "57"
+organizations_083: 
+  name: COM19
+  id: "83"
+organizations_138: 
+  name: EMB18/CS23/SSC37
+  id: "138"
+organizations_164: 
+  name: IE13/PE31/IA34/PEL35
+  id: "164"
+organizations_272: 
+  name: VT06 (JT. SCV/OAK.E.BAY/SF)
+  id: "272"
+organizations_246: 
+  name: SP01/BT02/CE08
+  id: "246"
+organizations_191: 
+  name: MTT17
+  id: "191"
+organizations_058: 
+  name: C16/SMC28
+  id: "58"
+organizations_084: 
+  name: COM19 (JT NEW ZEALAND NORTH/SOUTH)
+  id: "84"
+organizations_139: 
+  name: EMC27
+  id: "139"
+organizations_165: 
+  name: IE13/PE31/PEL35
+  id: "165"
+organizations_273: 
+  name: VT06 JT. NY/LI
+  id: "273"
+organizations_247: 
+  name: SP01/C16
+  id: "247"
+organizations_059: 
+  name: CAS04
+  id: "59"
+organizations_085: 
+  name: COM19 (KRAKOW)
+  id: "85"
+organizations_166: 
+  name: IE13/PEL35
+  id: "166"
+organizations_192: 
+  name: MTT17 JT. CED RAP/CENTAL IOWA
+  id: "192"
+organizations_274: 
+  name: VT06 JT. WA/NO.VA
+  id: "274"
+organizations_248: 
+  name: SP01/C16/COM19
+  id: "248"
+organizations_086: 
+  name: COM19 (WARSAW)
+  id: "86"
+organizations_167: 
+  name: IE13/RA24
+  id: "167"
+organizations_193: 
+  name: MTT17 JT. LI/NY
+  id: "193"
+organizations_275: 
+  name: VT06/AES10
+  id: "275"
+organizations_249: 
+  name: SP01/C16/MTT17/COM19/PE31
+  id: "249"
+organizations_087: 
+  name: COM19/CS23
+  id: "87"
+organizations_168: 
+  name: IM09
+  id: "168"
+organizations_194: 
+  name: MTT17 JT. MLA/SFV
+  id: "194"
+organizations_276: 
+  name: VT06/AES10/C16/EMB18/RA24/PE31
+  id: "276"
+organizations_088: 
+  name: COM19/UFFC20/LEO36
+  id: "88"
+organizations_169: 
+  name: IM09/C16
+  id: "169"
+organizations_195: 
+  name: MTT17 JT. SCV/SF
+  id: "195"
+organizations_277: 
+  name: VT06/AES10/UFFC20/OE22/GRS29
+  id: "277"
+organizations_089: 
+  name: CPMT21
+  id: "89"
+organizations_196: 
+  name: MTT17 JT. WA/NO.VA
+  id: "196"
+organizations_278: 
+  name: VT06/COM19
+  id: "278"
+organizations_197: 
+  name: MTT17/COM19
+  id: "197"
+organizations_279: 
+  name: VT06/IT12/COM19
+  id: "279"
+organizations_198: 
+  name: MTT17/LEO36
+  id: "198"
+organizations_199: 
+  name: NPS05
+  id: "199"
+organizations_010: 
+  name: AP03
+  id: "10"
+organizations_011: 
+  name: AP03 JT. LI/NY
+  id: "11"
+organizations_012: 
+  name: AP03 JT. SCV/OAK.E.BAY/SF
+  id: "12"
+organizations_200: 
+  name: NPS05 JT. LI/NY
+  id: "200"
+organizations_013: 
+  name: AP03/AES10/MTT17
+  id: "13"
+organizations_120: 
+  name: ED15/MTT17/SSC37
+  id: "120"
+organizations_201: 
+  name: NPS05 JT. WA/NO.VA
+  id: "201"
+organizations_014: 
+  name: AP03/CAS04/ED15/C16/CS23
+  id: "14"
+organizations_040: 
+  name: AP03/MTT17/GRS29
+  id: "40"
+organizations_121: 
+  name: ED15/SSC37
+  id: "121"
+organizations_202: 
+  name: NPS05/IE13
+  id: "202"
+organizations_015: 
+  name: AP03/ED15
+  id: "15"
+organizations_041: 
+  name: AP03/MTT17/GRS29/LEO36
+  id: "41"
+organizations_122: 
+  name: ED15/SSC37 (VARNA)
+  id: "122"
+organizations_203: 
+  name: NPS05/MAG33
+  id: "203"
+organizations_230: 
+  name: R07/EM14/E25/PC26/SIT30
+  id: "230"
+organizations_016: 
+  name: AP03/ED15/MTT17
+  id: "16"
+organizations_042: 
+  name: AP03/MTT17/LEO36
+  id: "42"
+organizations_123: 
+  name: EM14
+  id: "123"
+organizations_204: 
+  name: OE22
+  id: "204"
+organizations_231: 
+  name: R07/EMC27
+  id: "231"
+organizations_017: 
+  name: AP03/ED15/MTT17 (LITHUANIA)
+  id: "17"
+organizations_043: 
+  name: AP03/MTT17/UFFC20
+  id: "43"
+organizations_124: 
+  name: EM14 (JT. AUST/CZECH/CROATIA/HUNGARY/SLOVENIA)
+  id: "124"
+organizations_150: 
+  name: IA34 JT. NO. JERSEY/PRINCETON
+  id: "150"
+organizations_205: 
+  name: OE22 JT. WA/NO.VA
+  id: "205"
+organizations_232: 
+  name: R07/IM09/AES10/IE13/EMB18
+  id: "232"
+organizations_018: 
+  name: AP03/ED15/MTT17 (NO)
+  id: "18"
+organizations_044: 
+  name: AP03/NPS05/AES10/ED15/MTT17/GRS29 (EAST)
+  id: "44"
+organizations_070: 
+  name: CAS04/CS23/SMC28
+  id: "70"
+organizations_125: 
+  name: EM14 (TRINIDAD & TOBAGO)
+  id: "125"
+organizations_151: 
+  name: IA34 JT. NO.VA/WASH
+  id: "151"
+organizations_206: 
+  name: OE22/GRS29
+  id: "206"
+organizations_233: 
+  name: R07/PSE43
+  id: "233"
+organizations_019: 
+  name: AP03/ED15/MTT17 (PENANG)
+  id: "19"
+organizations_045: 
+  name: AP03/NPS05/MTT17/EMC27
+  id: "45"
+organizations_071: 
+  name: CAS04/ED15
+  id: "71"
+organizations_126: 
+  name: EM14 JT. SCV/SF
+  id: "126"
+organizations_152: 
+  name: IA34/IE13/PEL35
+  id: "152"
+organizations_207: 
+  name: PC26
+  id: "207"
+organizations_260: 
+  name: SP01/IM09
+  id: "260"
+organizations_234: 
+  name: RA24
+  id: "234"
+organizations_046: 
+  name: AP03/VT06/COM19
+  id: "46"
+organizations_072: 
+  name: CAS04/ED15/CPMT21/LEO36
+  id: "72"
+organizations_127: 
+  name: EM14 JT. WA/NO.VA
+  id: "127"
+organizations_153: 
+  name: IA34/PEL35
+  id: "153"
+organizations_208: 
+  name: PC26 JT. MEXICO/MORELOS
+  id: "208"
+organizations_261: 
+  name: SP01/IT12
+  id: "261"
+organizations_235: 
+  name: RL07
+  id: "235"
+organizations_047: 
+  name: AP03/VT06/EMC27
+  id: "47"
+organizations_073: 
+  name: CAS04/ED15/EMB18/PEL35
+  id: "73"
+organizations_128: 
+  name: EM14/C16
+  id: "128"
+organizations_154: 
+  name: IA34/PEL35 (C&S)
+  id: "154"
+organizations_180: 
+  name: IT12/COM19
+  id: "180"
+organizations_209: 
+  name: PE31
+  id: "209"
+organizations_262: 
+  name: SP01/IT12/COM19
+  id: "262"
+organizations_236: 
+  name: SIT30
+  id: "236"
+organizations_048: 
+  name: AP03/VT06/MTT17
+  id: "48"
+organizations_074: 
+  name: CAS04/ED15/SSC37
+  id: "74"
+organizations_129: 
+  name: EM14/E25/PC26
+  id: "129"
+organizations_155: 
+  name: IA34/PEL35/IE13
+  id: "155"
+organizations_181: 
+  name: LEO36
+  id: "181"
+organizations_263: 
+  name: SP01/IT12/COM19 (JT CNC/WS)
+  id: "263"
+organizations_237: 
+  name: SIT30 JT. NO.VA/BALT/WASH
+  id: "237"
+organizations_049: 
+  name: BT02
+  id: "49"
+organizations_075: 
+  name: CAS04/IM09/C16/MTT17
+  id: "75"
+organizations_156: 
+  name: IE13
+  id: "156"
+organizations_182: 
+  name: LEO36 (JT GREECE/BULGARIA/ROMANIA/YUGOSLAVIA)
+  id: "182"
+organizations_264: 
+  name: SP01/NPS05/C16/EMB18
+  id: "264"
+organizations_238: 
+  name: SMC28
+  id: "238"
+organizations_076: 
+  name: CAS04/SSC37
+  id: "76"
+organizations_157: 
+  name: IE13/C16
+  id: "157"
+organizations_183: 
+  name: LEO36 (NOVOSIBIRSK)
+  id: "183"
+organizations_265: 
+  name: SP01/OE22/GRS29
+  id: "265"
+organizations_239: 
+  name: SMC28 (BAODING)
+  id: "239"
+organizations_077: 
+  name: CE08
+  id: "77"
+organizations_158: 
+  name: IE13/C16/CS23
+  id: "158"
+organizations_184: 
+  name: LEO36 JT SCV/OEB/SF
+  id: "184"
+organizations_266: 
+  name: SP01/VT06/COM19
+  id: "266"
+organizations_078: 
+  name: CE08/COM19
+  id: "78"
+organizations_159: 
+  name: IE13/CS23/RA24/IA34/PEL35
+  id: "159"
+organizations_185: 
+  name: LEO36 JT. WA/NO.VA
+  id: "185"
+organizations_267: 
+  name: SSC37
+  id: "267"
+organizations_079: 
+  name: CIS11
+  id: "79"
+organizations_186: 
+  name: LEO36/ED15
+  id: "186"
+organizations_region: 
+  name: (region)
+  id: "287"

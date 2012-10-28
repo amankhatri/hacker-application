@@ -1,0 +1,107 @@
+    <!DOCTYPE HTML>
+	<html>  
+    <head>  
+	<META CHARSET= "iso-8859-1">
+	<META NAME="author"   CONTENT="Aman Khatri">
+	<!--Credits: kalyan-city.blogspot.com/ -->
+    <title>Javascript Calculator - Homework 4</title>  
+       
+    <script language="javascript" type="text/javascript">  
+    function multiply(){  
+    a=Number(document.calculator.number1.value);  
+    b=Number(document.calculator.number2.value);  
+    c=a*b;  
+    document.calculator.number2.value=c;  
+	document.calculator.number1.value="";
+    }  
+    </script>  
+      
+    <script language="javascript" type="text/javascript">  
+    function addition(){  
+    a=Number(document.calculator.number1.value);  
+    b=Number(document.calculator.number2.value);  
+    c=a+b;  
+    document.calculator.number2.value=c;  
+	document.calculator.number1.value="";
+    }  
+    </script>  
+      
+    <script language="javascript" type="text/javascript">  
+    function subtraction(){  
+    a=Number(document.calculator.number1.value);  
+    b=Number(document.calculator.number2.value);  
+    c=a-b;  
+    document.calculator.number2.value=c;  
+	document.calculator.number1.value="";
+    }  
+    </script>  
+      
+    <script language="javascript" type="text/javascript">  
+    function division(){  
+    a=Number(document.calculator.number1.value);  
+    b=Number(document.calculator.number2.value);  
+    c=a/b;  
+    document.calculator.number2.value=c;  
+	document.calculator.number1.value="";
+    }  
+    </script>  
+      
+    <script language="javascript" type="text/javascript">  
+    function modulus(){  
+    a=Number(document.calculator.number1.value);  
+    b=Number(document.calculator.number2.value);  
+    c=a%b;  
+    document.calculator.number2.value=c;
+	document.calculator.number1.value="";
+    }  
+    </script> 
+	
+    <script language="javascript" type="text/javascript">
+	function and()
+	{
+	a=Number(document.calculator.number1.value);
+	b=Number(document.calculator.number2.value);
+	c=a&b;
+	document.calculator.number2.value=c;
+	document.calculator.number1.value="";
+	}
+	</script>
+	
+	<script language="javascript" type="text/javascript">
+	function or()
+	{
+	a=Number(document.calculator.number1.value);
+	b=Number(document.calculator.number2.value);
+	c=a||b;
+	document.calculator.number2.value=c;
+	document.calculator.number1.value="";
+	}
+	</script>
+	
+    </head>  
+      
+    <body>  
+      
+    <!-- Opening a HTML Form. -->   
+    <form name="calculator">  <br>
+      
+    <!-- Here user will enter 1st number. -->   
+    Number 1: <input type="text" name="number1"> <br>  
+       
+      
+    <!-- Here user will enter 2nd number. -->   
+    Number 2: <input type="text" name="number2"> <br>  
+          
+    <!-- Here respective button when clicked, calls only respective artimetic function. -->   
+    <input type="button" value="ADD" onclick="javascript:addition();"> <br> 
+    <input type="button" value="SUB" onclick="javascript:subtraction();">  <br>
+    <input type="button" value="MUL" onclick="javascript:multiply();">  <br>
+    <input type="button" value="DIV" onclick="javascript:division();">  <br>
+    <input type="button" value="MOD" onclick="javascript:modulus();">  <br>
+	<input type="button" value="AND" onclick="javascript:and();"><br>
+	<input type="button" value="OR" onclick="javascript:or();"><br>
+    </form>  
+	<br>
+    <a href="http://validator.w3.org/check?uri=referer"><b><u>Homework 4 Validator</u></b></a>
+    </body>  
+    </html>  

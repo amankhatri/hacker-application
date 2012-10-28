@@ -1,0 +1,34 @@
+<%= form_for (@meeting_registration) do |f| %>
+ 
+  <div>
+	<h1>Meeting:<%= @meeting = Meeting.find(session[:meeting_id]).title%></h1>
+    <p>
+      <label for="meeting_registrations">Attendee:</label>
+      <input type="hidden" name="meeting_registrations" class="bigdrop" id="checkin" style="width:400px"/> 
+    </p>		
+  </div>
+
+  <div>
+      If you are not currently an IEEE member but wish to receive information </br>
+      about joining please check the box</br>
+	<input id="mem_inquiry" name="mem_inquiry" type="checkbox" value = "true"></br>
+  </div>
+
+  <div>
+    <p>
+<!--# TODO fix so that the check in button has the same style as other buttons and goes to the show page for confirmation-->
+      <%= button_to("Check-in", :controller => "meeting_registrations", :class =>"main_button" ) %> 
+    </p>
+  </div>
+
+  </div>
+    <label for="meeting_registrations">To register for this meeting press "Register!"</label>
+    <a class = "main_button" href= "https://meetings.vtools.ieee.org/meeting_registration/register/<%= session[:meeting_id]%>">Register</a>
+  </div>
+
+  <div>
+    <label for="meeting_registrations">To select a different meeting press "New meeting!"</label>
+    <a class = "main_button" href="../select">New meeting</a>
+  </div>
+
+<% end %>

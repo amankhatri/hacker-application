@@ -1,0 +1,173 @@
+// Place all the styles related to the Sessions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+/*
+ *= require select2
+ *= require speakers
+ *= require awards
+ *= require awards_display
+ *= require current_meetings
+ *= require meetings
+ */
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #069;
+  max-width: 800px;
+  min-width: 375px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h1 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #000000;
+  font-size: 1.5em;
+}
+
+h2{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 1.1em;
+  color: #000000;
+}
+
+#header {
+  float: top;
+  height: 125px;
+  text-align: center;
+  border-bottom: 5px solid #009FDA;
+  padding: 6px 0 6px 0;
+  margin: 25px 0 0 0;
+
+
+  #top_logo {
+    max-width: 100px;
+    float: left;
+    display: block;
+    padding-left: 20px
+  }
+
+  #ieee_logo {
+    float: right;
+    display: block;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px
+  }
+}
+
+#main {
+  float: center;
+  min-height: 300px;
+  clear: both;
+}
+
+#sidebar-left {
+  float: left;
+  max-width: 150px;
+  height: 100%;
+
+}
+
+#content {
+  float: left;
+  padding-left: 20px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#sidebar-right {
+  float: right;
+
+  fieldset {
+
+  }
+}
+
+#footer {
+  float: bottom;
+  border-top: 5px solid #009FDA;
+  padding: 6px 0 6px 0;
+  margin: 25px 0 0 0;
+  width: 100%;
+  height: 100px;
+  font-size: .8em;
+  clear: both;
+  text-align: right;
+
+  #footer-inner-left {
+    float: left;
+    margin-top: 10px;
+
+    #powered_by {
+      color: #666;
+      font-size: .6em;
+      margin: 0 0 0 15px;
+      display: block;
+      margin-bottom: 2px;
+    }
+  }
+
+  #footer-links {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  #footer-copyright {
+    color: #808080;
+  }
+}
+
+.main_button {
+  display: inline-block;
+  text-align: center;
+  width: 180px;
+  margin: 10px 10px;
+  padding: 8px;
+  font-size: .9em;
+  font-weight: bold;
+  vertical-align: middle !important;
+  color: white !important;
+  text-decoration: none;
+  text-shadow: 1px 1px 0px black;
+  background: rgb(139, 172, 230);
+  background: -moz-linear-gradient(269deg, rgb(139, 172, 230) 31%, rgb(83, 123, 250) 88%);
+  background: -webkit-linear-gradient(269deg, rgb(139, 172, 230) 31%, rgb(83, 123, 250) 88%);
+  background: -o-linear-gradient(269deg, rgb(139, 172, 230) 31%, rgb(83, 123, 250) 88%);
+  background: -ms-linear-gradient(269deg, rgb(139, 172, 230) 31%, rgb(83, 123, 250) 88%);
+  background: linear-gradient(269deg, rgb(139, 172, 230) 31%, rgb(83, 123, 250) 88%);
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  -moz-box-shadow: 0 0 3px 1px #c7c7c7;
+  -webkit-box-shadow: 0 0 3px 1px #C7C7C7;
+  box-shadow: 0 0 3px 1px #C7C7C7;
+}
+
+.main_button:hover {
+  background: -moz-linear-gradient(269deg, rgb(83, 123, 250) 31%, rgb(139, 172, 230) 88%);
+  background: -webkit-linear-gradient(269deg, rgb(83, 123, 250) 31%, rgb(139, 172, 230) 88%);
+  background: -o-linear-gradient(269deg, rgb(83, 123, 250) 31%, rgb(139, 172, 230) 88%);
+  background: -ms-linear-gradient(269deg, rgb(83, 123, 250) 31%, rgb(139, 172, 230) 88%);
+  background: linear-gradient(269deg, rgb(83, 123, 250) 31%, rgb(139, 172, 230) 88%);
+  -moz-box-shadow:inset 0 0 4px #999999;
+  -webkit-box-shadow:inset 0 0 4px #999999;
+  box-shadow:inset 0 0 4px #999999;
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+}
+
+.main_button:active {
+  color: #FFFFFF !important;
+  position:relative;
+  top:2px;
+}
+
+
+

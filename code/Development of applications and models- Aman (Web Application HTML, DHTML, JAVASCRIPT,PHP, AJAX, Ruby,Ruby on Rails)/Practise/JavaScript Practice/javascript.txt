@@ -1,0 +1,22 @@
+<html>
+<body>
+<script type = "text/javascript">
+var x = document.getElementByName("frstNum");
+var y = document.getElementByName("secNum");
+Var opCode = document.getElementbyName('Operation').name;
+if(opCode ="Add")
+document.write(x+y);
+elseif(opCode ="Substract")
+document.write(x-y);
+elseif(opCode = "Multiply")
+document.write(x*y);
+elseif(opCode = "Modulus")
+document.write(x-y);
+elseif(opCode = "And")
+document.write(x&&y);
+elseif(opCode = "Or")
+document.write(x||y);
+end
+</script>
+</body>
+</html>

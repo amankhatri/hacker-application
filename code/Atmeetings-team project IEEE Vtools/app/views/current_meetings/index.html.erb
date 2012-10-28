@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <p id="notice"><%= notice %></p>
+  <div id="meeting_title">
+    <h1>Meeting Details</h1>
+    <b class="label">Title:</b>
+    <p class="info"><%= @meetings.title.presence || 'Not available' %> </p>
+  </div>
+
+  <div id="meeting_description">
+    <b class="label">Description:</b>
+    <p class="info"><%= @meetings.description.presence || 'Not available' %></p>
+  </div>
+
+  <div id="meeting_location">
+    <b class="label">Location:</b>
+    <p class="info"><%= @meetings.address1.presence %>
+    <%= @meetings.address2.presence %>
+    <%= @meetings.city.presence || 'Not available' %></p>
+  </div>
+
+  <div id="meeting_contact">
+    <b class="label">Contact:</b>
+    <p class="info"><%= @meetings.contact_email.presence || 'Not available' %></p>
+  </div>
+
+  <div id="meeting_speaker_details">
+    <h1>Speaker Details </h1>
+    <% @speakers.each do |s| %>
+      <b class="label">Name: </b>
+      <p class="info"><%= s.display_name.presence || 'Not available' %></p>
+      <b class="label">Organization: </b>
+      <p class="info"><%= s.organization.presence || 'Not available'%></p>
+      <div id="speaker_pic">
+        <% if s.photograph %>
+          <img class= "speaker_photograph" alt="" src="/speakers/photograph/<%= s.id.to_s %>" />
+        <% end %>
+      </div>
+      <b class="label">Biography:</b>
+      <p class="info"> <%= s.biography.presence || 'Not available' %></p>
+      <b class="label">Contact:</b>
+      <p class="info"><%=s.email.presence || 'Not available' %></p>
+
+      <div id="topic_header">
+        <h1>Topic Details</h1>
+      </div>
+
+      <div class="label">Topic:</div>
+      <div class="info"> <%= s.topic.presence || 'Not available' %></div>
+
+      <div id="topic_pic">
+        <% if s.topic_picture %>
+          <img class= "topic_picture" alt="" src="/speakers/topic_picture/<%= s.id.to_s %>" />
+        <% end %>
+      </div>
+
+      <div class="label">Topic Description:</div>
+      <div class="info">
+        <%= s.topic_description.presence || 'Not available' %>
+      </div>
+    <% end %>
+    </div>
+    <a class = "main_button" href="./home_page">Home</a>
+    <a class = "main_button" href="./meetings">Future Meetings</a>
+    <a class = "main_button" href="./awards_display">Current Meeting Awards</a>
+</html>

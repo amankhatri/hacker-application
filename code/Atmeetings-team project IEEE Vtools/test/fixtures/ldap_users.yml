@@ -1,0 +1,41 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+creator:
+  id: 1
+  section_id: 3
+  user_name: Frankie
+  member_number: 12345678
+  email: frank@jones.com
+  password_hash: 385139093ce7469565cef35a7a629f005f7208e475f2fe89de14e55606bf045f
+  password_salt: OCPFnnnO
+  role: 63
+admin:
+  id: 2
+  user_name: admin
+  password_hash: 72d6547ca670105a4ab3cc8a1fa9da5c3c2d2acab90e5bebb84856f0f0656661
+  password_salt: hHbqDjAt
+  role: 65535
+IEEE:
+  id: 3
+  section_id: 3
+  user_name: Suzie
+  email: suzie@smith.com
+  member_number: 12345688
+  password_hash: cd7dc5db926f84707690b98acabd9616bcb0afd622c926cef060370780df4b3b
+  password_salt: +ruEKAy1
+  role: 1
+guest:
+  id: 4
+  user_name: guest
+  password_hash: 472d6a6600b39dc2e0a0e8e52254c72a683429370131373a19e69825771053f3
+  password_salt: MtqqnV4m
+  role: 0
+VOLUNTEER:
+  id: 5
+  section_id: 275
+  user_name: Joan
+  email: j.smith@ieee.org
+  member_number: 88345688
+  password_hash: cd7dc5db926f84707690b98acabd9616bcb0afd622c926cef060370780df4b3b
+  password_salt: +ruEKAy1
+  role: 63
+  

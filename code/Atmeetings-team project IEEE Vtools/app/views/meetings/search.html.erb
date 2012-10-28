@@ -1,0 +1,5 @@
+<%= form_tag show_path do %>
+<p>Regions:<%= select("region", "region_id", Region.all.collect {|p| [ p.name, p.id ] }, {:include_blank => 'None'}) %> </p>
+<p>Search Term: <%= search_field_tag(:meeting_param) %> <p>
+<%= submit_tag(value = "Submit", search_meeting_path(meeting)) %>
+<% end %>

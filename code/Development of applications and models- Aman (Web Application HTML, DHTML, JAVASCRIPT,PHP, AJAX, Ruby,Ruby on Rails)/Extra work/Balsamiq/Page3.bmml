@@ -1,0 +1,46 @@
+<mockup version="1.0" skin="sketch" measuredW="911" measuredH="751" mockupW="599" mockupH="707">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="312" y="44" w="599" h="707" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>2848996</color>
+        <text>A%20Web%20Page%0Ahttps%3A//meetings.vtools.ieee.org</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="315" y="114" w="592" h="139" measuredW="572" measuredH="429" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./meeting.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::TextArea" x="635" y="386" w="158" h="22" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="523" y="355" w="156" h="35" measuredW="135" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Attendee%27s%20Information</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::PointyButton" x="786" y="466" w="98" h="-1" measuredW="65" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Confirm%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::TextArea" x="635" y="423" w="158" h="21" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="545" y="387" w="90" h="21" measuredW="44" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Name%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="545" y="423" w="90" h="21" measuredW="80" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Date%20of%20Birth</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

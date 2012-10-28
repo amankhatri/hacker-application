@@ -1,0 +1,14 @@
+<%= form_for (@meeting_registration) do |f| %>
+
+    <div>
+      <p style="font-size: 28pt">
+        <label>You have successfully checked into the :<%= @meeting = Meeting.find(session[:meeting_id]).title%>meeting</label>
+      <p style="font-size: 20pt">
+    <div/>
+<!--#TODO fix so that once a user is checked a confirmation page is given with-->
+    <div>
+      <label for="Press change meetings button to register for a different meeting:</label>
+      <a class = "main_button" href="../select">New meeting</a>
+    </div>
+
+<% end %>

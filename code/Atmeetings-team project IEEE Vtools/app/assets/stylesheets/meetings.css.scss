@@ -1,0 +1,35 @@
+// Place all the styles related to the Meetings controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.meetings{
+  h1{
+    margin: 0;
+    padding-bottom: 0.5em;
+    font: 150% sans-serif;
+    color: #226;
+  }
+  
+  table tr td {
+  padding: 6px;  
+  vertical-align: top;
+  max-width: 800px;
+  }
+
+  .meetings_list{
+
+  }
+
+  .line_odd{
+    background: #e0f8f8;
+  }
+
+  .line_even{
+    background: white;
+  }
+
+  dl{
+    color: #224;
+    font-weight: bold;
+  }
+  
+}

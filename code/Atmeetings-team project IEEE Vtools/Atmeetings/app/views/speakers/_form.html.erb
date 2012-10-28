@@ -1,0 +1,143 @@
+<%= form_for(@speakers) do |f| %>
+  <% if @speakers.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@speakers.errors.count, "error") %>prohibited this speaker from being saved:</h2>
+
+      <ul>
+        <% @speakers.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :display_name %><br />
+    <!-- START_HIGHLIGHT -->
+    <%= f.text_field :display_name, size: 40 %>
+    <!-- END_HIGHLIGHT -->
+  </div>
+
+  <div class="field">
+    <%= f.label :organization %><br />
+    <!-- START_HIGHLIGHT -->
+    <%= f.text_field :organization, size: 40 %>
+    <!-- END_HIGHLIGHT -->
+  </div>
+
+  <div class="field">
+    <%= f.label :prefix %><br />
+    <!-- START_HIGHLIGHT -->
+    <%= f.text_field :prefix, size: 40 %>
+    <!-- END_HIGHLIGHT -->
+  </div>
+
+  <div class="field">
+    <%= f.label :suffix %><br />
+    <!-- START_HIGHLIGHT -->
+    <%= f.text_field :suffix, size: 40 %>
+    <!-- END_HIGHLIGHT -->
+  </div>
+
+  <div class="field">
+    <%= f.label :first_name %><br />
+    <!-- START_HIGHLIGHT -->
+    <%= f.text_field :first_name, size: 40 %>
+    <!-- END_HIGHLIGHT -->
+  </div>
+
+  <div class="field">
+    <%= f.label :middle_name %><br />
+    <!-- START_HIGHLIGHT -->
+    <%= f.text_field :middle_name, size: 40 %>
+    <!-- END_HIGHLIGHT -->
+  </div>
+
+  <div class="field">
+    <%= f.label :last_name %><br />
+    <!-- START_HIGHLIGHT -->
+    <%= f.text_field :last_name, size: 40 %>
+    <!-- END_HIGHLIGHT -->
+  </div>
+
+  <div class="field">
+    <%= f.label :biography %><br />
+    <!-- START_HIGHLIGHT -->
+    <%= f.text_area :biography, rows: 3, cols: 40 %>
+    <!-- END_HIGHLIGHT -->
+  </div>
+
+  <div class="field">
+    <%= f.label :address1 %><br />
+    <!-- START_HIGHLIGHT -->
+    <%= f.text_area :address1, rows: 1, cols: 40 %>
+    <!-- END_HIGHLIGHT -->
+  </div>
+
+  <div class="field">
+    <%= f.label :address2 %><br />
+    <!-- START_HIGHLIGHT -->
+    <%= f.text_area :address2, rows: 1, cols: 40 %>
+    <!-- END_HIGHLIGHT -->
+  </div>
+
+  <div class="field">
+    <%= f.label :city %><br />
+    <!-- START_HIGHLIGHT -->
+    <%= f.text_area :city, rows: 1, cols: 40 %>
+    <!-- END_HIGHLIGHT -->
+  </div>
+
+  <div class="field">
+    <%= f.label :state_id %><br />
+    <!-- START_HIGHLIGHT -->
+    <%= f.text_area :state_id, rows: 1, cols: 40 %>
+    <!-- END_HIGHLIGHT -->
+  </div>
+
+  <div class="field">
+    <%= f.label :country_id %><br />
+    <!-- START_HIGHLIGHT -->
+    <%= f.text_area :country_id, rows: 1, cols: 40 %>
+    <!-- END_HIGHLIGHT -->
+  </div>
+
+  <div class="field">
+    <%= f.label :postal_code %><br />
+    <!-- START_HIGHLIGHT -->
+    <%= f.text_area :postal_code, rows: 1, cols: 40 %>
+    <!-- END_HIGHLIGHT -->
+  </div>
+
+  <div class="field">
+    <%= f.label :email %><br />
+    <!-- START_HIGHLIGHT -->
+    <%= f.email_field :email, size: 40 %>
+    <!-- END_HIGHLIGHT -->
+  </div>
+
+  <div class="field">
+    <%= f.label :topic %><br />
+    <!-- START_HIGHLIGHT -->
+    <%= f.text_area :topic, rows: 1, cols: 40 %>
+    <!-- END_HIGHLIGHT -->
+  </div>
+
+  <div class="field">
+    <%= f.label :topic_description %><br />
+    <!-- START_HIGHLIGHT -->
+    <%= f.text_field :topic_description, size: 40 %>
+    <!-- END_HIGHLIGHT -->
+  </div>
+
+  <div id="meeting_id">
+    Meeting ID:
+    <%= @speakers.meeting_id %>
+  </div>
+
+  <div class="actions">
+    <!-- START_HIGHLIGHT -->
+    <%= f.submit 'Confirm Changes' %>
+    <!-- END_HIGHLIGHT -->
+  </div>
+<% end %>

@@ -1,0 +1,32 @@
+<div class="">
+  <% if flash[:alert] %>
+      <div id="wrong_entry"><p id="notice"><%= flash[:alert] %></p></div>
+  <% end %>
+
+  <%= form_tag do %>
+      <fieldset>
+        <!use a legend tag here if you want to revert back to the old way>
+        <p>Use your IEEE Credentials to login.</p>
+        <a href="http://www.ieee.org/about/help/my_account/web_account.html#sect1">create/update IEEE Credentials</a>
+        <br />
+        <br />
+        <div>
+          <%= label_tag :name, 'Name:' %><br />
+          <div class="form-field">
+            <%= text_field_tag :name, params[:name] %>
+          </div>
+        </div>
+
+        <div>
+          <%= label_tag :password, 'Password:' %><br />
+          <div class="form-field">
+            <%= password_field_tag :password, params[:password] %>
+            </div>
+        </div>
+        <br />
+        <div>
+          <%= submit_tag "Login" %>
+        </div>
+      </fieldset>
+  <% end %>
+</div>

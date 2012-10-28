@@ -1,0 +1,1686 @@
+--- 
+sections_275: 
+  name: SOUTHEASTERN MICHIGAN
+  geocode: R40035
+  id: "275"
+  region_id: "4"
+sections_248: 
+  name: SACRAMENTO VALLEY
+  geocode: R60035
+  id: "248"
+  region_id: "6"
+sections_194: 
+  name: NEW ZEALAND SOUTH
+  geocode: R00339
+  id: "194"
+  region_id: "10"
+sections_087: 
+  name: EASTERN MONTANA
+  geocode: R60065
+  id: "87"
+  region_id: "6"
+sections_167: 
+  name: METRO SEC. ACT. COUNCIL
+  geocode: R103
+  id: "167"
+  region_id: "1"
+sections_249: 
+  name: SAINT LOUIS
+  geocode: R50025
+  id: "249"
+  region_id: "5"
+sections_195: 
+  name: NEWFOUNDLAND-LABRADOR
+  geocode: R70037
+  id: "195"
+  region_id: "7"
+sections_088: 
+  name: EASTERN NORTH CAROLINA
+  geocode: R30171
+  id: "88"
+  region_id: "3"
+sections_168: 
+  name: METROPOLITAN LOS ANGELES
+  geocode: R60123
+  id: "168"
+  region_id: "6"
+sections_276: 
+  name: SOUTHERN ALBERTA
+  geocode: R70023
+  id: "276"
+  region_id: "7"
+sections_169: 
+  name: MEXICAN COUNCIL
+  geocode: R903
+  id: "169"
+  region_id: "9"
+sections_196: 
+  name: NICARAGUA
+  geocode: R90557
+  id: "196"
+  region_id: "9"
+sections_277: 
+  name: SOUTHERN MINNESOTA
+  geocode: R40037
+  id: "277"
+  region_id: "4"
+sections_089: 
+  name: ECUADOR
+  geocode: R90729
+  id: "89"
+  region_id: "9"
+sections_197: 
+  name: NIGERIA
+  geocode: R80039
+  id: "197"
+  region_id: "8"
+sections_278: 
+  name: SOUTHERN NEW JERSEY
+  geocode: R20041
+  id: "278"
+  region_id: "2"
+sections_198: 
+  name: NORTH CAROLINA COUNCIL
+  geocode: R301
+  id: "198"
+  region_id: "3"
+sections_279: 
+  name: SPAIN
+  geocode: R80023
+  id: "279"
+  region_id: "8"
+sections_010: 
+  name: ARKANSAS RIVER VALLEY
+  geocode: R50047
+  id: "10"
+  region_id: "5"
+sections_199: 
+  name: NORTH JERSEY
+  geocode: R10327
+  id: "199"
+  region_id: "1"
+sections_011: 
+  name: ARROWHEAD
+  geocode: R40001
+  id: "11"
+  region_id: "4"
+sections_012: 
+  name: ATLANTA
+  geocode: R30003
+  id: "12"
+  region_id: "3"
+sections_120: 
+  name: HUNGARY
+  geocode: R80051
+  id: "120"
+  region_id: "8"
+sections_200: 
+  name: NORTH QUEENSLAND
+  geocode: R00575
+  id: "200"
+  region_id: "10"
+sections_013: 
+  name: AUSTRALIAN CAPITAL TERRITORY
+  geocode: R00561
+  id: "13"
+  region_id: "10"
+sections_040: 
+  name: CANADIAN ATLANTIC
+  geocode: R70033
+  id: "40"
+  region_id: "7"
+sections_121: 
+  name: HUNTSVILLE
+  geocode: R30025
+  id: "121"
+  region_id: "3"
+sections_201: 
+  name: NORTH SASKATCHEWAN
+  geocode: R70039
+  id: "201"
+  region_id: "7"
+sections_014: 
+  name: AUSTRALIAN COUNCIL
+  geocode: R05
+  id: "14"
+  region_id: "10"
+sections_041: 
+  name: CANAVERAL
+  geocode: R30507
+  id: "41"
+  region_id: "3"
+sections_202: 
+  name: NORTHEAST MICHIGAN
+  geocode: R40025
+  id: "202"
+  region_id: "4"
+sections_310: 
+  name: VERACRUZ
+  geocode: R90365
+  id: "310"
+  region_id: "9"
+sections_230: 
+  name: PUEBLA
+  geocode: R90363
+  id: "230"
+  region_id: "9"
+sections_015: 
+  name: AUSTRIA
+  geocode: R80037
+  id: "15"
+  region_id: "8"
+sections_042: 
+  name: CEDAR RAPIDS
+  geocode: R40003
+  id: "42"
+  region_id: "4"
+sections_122: 
+  name: HYDERABAD
+  geocode: R00149
+  id: "122"
+  region_id: "10"
+sections_203: 
+  name: NORTHEASTERN WISCONSIN
+  geocode: R40027
+  id: "203"
+  region_id: "4"
+sections_311: 
+  name: VICTORIA
+  geocode: R70029
+  id: "311"
+  region_id: "7"
+sections_231: 
+  name: PUERTO RICO & CARIBBEAN
+  geocode: R90009
+  id: "231"
+  region_id: "9"
+sections_016: 
+  name: BAHIA
+  geocode: R90127
+  id: "16"
+  region_id: "9"
+sections_043: 
+  name: CENTRAL AMERICA & PANAMA COUNCIL
+  geocode: R905
+  id: "43"
+  region_id: "9"
+sections_123: 
+  name: ICELAND
+  geocode: R80081
+  id: "123"
+  region_id: "8"
+sections_150: 
+  name: LEBANON
+  geocode: R80091
+  id: "150"
+  region_id: "8"
+sections_204: 
+  name: NORTHERN CANADA
+  geocode: R70013
+  id: "204"
+  region_id: "7"
+sections_312: 
+  name: VICTORIAN
+  geocode: R00543
+  id: "312"
+  region_id: "10"
+sections_017: 
+  name: BAHRAIN
+  geocode: R80083
+  id: "17"
+  region_id: "8"
+sections_044: 
+  name: CENTRAL COAST
+  geocode: R60145
+  id: "44"
+  region_id: "6"
+sections_070: 
+  name: COLUMBUS
+  geocode: R20013
+  id: "70"
+  region_id: "2"
+sections_124: 
+  name: INDIA COUNCIL
+  geocode: R001
+  id: "124"
+  region_id: "10"
+sections_151: 
+  name: LEHIGH VALLEY
+  geocode: R20027
+  id: "151"
+  region_id: "2"
+sections_205: 
+  name: NORTHERN NEVADA
+  geocode: R60073
+  id: "205"
+  region_id: "6"
+sections_313: 
+  name: VIRGINIA COUNCIL
+  geocode: R309
+  id: "313"
+  region_id: "3"
+sections_232: 
+  name: QATAR
+  geocode: R80095
+  id: "232"
+  region_id: "8"
+sections_018: 
+  name: BALTIMORE
+  geocode: R20003
+  id: "18"
+  region_id: "2"
+sections_071: 
+  name: CONNECTICUT
+  geocode: R10309
+  id: "71"
+  region_id: "1"
+sections_125: 
+  name: INDONESIA
+  geocode: R00059
+  id: "125"
+  region_id: "10"
+sections_152: 
+  name: LEXINGTON
+  geocode: R30029
+  id: "152"
+  region_id: "3"
+sections_206: 
+  name: NORTHERN VIRGINIA
+  geocode: R20049
+  id: "206"
+  region_id: "2"
+sections_314: 
+  name: VIRGINIA MOUNTAIN
+  geocode: R30965
+  id: "314"
+  region_id: "3"
+sections_260: 
+  name: SEATTLE
+  geocode: R60049
+  id: "260"
+  region_id: "6"
+sections_233: 
+  name: QUEBEC
+  geocode: R70017
+  id: "233"
+  region_id: "7"
+sections_019: 
+  name: BANGALORE
+  geocode: R00119
+  id: "19"
+  region_id: "10"
+sections_045: 
+  name: CENTRAL GEORGIA
+  geocode: R30093
+  id: "45"
+  region_id: "3"
+sections_072: 
+  name: CORPUS CHRISTI
+  geocode: R50007
+  id: "72"
+  region_id: "5"
+sections_126: 
+  name: IOWA-ILLINOIS
+  geocode: R40017
+  id: "126"
+  region_id: "4"
+sections_153: 
+  name: LIMA
+  geocode: R20029
+  id: "153"
+  region_id: "2"
+sections_207: 
+  name: NORTHWEST FLORIDA
+  geocode: R30557
+  id: "207"
+  region_id: "3"
+sections_315: 
+  name: WASHINGTON
+  geocode: R20019
+  id: "315"
+  region_id: "2"
+sections_261: 
+  name: SENDAI
+  geocode: R00979
+  id: "261"
+  region_id: "10"
+sections_234: 
+  name: QUEENSLAND
+  geocode: R00553
+  id: "234"
+  region_id: "10"
+sections_046: 
+  name: CENTRAL ILLINOIS
+  geocode: R40005
+  id: "46"
+  region_id: "4"
+sections_073: 
+  name: COSTA RICA
+  geocode: R90533
+  id: "73"
+  region_id: "9"
+sections_127: 
+  name: IRAN
+  geocode: R80027
+  id: "127"
+  region_id: "8"
+sections_154: 
+  name: LITHUANIAN
+  geocode: R80097
+  id: "154"
+  region_id: "8"
+sections_180: 
+  name: MONTERREY
+  geocode: R90331
+  id: "180"
+  region_id: "9"
+sections_208: 
+  name: NORWAY
+  geocode: R80013
+  id: "208"
+  region_id: "8"
+sections_316: 
+  name: WEST MICHIGAN
+  geocode: R40043
+  id: "316"
+  region_id: "4"
+sections_262: 
+  name: SEOUL
+  geocode: R00017
+  id: "262"
+  region_id: "10"
+sections_235: 
+  name: QUERETARO
+  geocode: R90361
+  id: "235"
+  region_id: "9"
+sections_047: 
+  name: CENTRAL INDIANA
+  geocode: R40007
+  id: "47"
+  region_id: "4"
+sections_074: 
+  name: CROATIA
+  geocode: R80065
+  id: "74"
+  region_id: "8"
+sections_128: 
+  name: ISLAMABAD
+  geocode: R00091
+  id: "128"
+  region_id: "10"
+sections_181: 
+  name: MONTREAL
+  geocode: R70009
+  id: "181"
+  region_id: "7"
+sections_209: 
+  name: OAKLAND-EAST BAY
+  geocode: R60367
+  id: "209"
+  region_id: "6"
+sections_317: 
+  name: WEST VIRGINIA
+  geocode: R20045
+  id: "317"
+  region_id: "2"
+sections_263: 
+  name: SERBIA AND MONTENEGRO
+  geocode: R80069
+  id: "263"
+  region_id: "8"
+sections_236: 
+  name: RED RIVER VALLEY
+  geocode: R40049
+  id: "236"
+  region_id: "4"
+sections_048: 
+  name: CENTRAL IOWA
+  geocode: R40009
+  id: "48"
+  region_id: "4"
+sections_075: 
+  name: CYPRUS
+  geocode: R80073
+  id: "75"
+  region_id: "8"
+sections_129: 
+  name: ISRAEL
+  geocode: R80009
+  id: "129"
+  region_id: "8"
+sections_155: 
+  name: LONDON
+  geocode: R70007
+  id: "155"
+  region_id: "7"
+sections_182: 
+  name: MORELOS
+  geocode: R90341
+  id: "182"
+  region_id: "9"
+sections_318: 
+  name: WESTERN AUSTRALIA
+  geocode: R00547
+  id: "318"
+  region_id: "10"
+sections_290: 
+  name: TALLAHASSEE AREA
+  geocode: R30555
+  id: "290"
+  region_id: "3"
+sections_264: 
+  name: SHIKOKU
+  geocode: R00987
+  id: "264"
+  region_id: "10"
+sections_237: 
+  name: REPUBLIC OF MACEDONIA
+  geocode: R80077
+  id: "237"
+  region_id: "8"
+sections_049: 
+  name: CENTRAL NEW ENGLAND COUNCIL
+  geocode: R101
+  id: "49"
+  region_id: "1"
+sections_076: 
+  name: CZECHOSLOVAKIA
+  geocode: R80071
+  id: "76"
+  region_id: "8"
+sections_156: 
+  name: LONG ISLAND
+  geocode: R10315
+  id: "156"
+  region_id: "1"
+sections_183: 
+  name: MOROCCO
+  geocode: R80093
+  id: "183"
+  region_id: "8"
+sections_319: 
+  name: WESTERN MONTANA
+  geocode: R60075
+  id: "319"
+  region_id: "6"
+sections_291: 
+  name: TENNESSEE COUNCIL
+  geocode: R307
+  id: "291"
+  region_id: "3"
+sections_238: 
+  name: REPUBLIC OF THE PHILIPPINES
+  geocode: R00015
+  id: "238"
+  region_id: "10"
+sections_077: 
+  name: DAEJEON
+  geocode: R00067
+  id: "77"
+  region_id: "10"
+sections_157: 
+  name: LOS ALAMOS/NORTHERN NEW MEXICO
+  geocode: R60071
+  id: "157"
+  region_id: "6"
+sections_184: 
+  name: NAGOYA
+  geocode: R00981
+  id: "184"
+  region_id: "10"
+sections_292: 
+  name: THAILAND
+  geocode: R00029
+  id: "292"
+  region_id: "10"
+sections_265: 
+  name: SHREVEPORT
+  geocode: R50027
+  id: "265"
+  region_id: "5"
+sections_239: 
+  name: RICHLAND
+  geocode: R60033
+  id: "239"
+  region_id: "6"
+sections_158: 
+  name: LOS ANGELES COUNCIL
+  geocode: R601
+  id: "158"
+  region_id: "6"
+sections_185: 
+  name: NEBRASKA
+  geocode: R40023
+  id: "185"
+  region_id: "4"
+sections_293: 
+  name: TOKYO
+  geocode: R00913
+  id: "293"
+  region_id: "10"
+sections_266: 
+  name: SINGAPORE
+  geocode: R00025
+  id: "266"
+  region_id: "10"
+sections_078: 
+  name: DALLAS
+  geocode: R50009
+  id: "78"
+  region_id: "5"
+sections_159: 
+  name: LOUISVILLE
+  geocode: R30031
+  id: "159"
+  region_id: "3"
+sections_186: 
+  name: NEW BRUNSWICK
+  geocode: R70035
+  id: "186"
+  region_id: "7"
+sections_294: 
+  name: TOLEDO
+  geocode: R40039
+  id: "294"
+  region_id: "4"
+sections_267: 
+  name: SIOUXLAND
+  geocode: R40031
+  id: "267"
+  region_id: "4"
+sections_079: 
+  name: DAYTON
+  geocode: R20015
+  id: "79"
+  region_id: "2"
+sections_187: 
+  name: NEW HAMPSHIRE
+  geocode: R10123
+  id: "187"
+  region_id: "1"
+sections_295: 
+  name: TORONTO
+  geocode: R70025
+  id: "295"
+  region_id: "7"
+sections_268: 
+  name: SLOVENIA
+  geocode: R80067
+  id: "268"
+  region_id: "8"
+sections_296: 
+  name: TRI CITIES
+  geocode: R30791
+  id: "296"
+  region_id: "3"
+sections_269: 
+  name: SOUTH AFRICA
+  geocode: R80041
+  id: "269"
+  region_id: "8"
+sections_188: 
+  name: NEW JERSEY COAST
+  geocode: R10345
+  id: "188"
+  region_id: "1"
+sections_297: 
+  name: TRINIDAD AND TOBAGO
+  geocode: R90067
+  id: "297"
+  region_id: "9"
+sections_189: 
+  name: NEW ORLEANS
+  geocode: R50051
+  id: "189"
+  region_id: "5"
+sections_298: 
+  name: TUCSON
+  geocode: R60055
+  id: "298"
+  region_id: "6"
+sections_001: 
+  name: AGUASCALIENTES
+  geocode: R90353
+  id: "1"
+  region_id: "9"
+sections_299: 
+  name: TULSA
+  geocode: R50031
+  id: "299"
+  region_id: "5"
+sections_002: 
+  name: AKRON
+  geocode: R20001
+  id: "2"
+  region_id: "2"
+sections_110: 
+  name: GUANAJUATO
+  geocode: R90355
+  id: "110"
+  region_id: "9"
+sections_003: 
+  name: ALABAMA
+  geocode: R30001
+  id: "3"
+  region_id: "3"
+sections_030: 
+  name: BOMBAY
+  geocode: R00121
+  id: "30"
+  region_id: "10"
+sections_004: 
+  name: ALAMOGORDO-HOLLOMAN
+  geocode: R60003
+  id: "4"
+  region_id: "6"
+sections_031: 
+  name: BOSTON
+  geocode: R10105
+  id: "31"
+  region_id: "1"
+sections_111: 
+  name: GUATEMALA
+  geocode: R90537
+  id: "111"
+  region_id: "9"
+sections_300: 
+  name: TURKEY
+  geocode: R80055
+  id: "300"
+  region_id: "8"
+sections_220: 
+  name: PETERBOROUGH
+  geocode: R70041
+  id: "220"
+  region_id: "7"
+sections_005: 
+  name: ALASKA
+  geocode: R60005
+  id: "5"
+  region_id: "6"
+sections_032: 
+  name: BRASILIA
+  geocode: R90115
+  id: "32"
+  region_id: "9"
+sections_112: 
+  name: GUJARAT
+  geocode: R00163
+  id: "112"
+  region_id: "10"
+sections_301: 
+  name: TWIN CITIES
+  geocode: R40041
+  id: "301"
+  region_id: "4"
+sections_006: 
+  name: ALBUQUERQUE
+  geocode: R60001
+  id: "6"
+  region_id: "6"
+sections_033: 
+  name: BRAZIL COUNCIL
+  geocode: R901
+  id: "33"
+  region_id: "9"
+sections_113: 
+  name: HAMILTON
+  geocode: R70003
+  id: "113"
+  region_id: "7"
+sections_140: 
+  name: KENYA
+  geocode: R80047
+  id: "140"
+  region_id: "8"
+sections_302: 
+  name: UKRAINE
+  geocode: R80063
+  id: "302"
+  region_id: "8"
+sections_221: 
+  name: PHILADELPHIA
+  geocode: R20035
+  id: "221"
+  region_id: "2"
+sections_007: 
+  name: ANDEAN COUNCIL
+  geocode: R907
+  id: "7"
+  region_id: "9"
+sections_060: 
+  name: CHATTANOOGA
+  geocode: R30711
+  id: "60"
+  region_id: "3"
+sections_114: 
+  name: HAMPTON ROADS
+  geocode: R30923
+  id: "114"
+  region_id: "3"
+sections_141: 
+  name: KERALA
+  geocode: R00145
+  id: "141"
+  region_id: "10"
+sections_303: 
+  name: UNITED ARAB EMIRATES
+  geocode: R80049
+  id: "303"
+  region_id: "8"
+sections_008: 
+  name: ARGENTINA
+  geocode: R90001
+  id: "8"
+  region_id: "9"
+sections_034: 
+  name: BROWARD
+  geocode: R30589
+  id: "34"
+  region_id: "3"
+sections_061: 
+  name: CHICAGO
+  geocode: R40011
+  id: "61"
+  region_id: "4"
+sections_115: 
+  name: HAWAII
+  geocode: R60017
+  id: "115"
+  region_id: "6"
+sections_142: 
+  name: KHARAGPUR
+  geocode: R00155
+  id: "142"
+  region_id: "10"
+sections_222: 
+  name: PHOENIX
+  geocode: R60029
+  id: "222"
+  region_id: "6"
+sections_304: 
+  name: U.K. & REPUBLIC OF IRELAND
+  geocode: R80015
+  id: "304"
+  region_id: "8"
+sections_250: 
+  name: SAINT MAURICE
+  geocode: R70021
+  id: "250"
+  region_id: "7"
+sections_223: 
+  name: PIEDMONT
+  geocode: R30387
+  id: "223"
+  region_id: "3"
+sections_009: 
+  name: ARKANSAS
+  geocode: R50001
+  id: "9"
+  region_id: "5"
+sections_035: 
+  name: BUENAVENTURA
+  geocode: R60109
+  id: "35"
+  region_id: "6"
+sections_062: 
+  name: CHILE
+  geocode: R90003
+  id: "62"
+  region_id: "9"
+sections_116: 
+  name: HIROSHIMA
+  geocode: R00985
+  id: "116"
+  region_id: "10"
+sections_143: 
+  name: KINGSTON
+  geocode: R70001
+  id: "143"
+  region_id: "7"
+sections_305: 
+  name: URUGUAY
+  geocode: R90043
+  id: "305"
+  region_id: "9"
+sections_251: 
+  name: SAN DIEGO
+  geocode: R60037
+  id: "251"
+  region_id: "6"
+sections_224: 
+  name: PIKES PEAK
+  geocode: R50043
+  id: "224"
+  region_id: "5"
+sections_036: 
+  name: BUFFALO
+  geocode: R10007
+  id: "36"
+  region_id: "1"
+sections_063: 
+  name: CHINA LAKE
+  geocode: R60111
+  id: "63"
+  region_id: "6"
+sections_117: 
+  name: HONDURAS
+  geocode: R90539
+  id: "117"
+  region_id: "9"
+sections_170: 
+  name: MEXICO
+  geocode: R90307
+  id: "170"
+  region_id: "9"
+sections_306: 
+  name: UTAH
+  geocode: R60057
+  id: "306"
+  region_id: "6"
+sections_252: 
+  name: SAN FERNANDO VALLEY
+  geocode: R60139
+  id: "252"
+  region_id: "6"
+sections_225: 
+  name: PITTSBURGH
+  geocode: R20037
+  id: "225"
+  region_id: "2"
+sections_037: 
+  name: BULGARIA
+  geocode: R80075
+  id: "37"
+  region_id: "8"
+sections_064: 
+  name: CINCINNATI
+  geocode: R20009
+  id: "64"
+  region_id: "2"
+sections_090: 
+  name: EGYPT
+  geocode: R80003
+  id: "90"
+  region_id: "8"
+sections_118: 
+  name: HONG KONG
+  geocode: R00007
+  id: "118"
+  region_id: "10"
+sections_144: 
+  name: KITCHENER-WATERLOO
+  geocode: R70005
+  id: "144"
+  region_id: "7"
+sections_171: 
+  name: MIAMI
+  geocode: R30535
+  id: "171"
+  region_id: "3"
+sections_307: 
+  name: UTTAR PRADESH
+  geocode: R00171
+  id: "307"
+  region_id: "10"
+sections_253: 
+  name: SAN FRANCISCO
+  geocode: R60341
+  id: "253"
+  region_id: "6"
+sections_226: 
+  name: POLAND
+  geocode: R80033
+  id: "226"
+  region_id: "8"
+sections_038: 
+  name: CALCUTTA
+  geocode: R00137
+  id: "38"
+  region_id: "10"
+sections_065: 
+  name: CLEVELAND
+  geocode: R20011
+  id: "65"
+  region_id: "2"
+sections_091: 
+  name: EL PASO
+  geocode: R50013
+  id: "91"
+  region_id: "5"
+sections_119: 
+  name: HOUSTON
+  geocode: R50017
+  id: "119"
+  region_id: "5"
+sections_145: 
+  name: KUWAIT
+  geocode: R80057
+  id: "145"
+  region_id: "8"
+sections_172: 
+  name: MID-HUDSON
+  geocode: R10019
+  id: "172"
+  region_id: "1"
+sections_308: 
+  name: VANCOUVER
+  geocode: R70027
+  id: "308"
+  region_id: "7"
+sections_280: 
+  name: SPOKANE
+  geocode: R60053
+  id: "280"
+  region_id: "6"
+sections_227: 
+  name: PORTUGAL
+  geocode: R80045
+  id: "227"
+  region_id: "8"
+sections_039: 
+  name: CALUMET
+  geocode: R40045
+  id: "39"
+  region_id: "4"
+sections_066: 
+  name: COASTAL LOS ANGELES
+  geocode: R60151
+  id: "66"
+  region_id: "6"
+sections_092: 
+  name: EL SALVADOR
+  geocode: R90535
+  id: "92"
+  region_id: "9"
+sections_146: 
+  name: KWANGJU
+  geocode: R00093
+  id: "146"
+  region_id: "10"
+sections_173: 
+  name: MILWAUKEE
+  geocode: R40021
+  id: "173"
+  region_id: "4"
+sections_309: 
+  name: VENEZUELA
+  geocode: R90719
+  id: "309"
+  region_id: "9"
+sections_281: 
+  name: SPRINGFIELD
+  geocode: R10037
+  id: "281"
+  region_id: "1"
+sections_254: 
+  name: SAN FRANCISCO BAY AREA COUNCIL
+  geocode: R603
+  id: "254"
+  region_id: "6"
+sections_228: 
+  name: PRINCETON/CENTRAL JERSEY
+  geocode: R10329
+  id: "228"
+  region_id: "1"
+sections_093: 
+  name: ERIE
+  geocode: R20023
+  id: "93"
+  region_id: "2"
+sections_147: 
+  name: LAFAYETTE
+  geocode: R50041
+  id: "147"
+  region_id: "5"
+sections_174: 
+  name: MINAS GERAIS
+  geocode: R90149
+  id: "174"
+  region_id: "9"
+sections_282: 
+  name: SRI LANKA
+  geocode: R00002
+  id: "282"
+  region_id: "10"
+sections_255: 
+  name: SANTA CLARA VALLEY
+  geocode: R60369
+  id: "255"
+  region_id: "6"
+sections_229: 
+  name: PROVIDENCE
+  geocode: R10131
+  id: "229"
+  region_id: "1"
+sections_067: 
+  name: COASTAL SOUTH CAROLINA
+  geocode: R30383
+  id: "67"
+  region_id: "3"
+sections_094: 
+  name: EVANSVILLE-OWENSBORO
+  geocode: R30015
+  id: "94"
+  region_id: "3"
+sections_148: 
+  name: LAHORE
+  geocode: R00003
+  id: "148"
+  region_id: "10"
+sections_175: 
+  name: MISSISSIPPI
+  geocode: R30039
+  id: "175"
+  region_id: "3"
+sections_283: 
+  name: SUSQUEHANNA
+  geocode: R20043
+  id: "283"
+  region_id: "2"
+sections_256: 
+  name: SAPPORO
+  geocode: R00977
+  id: "256"
+  region_id: "10"
+sections_068: 
+  name: COLOMBIA
+  geocode: R90705
+  id: "68"
+  region_id: "9"
+sections_095: 
+  name: FINLAND
+  geocode: R80035
+  id: "95"
+  region_id: "8"
+sections_149: 
+  name: LAS VEGAS
+  geocode: R60021
+  id: "149"
+  region_id: "6"
+sections_176: 
+  name: MISSOURI SLOPE
+  geocode: R40047
+  id: "176"
+  region_id: "4"
+sections_284: 
+  name: SWEDEN
+  geocode: R80019
+  id: "284"
+  region_id: "8"
+sections_257: 
+  name: SAUDI ARABIA
+  geocode: R80043
+  id: "257"
+  region_id: "8"
+sections_069: 
+  name: COLUMBIA
+  geocode: R30385
+  id: "69"
+  region_id: "3"
+sections_096: 
+  name: FLORIDA COUNCIL
+  geocode: R305
+  id: "96"
+  region_id: "3"
+sections_285: 
+  name: SWITZERLAND
+  geocode: R80007
+  id: "285"
+  region_id: "8"
+sections_258: 
+  name: SAVANNAH
+  geocode: R30061
+  id: "258"
+  region_id: "3"
+sections_097: 
+  name: FLORIDA WEST COAST
+  geocode: R30517
+  id: "97"
+  region_id: "3"
+sections_177: 
+  name: MOBILE
+  geocode: R30041
+  id: "177"
+  region_id: "3"
+sections_286: 
+  name: SYRACUSE
+  geocode: R10039
+  id: "286"
+  region_id: "1"
+sections_259: 
+  name: SCHENECTADY
+  geocode: R10035
+  id: "259"
+  region_id: "1"
+sections_098: 
+  name: FOOTHILL
+  geocode: R60113
+  id: "98"
+  region_id: "6"
+sections_178: 
+  name: MOHAWK VALLEY
+  geocode: R10021
+  id: "178"
+  region_id: "1"
+sections_099: 
+  name: FORT HUACHUCA
+  geocode: R60015
+  id: "99"
+  region_id: "6"
+sections_179: 
+  name: MONTANA
+  geocode: R60025
+  id: "179"
+  region_id: "6"
+sections_287: 
+  name: TAEGU
+  geocode: R00069
+  id: "287"
+  region_id: "10"
+sections_288: 
+  name: TAINAN
+  geocode: R00095
+  id: "288"
+  region_id: "10"
+sections_289: 
+  name: TAIPEI
+  geocode: R00011
+  id: "289"
+  region_id: "10"
+sections_020: 
+  name: BANGLADESH
+  geocode: R00073
+  id: "20"
+  region_id: "10"
+sections_100: 
+  name: FORT WAYNE
+  geocode: R40013
+  id: "100"
+  region_id: "4"
+sections_021: 
+  name: BATON ROUGE
+  geocode: R50049
+  id: "21"
+  region_id: "5"
+sections_101: 
+  name: FORT WORTH
+  geocode: R50015
+  id: "101"
+  region_id: "5"
+sections_022: 
+  name: BEAUMONT
+  geocode: R50003
+  id: "22"
+  region_id: "5"
+sections_102: 
+  name: FRANCE
+  geocode: R80005
+  id: "102"
+  region_id: "8"
+sections_103: 
+  name: FUKUOKA
+  geocode: R00989
+  id: "103"
+  region_id: "10"
+sections_130: 
+  name: ITALY
+  geocode: R80011
+  id: "130"
+  region_id: "8"
+sections_210: 
+  name: OKLAHOMA CITY
+  geocode: R50021
+  id: "210"
+  region_id: "5"
+sections_023: 
+  name: BEIJING
+  geocode: R00051
+  id: "23"
+  region_id: "10"
+sections_050: 
+  name: CENTRAL NORTH CAROLINA
+  geocode: R30167
+  id: "50"
+  region_id: "3"
+sections_104: 
+  name: GAINESVILLE
+  geocode: R30521
+  id: "104"
+  region_id: "3"
+sections_131: 
+  name: ITHACA
+  geocode: R10013
+  id: "131"
+  region_id: "1"
+sections_211: 
+  name: ORANGE COUNTY
+  geocode: R60027
+  id: "211"
+  region_id: "6"
+sections_024: 
+  name: BELARUS
+  geocode: R80085
+  id: "24"
+  region_id: "8"
+sections_051: 
+  name: CENTRAL PENNSYLVANIA
+  geocode: R20007
+  id: "51"
+  region_id: "2"
+sections_105: 
+  name: GALVESTON BAY
+  geocode: R50045
+  id: "105"
+  region_id: "5"
+sections_132: 
+  name: JACKSONVILLE
+  geocode: R30527
+  id: "132"
+  region_id: "3"
+sections_212: 
+  name: OREGON
+  geocode: R60031
+  id: "212"
+  region_id: "6"
+sections_320: 
+  name: WESTERN NORTH CAROLINA
+  geocode: R30173
+  id: "320"
+  region_id: "3"
+sections_240: 
+  name: RICHMOND
+  geocode: R30959
+  id: "240"
+  region_id: "3"
+sections_052: 
+  name: CENTRAL SAVANNAH RIVER
+  geocode: R30381
+  id: "52"
+  region_id: "3"
+sections_106: 
+  name: GERMANY
+  geocode: R80017
+  id: "106"
+  region_id: "8"
+sections_213: 
+  name: ORLANDO
+  geocode: R30551
+  id: "213"
+  region_id: "3"
+sections_025: 
+  name: BENELUX
+  geocode: R80001
+  id: "25"
+  region_id: "8"
+sections_321: 
+  name: WESTERN PUERTO RICO
+  geocode: R90045
+  id: "321"
+  region_id: "9"
+sections_241: 
+  name: RIO DE JANEIRO
+  geocode: R90111
+  id: "241"
+  region_id: "9"
+sections_053: 
+  name: CENTRAL TENNESSEE
+  geocode: R30743
+  id: "53"
+  region_id: "3"
+sections_107: 
+  name: GREECE
+  geocode: R80029
+  id: "107"
+  region_id: "8"
+sections_133: 
+  name: JAMAICA
+  geocode: R30097
+  id: "133"
+  region_id: "3"
+sections_160: 
+  name: MACAU
+  geocode: R00097
+  id: "160"
+  region_id: "10"
+sections_214: 
+  name: OTTAWA
+  geocode: R70015
+  id: "214"
+  region_id: "7"
+sections_026: 
+  name: BERKSHIRE
+  geocode: R10001
+  id: "26"
+  region_id: "1"
+sections_322: 
+  name: WESTERN SAUDI ARABIA
+  geocode: R80053
+  id: "322"
+  region_id: "8"
+sections_242: 
+  name: ROCHESTER
+  geocode: R10033
+  id: "242"
+  region_id: "1"
+sections_080: 
+  name: DAYTONA
+  geocode: R30577
+  id: "80"
+  region_id: "3"
+sections_108: 
+  name: GREEN MOUNTAIN
+  geocode: R10041
+  id: "108"
+  region_id: "1"
+sections_134: 
+  name: JAPAN COUNCIL
+  geocode: R009
+  id: "134"
+  region_id: "10"
+sections_161: 
+  name: MADISON
+  geocode: R40019
+  id: "161"
+  region_id: "4"
+sections_215: 
+  name: OZARK
+  geocode: R50037
+  id: "215"
+  region_id: "5"
+sections_027: 
+  name: BINGHAMTON
+  geocode: R10003
+  id: "27"
+  region_id: "1"
+sections_054: 
+  name: CENTRAL TEXAS
+  geocode: R50005
+  id: "54"
+  region_id: "5"
+sections_323: 
+  name: WICHITA
+  geocode: R50035
+  id: "323"
+  region_id: "5"
+sections_081: 
+  name: DELAWARE BAY
+  geocode: R20017
+  id: "81"
+  region_id: "2"
+sections_109: 
+  name: GUADALAJARA
+  geocode: R90347
+  id: "109"
+  region_id: "9"
+sections_135: 
+  name: JOHNSTOWN
+  geocode: R20025
+  id: "135"
+  region_id: "2"
+sections_162: 
+  name: MADRAS
+  geocode: R00133
+  id: "162"
+  region_id: "10"
+sections_216: 
+  name: PALM BEACH
+  geocode: R30553
+  id: "216"
+  region_id: "3"
+sections_028: 
+  name: BOISE
+  geocode: R60007
+  id: "28"
+  region_id: "6"
+sections_055: 
+  name: CENTRAL VIRGINIA
+  geocode: R30909
+  id: "55"
+  region_id: "3"
+sections_324: 
+  name: WINNIPEG
+  geocode: R70031
+  id: "324"
+  region_id: "7"
+sections_270: 
+  name: SOUTH AUSTRALIA
+  geocode: R00557
+  id: "270"
+  region_id: "10"
+sections_243: 
+  name: ROCK RIVER VALLEY
+  geocode: R40029
+  id: "243"
+  region_id: "4"
+sections_136: 
+  name: JORDAN
+  geocode: R80079
+  id: "136"
+  region_id: "8"
+sections_163: 
+  name: MAINE
+  geocode: R10117
+  id: "163"
+  region_id: "1"
+sections_217: 
+  name: PANAMA
+  geocode: R90525
+  id: "217"
+  region_id: "9"
+sections_029: 
+  name: BOLIVIA
+  geocode: R90759
+  id: "29"
+  region_id: "9"
+sections_082: 
+  name: DELHI
+  geocode: R00123
+  id: "82"
+  region_id: "10"
+sections_325: 
+  name: WINSTON-SALEM
+  geocode: R30175
+  id: "325"
+  region_id: "3"
+sections_271: 
+  name: SOUTH BRAZIL
+  geocode: R90117
+  id: "271"
+  region_id: "9"
+sections_244: 
+  name: ROMANIA
+  geocode: R80061
+  id: "244"
+  region_id: "8"
+sections_137: 
+  name: KANSAI
+  geocode: R00983
+  id: "137"
+  region_id: "10"
+sections_164: 
+  name: MALAYSIA
+  geocode: R00035
+  id: "164"
+  region_id: "10"
+sections_190: 
+  name: NEW SOUTH WALES
+  geocode: R00509
+  id: "190"
+  region_id: "10"
+sections_218: 
+  name: PANHANDLE
+  geocode: R50023
+  id: "218"
+  region_id: "5"
+sections_056: 
+  name: CENTRAL WASHINGTON
+  geocode: R60061
+  id: "56"
+  region_id: "6"
+sections_083: 
+  name: DENMARK
+  geocode: R80025
+  id: "83"
+  region_id: "8"
+sections_326: 
+  name: WORCESTER COUNTY
+  geocode: R10143
+  id: "326"
+  region_id: "1"
+sections_272: 
+  name: SOUTH CAROLINA COUNCIL
+  geocode: R303
+  id: "272"
+  region_id: "3"
+sections_245: 
+  name: RUSSIA
+  geocode: R80059
+  id: "245"
+  region_id: "8"
+sections_138: 
+  name: KANSAS CITY
+  geocode: R50019
+  id: "138"
+  region_id: "5"
+sections_165: 
+  name: MELBOURNE
+  geocode: R30595
+  id: "165"
+  region_id: "3"
+sections_191: 
+  name: NEW YORK
+  geocode: R10325
+  id: "191"
+  region_id: "1"
+sections_219: 
+  name: PERU
+  geocode: R90721
+  id: "219"
+  region_id: "9"
+sections_057: 
+  name: CENTRO OCCIDENTE
+  geocode: R90351
+  id: "57"
+  region_id: "9"
+sections_084: 
+  name: DENVER
+  geocode: R50011
+  id: "84"
+  region_id: "5"
+sections_327: 
+  name: YOUNGSTOWN
+  geocode: R20039
+  id: "327"
+  region_id: "2"
+sections_273: 
+  name: SOUTH PLAINS
+  geocode: R50029
+  id: "273"
+  region_id: "5"
+sections_246: 
+  name: RUSSIA NORTHWEST
+  geocode: R80087
+  id: "246"
+  region_id: "8"
+sections_192: 
+  name: NEW ZEALAND COUNCIL
+  geocode: R003
+  id: "192"
+  region_id: "10"
+sections_058: 
+  name: CHANGWON
+  geocode: R00065
+  id: "58"
+  region_id: "10"
+sections_085: 
+  name: EAST TENNESSEE
+  geocode: R30713
+  id: "85"
+  region_id: "3"
+sections_139: 
+  name: KARACHI
+  geocode: R00041
+  id: "139"
+  region_id: "10"
+sections_274: 
+  name: SOUTH SASKATCHEWAN
+  geocode: R70019
+  id: "274"
+  region_id: "7"
+sections_247: 
+  name: RUSSIA SIBERIA
+  geocode: R80089
+  id: "247"
+  region_id: "8"
+sections_166: 
+  name: MEMPHIS
+  geocode: R30733
+  id: "166"
+  region_id: "3"
+sections_193: 
+  name: NEW ZEALAND NORTH
+  geocode: R00301
+  id: "193"
+  region_id: "10"
+sections_059: 
+  name: CHARLOTTE
+  geocode: R30169
+  id: "59"
+  region_id: "3"
+sections_086: 
+  name: EASTERN IDAHO
+  geocode: R60019
+  id: "86"
+  region_id: "6"
+section_region_1:
+  name: (region)
+  geocode: R1
+  id: "328"
+  region_id: "1"
+section_region_2:
+  name: (region)
+  geocode: R2
+  id: "329"
+  region_id: "2"
+section_region_3:
+  name: (region)
+  geocode: R3
+  id: "330"
+  region_id: "3"
+section_region_4:
+  name: (region)
+  geocode: R4
+  id: "331"
+  region_id: "4"
+section_region_5:
+  name: (region)
+  geocode: R5
+  id: "332"
+  region_id: "5"
+section_region_6:
+  name: (region)
+  geocode: R6
+  id: "333"
+  region_id: "6"
+section_region_7:
+  name: (region)
+  geocode: R7
+  id: "334"
+  region_id: "7"
+section_region_8:
+  name: (region)
+  geocode: R8
+  id: "335"
+  region_id: "8"
+section_region_9:
+  name: (region)
+  geocode: R9
+  id: "336"
+  region_id: "9"
+section_region_10:
+  name: (region)
+  geocode: R10
+  id: "337"
+  region_id: "10"

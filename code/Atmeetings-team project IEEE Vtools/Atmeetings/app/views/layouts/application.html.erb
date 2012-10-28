@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>@Meetings</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body class='<%= controller.controller_name %>'>
+
+<div id="header">
+  <div id="top_logo">
+    <% if current_page?("/") %>
+      <%= image_tag "main.png", {:id => 'man'} %>
+    <% else %>
+      <a href="/">
+        <%= image_tag "home.png", {:id => 'man'} %>
+      </a>
+    <% end %>
+  </div>
+  <div id="ieee_logo">
+    <%= image_tag("IEEE_logo_black.jpg") %>
+  </div>
+</div>
+
+<div id="main">
+  <div id="sidebar-left">
+
+  </div>
+
+  <div id="content">
+
+    <div id="ruby-injection">
+      <%= yield %>
+    </div>
+
+  </div>
+
+  <div id="sidebar-right">
+
+  </div>
+
+</div>
+
+<div id="footer">
+
+  <div id="footer-inner-left">
+    <div id="powered_by">Powered by</div>
+    <span style="padding-left: 18px;"><a href="http://vtools.ieee.org"><%= image_tag("vTools_logo_small.jpg") %></a></span>
+  </div>
+
+  <div id="footer-links">
+    <a href="/">vTools.AtMeetings Home</a> |
+    <a href="/about">About</a> |
+    <a href="http://www.ieee.org/privacy">Privacy Policy</a> |
+    <a href="http://www.ieee.org/web/publications/rights/legal.html">Terms &amp; Conditions</a> |
+    <a href="http://www.ieee.org/web/aboutus/whatis/policies/p9-26.html">Nondiscrimination Policy</a>
+  </div>
+
+  <div id="footer-copyright">© Copyright 2006-2012 IEEE - All Rights Reserved.</div>
+
+</div>
+
+</body>
+</html>
+

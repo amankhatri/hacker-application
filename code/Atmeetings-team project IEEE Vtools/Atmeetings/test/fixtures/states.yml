@@ -1,0 +1,27 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+Confusion:
+  id: 1
+  name: Confusion
+  abbreviation: ?!?
+  country_id: 2
+Alabama:
+  id: 2
+  name: Alabama
+  abbreviation: AL
+  country_id: 3
+another:
+  id: 3
+  name: Oops
+  abbreviation: Oops
+  country_id: 1
+Georgia:
+  id: 4
+  name: Georgia
+  abbreviation: GA
+  country_id: 3
+California:
+  id: 5
+  name: California
+  abbreviation: CA
+  country_id: 3
+

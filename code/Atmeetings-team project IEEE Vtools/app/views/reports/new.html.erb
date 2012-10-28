@@ -1,0 +1,27 @@
+<% if flash[:alert] %>
+      <div id="wrong_entry"><p id="notice"><%= flash[:alert] %></p></div>
+<% end %>
+
+<% if @report.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@report.errors.count, "error") %> prohibited this product from being saved:</h2>
+
+      <ul>
+      <% @report.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+<% end %>
+
+<h1>Meeting Report</h1>
+<br />
+<p>Meeting Title: <%= @meeting.title%></p>
+<p>IEEE attendees: <%= @ieee_count%></p>
+<p>Guests attendees: <%= @guest_count%></p>
+<p>Total attendees: <%= @total_count%></p>
+
+<%= form_tag("/reports", :method => "post") do %>
+  <!-- TODO: email check box -->
+  <%= submit_tag("Submit Report") %>
+<% end %>

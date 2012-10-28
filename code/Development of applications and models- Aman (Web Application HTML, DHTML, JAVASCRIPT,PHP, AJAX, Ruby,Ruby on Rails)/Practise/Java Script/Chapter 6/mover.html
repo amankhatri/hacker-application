@@ -1,0 +1,25 @@
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<title> Moving Elements </title>
+<script type = "text/javascript" src="mover.js">
+</script>
+<head>
+<body>
+<form action = " ">
+<p>
+<label>
+x coordinate
+<input type = "text" id ="leftCoord" size = "3" />
+</label>
+<br/>
+<label>
+y coordinate:
+<input type = "text" id ="topCoord" size = "3"/>
+</label>
+<br/>
+<input tupe = "button" value = "Move It" onclick = "moveIt('saturn', document.getElementById('topCoord').value, document.getElementById('leftCoord').value)"/>
+</p>
+<div id ="saturn" style ="position:absolute; top:115px; left:0;">
+<img src ="image.jpg" alt = "(picture of mine)" / >
+</div>
+</body>
+</html> 

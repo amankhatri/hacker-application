@@ -1,0 +1,18 @@
+<% if notice %>
+    <p id="notice"><%= notice %></p>
+<% end %>
+
+<h1>Welcome to @Meetings</h1>
+
+<a class = "main_button" href="./meeting_registrations/new">Registration</a>
+<a class = "main_button" href="./current_meetings">Meeting Information</a>
+<a class = "main_button" href="./awards">Announcements</a>
+<a class = "main_button" href="./meetings">Future Meetings</a>
+<a class = "main_button" href="./speakers">Speaker Info</a>
+<a class = "main_button" href="./reports/new">Submit Report</a>
+
+
+<%= button_to 'Logout', logout_path, method: :delete %>
+
+
+

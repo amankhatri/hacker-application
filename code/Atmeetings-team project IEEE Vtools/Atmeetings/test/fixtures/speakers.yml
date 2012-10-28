@@ -1,0 +1,126 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+first:
+  id: 1
+
+another:
+  id: 2
+  display_name: Kermit the Frog
+
+onemore:
+  id: 3
+  topic: The New Show
+
+mine1:
+  id: 4
+  meeting_id: 1
+  topic: Glass Houses
+  first_name: David
+  last_name: Smith
+  display_name: Davy Crockett
+  
+mine2:
+  id: 5
+  meeting_id: 1
+  topic: Glass Boxes
+  first_name: Franklin
+  last_name: Jones
+  display_name: Frankie Jo
+  mime_type:
+
+yours1:
+  id: 6
+  meeting_id: 3
+  topic: What in the World?
+  first_name: Katy
+  last_name: Smyth
+  display_name: Kat
+  mime_type: image/png
+  
+yours2:
+  id: 7
+  meeting_id: 3
+  topic: I am going to town!
+  first_name: Joseph
+  last_name: Middle
+  display_name: Jo Mid
+  mime_type: image/png
+
+speaker_1_ical_test:
+  id: 8
+  meeting_id: 9
+  display_name: ""
+
+speaker_2_ical_test:
+  id: 9
+  meeting_id: 9
+  display_name: ""
+
+speaker_10a_ical_test:
+  id: 10
+  meeting_id: 10
+  display_name: ""
+
+speaker_10b_ical_test:
+  id: 11
+  meeting_id: 10
+  display_name: ""
+
+speaker_mtg_11a:
+  id: 12
+  meeting_id: 11
+  display_name: "Fred Jones"
+
+speaker_mtg_11b:
+  id: 13
+  meeting_id: 11
+  display_name: "Wilma Jones"
+
+speaker_mtg_12a:
+  id: 14
+  meeting_id: 12
+  display_name: "Fred Jones"
+
+speaker_mtg_12b:
+  id: 15
+  meeting_id: 12
+  display_name: "Wilma Jones"
+
+speaker_mtg_13a:
+  id: 16
+  meeting_id: 13
+  display_name: "Fred Jones"
+
+speaker_mtg_13b:
+  id: 17
+  meeting_id: 13
+  display_name: "Wilma Jones"
+
+speaker_mtg_14a:
+  id: 18
+  meeting_id: 14
+  display_name: "Fred Jones"
+
+speaker_mtg_14b:
+  id: 19
+  meeting_id: 14
+  display_name: "Wilma Jones"
+
+speaker_mtg_15a:
+  id: 20
+  meeting_id: 15
+  display_name: "Fred Jones"
+
+speaker_mtg_15b:
+  id: 21
+  meeting_id: 15
+  display_name: "Wilma Jones"
+
+speaker_mtg_16a:
+  id: 22
+  meeting_id: 16
+  display_name: "Fred Jones"
+
+speaker_mtg_16b:
+  id: 23
+  meeting_id: 16
+  display_name: "Wilma Jones"

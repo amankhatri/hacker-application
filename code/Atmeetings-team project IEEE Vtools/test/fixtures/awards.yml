@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  award_winners: Woodrow Wilson
+  award_name: Nobel Peace Prize
+  description: for the abolition or reduction of standing armies and for the holding and promotion of peace congresses.
+  recieved_on: 1919-07-23
+
+two:
+  award_winners: MyString
+  award_name: MyString
+  description: MyText
+  recieved_on: 2012-07-23

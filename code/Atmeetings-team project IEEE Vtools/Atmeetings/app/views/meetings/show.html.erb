@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<div id="meeting_title">
+  <b>Title:</b>
+  <%= @meetings.title.presence || 'Not available' %>
+</div>
+
+<div id="meeting_description">
+  <b>Description:</b>
+  <%= @meetings.description.presence || 'Not available' %>
+</div>
+
+<div id="meeting_location">
+  <b>Location:</b>
+  <%= @meetings.address1 %>
+  <%= @meetings.address2 %>
+  <%= @meetings.city.presence || 'Not available' %>
+</div>
+
+<div id="meeting_contact">
+  <b>Contact:</b>
+  <%= @meetings.contact_email.presence || 'Not available' %>
+</div>
+
+
+<%= link_to 'Edit', edit_meeting_path(@meetings) %> |
+<%= link_to 'Back', meetings_path %>

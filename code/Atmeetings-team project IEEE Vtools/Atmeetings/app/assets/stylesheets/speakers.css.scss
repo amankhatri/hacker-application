@@ -1,0 +1,152 @@
+
+.speakers{
+
+  #speaker_header{
+    clear: both;
+    font-size: 1.3em;
+    text-decoration: underline;
+  }
+
+  #speaker_name{
+    position: relative;
+    left: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+    #speaker_org{
+      font-size: 0.7em;
+      font-weight: normal;
+      list-style: none;
+    }
+  }
+
+  #speaker_pic{
+    img{
+      position: relative;
+      left: 30px;
+      float: left;
+      width: 200px;
+      height: 150px;
+      padding-top: 1em;
+      padding-right: 1em;
+    }
+  }
+
+  #speaker_contact{
+    float: left;
+    font-weight: bold;
+    padding-top: 1em;
+    position: relative;
+    left: 50px;
+    list-style:none;
+
+    li{
+      font-weight: normal;
+    }
+
+    #url_title{
+    }
+
+    #email_title{
+      padding-top: 1em;
+    }
+
+    #address_title{
+      padding-top: 1em;
+    }
+
+    li{
+      font-weight: normal;
+      list-style: none;
+    }
+  }
+
+  #speaker_biography{
+    position: relative;
+    padding-top: 1em;
+    left: 30px;
+    font-weight: bold;
+    clear: both;
+
+    #speaker_bio{
+      font-weight: normal;
+    }
+  }
+
+  #topic_header{
+    clear: both;
+    font-size: 1.3em;
+    text-decoration: underline;
+  }
+
+  #topic_name{
+    position: relative;
+    left: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  #topic_description{
+    position: relative;
+    padding-top: 1em;
+    left: 50px;
+    font-weight: bold;
+    #topic_desc{
+      font-weight: normal;
+    }
+  }
+
+  #links{
+    text-align: center;
+    ul{
+      li{
+        display: inline;
+        list-style: none;
+      }
+    }
+  }
+
+  #speaker_biography{
+    position: relative;
+    padding-top: 1em;
+    left: 30px;
+    font-weight: bold;
+    clear: both;
+    #speaker_bio{
+      font-weight: normal;
+    }
+  }
+
+  #topic_header{
+    clear: both;
+    font-size: 1.3em;
+    text-decoration: underline;
+  }
+
+  #topic_name{
+    position: relative;
+    left: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  #topic_description{
+    position: relative;
+    padding-top: 1em;
+    left: 50px;
+    font-weight: bold;
+    #topic_desc{
+      font-weight: normal;
+    }
+  }
+
+  #links{
+    text-align: center;
+    ul{
+      li{
+        display: inline;
+        list-style: none;
+      }
+
+    }
+  }
+}

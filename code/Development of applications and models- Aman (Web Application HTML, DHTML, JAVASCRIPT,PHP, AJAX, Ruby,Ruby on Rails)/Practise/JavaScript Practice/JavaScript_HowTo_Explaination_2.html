@@ -1,0 +1,25 @@
+<html>
+<body>
+<h1>My First Web Page</h1>
+
+<p id="demo">This is a paragraph.</p>
+Browsers that do not support JavaScript, will display JavaScript as page content.<br>
+
+To prevent them from doing this, and as a part of the JavaScript standard, the HTML comment tag should be used to "hide" the JavaScript.<br>
+
+Just add an HTML comment tag &lt;!-- before the first JavaScript statement, and a --> (end of comment) after the last JavaScript statement, like this: <br>
+<br>
+&lt;html&gt;<br>
+&lt;body&gt;<br>
+&lt;script type="text/javascript"&gt;<br>
+&lt;!--<br>
+document.getElementById("demo").innerHTML=Date();<br>
+//--&gt;<br>
+&lt;/script&gt;<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;<br>
+<br>
+The two forward slashes at the end of comment line (//) is the JavaScript comment symbol. This prevents JavaScript from executing the --&gt; tag.<br>
+
+</body>
+</html>

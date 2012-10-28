@@ -1,0 +1,367 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+# These data items go "around" the model code that ensures data is
+# converted to UTC (from local) so any times below need to be in UTC
+
+first:
+  id: 1
+  title: Test Meeting 1
+  description: Desc of Test Meeting 1
+  keywords: testing
+  category_id: 1
+  city: Birmingham
+  start_time: <%= (Time.now.beginning_of_day + 39.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  end_time: <%= (Time.now.beginning_of_day + 40.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  reg_start_time: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  reg_end_time: <%= (Time.now.beginning_of_day + 39.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  updated_on: 2008-01-01 00:00:00
+  publish: true
+  contact_email: nobody@ieee.org
+  specific_organization_id: 1595
+  revision_number: 1
+  tm_zone_info: CST6CDT
+  uid: B6128E0C-95FE-102B-9467-000C2977CE3F
+  country_id: 1
+  state_id: 1
+
+another:
+  id: 2
+  title: Test Meeting 2
+  description: Desc of Test Meeting 2
+  keywords: testing
+  category_id: 2
+  city: Mobile
+  start_time: 2006-08-01 00:00:00
+  reg_start_time: 2006-07-30 00:00:00
+  updated_on: 2008-01-01 00:00:00
+  tm_zone_info: CST6CDT
+  revision_number: 1
+  uid: B6128E0C-95FE-102B-9467-000C2977CE40
+  specific_organization_id: 102_
+  contact_email: nobody@ieee.org
+  country_id: 1
+  state_id: 1
+
+third:
+  id: 3
+  title: Test Meeting 3
+  description: Desc of Test Meeting 3
+  keywords: testing
+  category_id: 3
+  city: Fort Payne
+  start_time: <%= (Time.now+2.years).strftime("%Y-%m-%d %H:%M:%S") %>
+  end_time: <%= (Time.now+2.years+2.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  reg_start_time: 2006-07-30 00:00:00
+  reg_end_time: 2006-07-30 00:00:00
+  publish: true
+  contact_email: nobody@ieee.org
+  updated_on: 2008-01-01 00:00:00
+  tm_zone_info: CST6CDT
+  revision_number: 1
+  specific_organization_id: 102_
+  uid: B6128E0C-95FE-102B-9467-000C2977CE41
+  country_id: 1
+  state_id: 1
+
+fourth:
+  id: 4
+  title: Test Meeting 4
+  description: Desc of Test Meeting 4
+  keywords: testing
+  category_id: 4
+  city: Selma
+  publish: false
+  contact_email: nobody@ieee.org
+  updated_on: 2008-01-01 00:00:00  
+  start_time: 2010-09-05 00:00:00
+  end_time: 2010-09-05 03:00:00
+  reg_start_time: 2006-07-30 00:00:00
+  reg_end_time: 2006-07-30 00:00:00
+  tm_zone_info: CST6CDT
+  revision_number: 1
+  specific_organization_id: 102_
+  uid: B6128E0C-95FE-102B-9467-000C2977CE42
+  country_id: 1
+  state_id: 1
+
+fifth:
+  id: 5
+  title: Test Meeting 4
+  description: Desc of Test Meeting 4
+  keywords: testing
+  category_id: 4
+  city: Selma
+  publish: false
+  contact_email: nobody@ieee.org
+  start_time: 2010-09-05 00:00:00
+  end_time: 2010-09-05 03:00:00
+  updated_on: 2008-01-01 00:00:00  
+  reg_start_time: 2006-07-30 00:00:00
+  reg_end_time: 2006-07-30 00:00:00
+  tm_zone_info: CST6CDT
+  mime_type:
+  revision_number: 1
+  specific_organization_id: 102_
+  uid: B6128E0C-95FE-102B-9467-000C2977CE43
+  country_id: 1
+  state_id: 1
+
+sixth:
+  id: 6
+  title: Test Meeting 4
+  description: Desc of Test Meeting 4
+  keywords: testing
+  category_id: 4
+  city: Selma
+  publish: false
+  contact_email: nobody@ieee.org
+  updated_on: 2008-01-01 00:00:00  
+  start_time: 2010-09-05 00:00:00
+  end_time: 2010-09-05 03:00:00
+  reg_start_time: 2006-07-30 00:00:00  
+  reg_end_time: 2006-07-30 00:00:00  
+  tm_zone_info: CST6CDT
+  mime_type: image/png
+  specific_organization_id: 101
+  revision_number: 1
+  uid: B6128E0C-95FE-102B-9467-000C2977CE44
+  country_id: 1
+  state_id: 1
+
+# meetings added for testing the RSS Feed system
+seventh:
+  id: 7
+  title: Test Meeting 7
+  description: Desc of Test Meeting 7
+  keywords: testing
+  category_id: 4
+  city: Dalls
+  publish: true
+  contact_email: nobody@ieee.org
+  updated_on: 2008-01-01 00:00:00  
+  start_time: 2015-09-05 00:00:00
+  end_time: 2015-09-05 03:00:00
+  reg_start_time: 2006-07-30 00:00:00  
+  reg_end_time: 2006-07-30 00:00:00  
+  tm_zone_info: CST6CDT
+  mime_type: image/png
+  specific_organization_id: 1768
+  revision_number: 1
+  uid: B6128E0C-95FE-102B-9467-000C2977CE45
+  country_id: 1
+  state_id: 1
+
+# meetings added for testing the RSS Feed system
+eighth:
+  id: 8
+  title: Test Meeting 8
+  description: Desc of Test Meeting 8
+  keywords: testing test tests
+  category_id: 4
+  city: Dallas
+  publish: true
+  contact_email: nobody@ieee.org
+  updated_on: 2008-01-01 00:00:00  
+  start_time: 2015-09-05 00:00:00
+  end_time: 2015-09-05 03:00:00
+  reg_start_time: 2006-07-30 00:00:00  
+  reg_end_time: 2006-07-30 00:00:00  
+  tm_zone_info: CST6CDT
+  mime_type: image/png
+  specific_organization_id: 1768
+  revision_number: 1
+  uid: B6128E0C-95FE-102B-9467-000C2977CE46
+  country_id: 1
+  state_id: 1
+
+# meetings added for testing the ical Feed system
+# Dallas Section is specific organization
+ninth:
+  id: 9
+  title: Test Meeting 9 is Here
+  description: Desc of Test Meeting 9
+  keywords: testing test tests
+  contact_email: fred@aol.com
+  category_id: 4
+  city: Dallas
+  publish: true
+  created_on: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  updated_on: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  start_time: <%= (Time.now.beginning_of_day + 39.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  end_time: <%= (Time.now.beginning_of_day + 40.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  reg_start_time: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  reg_end_time: <%= (Time.now.beginning_of_day + 39.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  tm_zone_info: CST6CDT
+  mime_type: image/png
+  specific_organization_id: 1664
+  revision_number: 1
+  uid: B6128E0C-95FE-102B-9467-000C2977CE47
+  country_id: 1
+  state_id: 1
+
+tenth:
+  id: 10
+  title: Based on Test Meeting 1
+  description: Desc of Test Meeting 10
+  keywords: testing
+  category_id: 2
+  city: Birmingham
+  country_id: 1
+  created_on: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  updated_on: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  start_time: <%= (Time.now.beginning_of_day + 39.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  end_time: <%= (Time.now.beginning_of_day + 40.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  reg_start_time: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  reg_end_time: <%= (Time.now.beginning_of_day + 39.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  publish: true
+  contact_email: nobody@ieee.org
+  specific_organization_id: 1595
+  revision_number: 1
+  tm_zone_info: CST6CDT
+  uid: B6128E0C-95FE-102B-9467-000C2977CE3F
+  state_id: 1
+
+create_meeting_report_from_this_meeting:
+  id: 11
+  title: Test Meeting 11
+  description: Desc of Test Meeting 11
+  keywords: testing
+  category_id: 4
+  city: Birmingham
+  country_id: 1
+  publish: true
+  updated_on: 2008-01-01 00:00:00  
+  start_time: 2010-09-05 00:00:00
+  end_time: 2010-09-05 03:00:00
+  reg_start_time: 2006-07-30 00:00:00  
+  reg_end_time: 2006-07-30 00:00:00  
+  tm_zone_info: CST6CDT
+  mime_type: image/png
+  specific_organization_id: 1595
+  revision_number: 1
+  uid: B6128E0C-95FE-102B-9467-000C2977CE48
+  state_id: 1
+
+twelth:
+  id: 12
+  title: Based on Test Meeting 10
+  description: Desc of Test Meeting 12
+  keywords: testing
+  category_id: 2
+  city: Birmingham
+  country_id: 1
+  created_on: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  updated_on: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  start_time: <%= (Time.now.beginning_of_day + 39.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  end_time: <%= (Time.now.beginning_of_day + 40.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  reg_start_time: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  reg_end_time: <%= (Time.now.beginning_of_day + 39.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  publish: false
+  contact_email: nobody@ieee.org
+  specific_organization_id: 1595
+  revision_number: 1
+  tm_zone_info: CST6CDT
+  uid: B6128E0C-95FE-102B-9467-000C2977CE3F
+  state_id: 1
+
+# Meetings to test the geocoder geo functionality
+
+source_for_testing_geocoded_nearbys:
+  id: 13
+  title: What meetings are nearby?
+  description: Desc of Test Meeting 13
+  keywords: testing
+  category_id: 2
+  city: Mountain View
+  country_id: 3
+  created_on: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  updated_on: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  start_time: <%= (Time.now.beginning_of_day + 39.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  end_time: <%= (Time.now.beginning_of_day + 40.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  reg_start_time: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  reg_end_time: <%= (Time.now.beginning_of_day + 39.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  publish: true
+  contact_email: nobody@ieee.org
+  specific_organization_id: 1595
+  revision_number: 1
+  tm_zone_info: CST6CDT
+  uid: B6128E0C-95FE-102B-9467-000C2977CE3F
+  state_id: 5
+  latitude: 37.4146
+  longitude: -122.093
+
+for_testing_geocoded_nearby_10_1:
+  id: 14
+  title: Within 10 miles
+  description: Desc of Test Meeting 14
+  keywords: testing
+  category_id: 2
+  city: Mountain View
+  country_id: 3
+  created_on: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  updated_on: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  start_time: <%= (Time.now.beginning_of_day + 39.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  end_time: <%= (Time.now.beginning_of_day + 40.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  reg_start_time: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  reg_end_time: <%= (Time.now.beginning_of_day + 39.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  publish: true
+  contact_email: nobody@ieee.org
+  specific_organization_id: 1595
+  revision_number: 1
+  tm_zone_info: CST6CDT
+  uid: B6128E0C-95FE-102B-9467-000C2977CE3F
+  state_id: 5
+  latitude: 37.4208
+  longitude: -122.093
+
+for_testing_geocoded_nearby_10_2:
+  id: 15
+  title: Within 10 miles
+  description: Desc of Test Meeting 15
+  keywords: testing
+  category_id: 2
+  city: Sunnyvale
+  country_id: 3
+  created_on: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  updated_on: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  start_time: <%= (Time.now.beginning_of_day + 39.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  end_time: <%= (Time.now.beginning_of_day + 40.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  reg_start_time: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  reg_end_time: <%= (Time.now.beginning_of_day + 39.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  publish: true
+  contact_email: nobody@ieee.org
+  specific_organization_id: 1595
+  revision_number: 1
+  tm_zone_info: CST6CDT
+  uid: B6128E0C-95FE-102B-9467-000C2977CE3F
+  state_id: 5
+  latitude: 37.3747
+  longitude: -122.035
+
+for_testing_geocoded_nearby_50_3:
+  id: 16
+  title: Within 50 miles
+  description: Desc of Test Meeting 15
+  keywords: testing
+  category_id: 2
+  city: Santa Clara
+  country_id: 3
+  created_on: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  updated_on: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  start_time: <%= (Time.now.beginning_of_day + 39.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  end_time: <%= (Time.now.beginning_of_day + 40.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  reg_start_time: <%= (Time.now).strftime("%Y-%m-%d %H:%M:%S") %>
+  reg_end_time: <%= (Time.now.beginning_of_day + 39.hours).strftime("%Y-%m-%d %H:%M:%S") %>
+  publish: true
+  contact_email: nobody@ieee.org
+  specific_organization_id: 1595
+  revision_number: 1
+  tm_zone_info: CST6CDT
+  uid: B6128E0C-95FE-102B-9467-000C2977CE3F
+  state_id: 5
+  latitude: 37.3347
+  longitude: -122.001
+  virtual: true
+  
+
+

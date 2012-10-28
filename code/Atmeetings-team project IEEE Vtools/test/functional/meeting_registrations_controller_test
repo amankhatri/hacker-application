@@ -1,0 +1,30 @@
+require 'test_helper'
+
+class MeetingRegistrationsControllerTest < ApplicationController::TestCase
+
+  setup do
+    @meeting_registrations = MeetingRegistration.all
+
+  end
+
+  test "should get id" do
+    get :id
+    assert_response :success
+  end
+
+  test "should get match" do
+    get :match
+    assert_response :success
+  end
+
+  test "should get new" do
+    get :new
+    assert_response :success
+  end
+
+  #test "should match email" do
+    #get :email
+    #assert_response :success
+  #end
+
+end

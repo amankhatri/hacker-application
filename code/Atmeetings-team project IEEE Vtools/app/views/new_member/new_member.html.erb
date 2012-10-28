@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>Invite to IEEE membership</h1>
+    <p>
+     Dear <%= @registration.first_name %>,</br>
+     Thank you for your recent attendance of the <%= @section.name %>'s meeting featuring <%= @meeting.title%></br>
+     Thank you for your interest in becoming an IEEE member.<br/>
+    </p>
+    <p>
+      To join IEEE, just follow this link: <%= "http://www.ieee.org/join" %>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>

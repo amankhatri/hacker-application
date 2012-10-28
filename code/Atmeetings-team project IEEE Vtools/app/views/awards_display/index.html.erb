@@ -1,0 +1,23 @@
+<h1>Listing Recognitions</h1>
+
+<table>
+    <tr>
+      <th>Member Recognized</th>
+      <th>Recognition</th>
+      <th>Recognition Description</th>
+      <th>Received on</th>
+    </tr>
+
+  <% @awards.each do |award| %>
+    <tr>
+      <td><%= award.award_winners %></td>
+      <td><%= award.award_name %></td>
+      <td><%= award.description %></td>
+      <td><%= award.recieved_on %></td>
+    </tr>
+  <% end %>
+</table>
+
+<a class = "main_button" href="./home_page">Home</a>
+<a class = "main_button" href="./current_meetings">Current Meeting</a>
+

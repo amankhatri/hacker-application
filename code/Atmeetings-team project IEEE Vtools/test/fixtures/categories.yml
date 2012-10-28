@@ -1,0 +1,14 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+first:
+ id: 1
+ name: Educational
+another:
+ id: 2
+ name: Technical
+again:
+ id: 3
+ name: Administrative
+again2:
+ id: 4
+ name: Social
+ 

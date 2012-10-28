@@ -1,0 +1,74 @@
+<!doctype HTML>
+<HTML>
+<HEAD>
+<META CHARSET= "iso-8859-1">
+<TITLE>Simple Adder</TITLE>
+<META NAME="author"   CONTENT="Kailash">
+<SCRIPT type="text/JavaScript">
+function CalculateSum(Atext, Btext, form)
+{
+var A = parseFloat(Atext);
+var B = parseFloat(Btext);
+form.input_B.value = A + B;
+}
+function sub(Atext, Btext, form)
+{
+var A = parseFloat(Atext);
+var B = parseFloat(Btext);
+form.input_B.value = A - B;
+}
+function mult(Atext, Btext, form)
+{
+var A = parseFloat(Atext);
+var B = parseFloat(Btext);
+form.input_B.value = A * B;
+}
+function mod(Atext, Btext, form)
+{
+var A = parseFloat(Atext);
+var B = parseFloat(Btext);
+form.input_B.value = A%B;
+}
+function and(Atext, Btext, form)
+{
+var A = parseFloat(Atext);
+var B = parseFloat(Btext);
+form.input_B.value = A & B;
+}
+function or(Atext, Btext, form)
+{
+var A = parseFloat(Atext);
+var B = parseFloat(Btext);
+form.input_B.value = A || B;
+}
+
+function ClearForm(form)
+{
+form.input_A.value = "";
+form.input_B.value = "";
+form.Answer.value = "";
+}
+
+</SCRIPT>
+</HEAD>
+
+<BODY>
+
+   <a href="http://validator.w3.org/check?uri=referer"><b><u>validate</u></b></a> <br>
+
+<FORM NAME="Calculator" METHOD="post">
+<P>Enter a number: <INPUT TYPE=TEXT NAME="input_A" SIZE=10></P>
+<P>Enter a number: <INPUT TYPE=TEXT NAME="input_B" SIZE=10></P>
+<P><INPUT TYPE="button" VALUE="Add Numbers" name="AddButton" onClick="CalculateSum(this.form.input_A.value, this.form.input_B.value, this.form)"></P>
+<P><INPUT TYPE="button" VALUE="Subtract Numbers" name="subButton" onClick="sub(this.form.input_A.value, this.form.input_B.value, this.form)"></P>
+<P><INPUT TYPE="button" VALUE="Multiply Numbers" name="mulButton" onClick="mult(this.form.input_A.value, this.form.input_B.value, this.form)"></P>
+<P><INPUT TYPE="button" VALUE="Modulus Numbers" name="modButton" onClick="mod(this.form.input_A.value, this.form.input_B.value, this.form)"></P>
+<P><INPUT TYPE="button" VALUE="And Numbers" name="andButton" onClick="and(this.form.input_A.value, this.form.input_B.value, this.form)"></P>
+<P><INPUT TYPE="button" VALUE="or Numbers" name="orButton" onClick="or(this.form.input_A.value, this.form.input_B.value, this.form)"></P>
+
+<P><INPUT TYPE="button" VALUE="Clear Fields" name="ClearButton" onClick="ClearForm(this.form)"></P>
+
+</FORM>
+
+</BODY>
+</HTML>

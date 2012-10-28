@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<h1>Speakers</h1>
+<table>
+  <% @speakers.each do |speaker| %>
+      <td>
+        <% if speaker.photograph %>
+          <img class= "speaker_photograph" alt="" src="/speakers/photograph/<%= speaker.id.to_s %>" />
+        <% end %>
+      </td>
+      <td class="speaker_name">
+        <dl>
+          <dt><h2><%= speaker.display_name %></h2></dt>
+        </dl>
+      </td>
+      <td class="speaker_actions">
+        <%= link_to 'Show', speaker %>
+        <%= link_to 'Edit', edit_speaker_path(speaker) %>
+        <%= link_to 'Destroy', speaker,
+                    confirm: 'Are you sure?',
+                    method: :delete %>
+      </td>
+  <% end %>
+</table>
+<div id="new_speaker">
+  <%= link_to 'New Speaker', new_speaker_path %>
+</div>
+<a class = "main_button" href="./home_page">Home</a>
+<a class = "main_button" href="./current_meetings">Current Meeting</a>
